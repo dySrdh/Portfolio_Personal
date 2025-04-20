@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Detail Binusian Gaming</title>
+    <meta content="Portfolio detail page for Doddy Suryadharma as Chairperson of Binusian Gaming" name="description">
+    <meta content="portfolio, binusian gaming, esports, leadership" name="keywords">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --dark-bg: #1a1d24;
+            --text-light: #f8f9fa;
+            --text-dark: #343a40;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --organizational-color: #f39c12;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            min-height: 100vh;
+        }
+
+        /* Header Styles */
+        .header {
+            color: #fff;
+            background-color: #0d1a2d;
+            padding: 20px;
+            position: fixed;
+            width: 300px;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            z-index: 999;
+            transition: all 0.3s ease;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header::-webkit-scrollbar {
+            width: 6px;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .header::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom, rgba(32, 156, 255, 0.8), rgba(104, 85, 224, 0.8));
+            border-radius: 10px;
+        }
+
+        .profile-img {
+            margin: 15px auto;
+            width: 120px;
+            height: 120px;
+            border: 8px solid rgba(129, 204, 255, 0.15);
+            overflow: hidden;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(17, 145, 225, 0.2);
+        }
+
+        .logo {
+            line-height: 1;
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+
+        .sitename {
+            font-size: 20px;
+            margin: 0;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .social-links {
+            margin: 0 0 20px 0;
+        }
+
+        .social-links a {
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            margin: 0 2px;
+            border-radius: 50%;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #fff;
+            background: #209cff;
+            transform: translateY(-3px);
+        }
+
+        .navmenu {
+            margin-top: 30px;
+        }
+
+        .navmenu ul {
+            list-style: none;
+            padding: 0 0 20px 0;
+            margin: 0;
+        }
+
+        .navmenu a {
+            display: flex;
+            align-items: center;
+            padding: 15px 10px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            border-radius: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .navmenu a::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 0;
+            background-color: rgba(32, 156, 255, 0.1);
+            z-index: -1;
+            transition: width 0.3s ease;
+        }
+
+        .navmenu a:hover::before {
+            width: 100%;
+        }
+
+        .navicon {
+            margin-right: 10px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .navmenu a:hover,
+        .navmenu .active>a {
+            color: #eeecec;
+            background: linear-gradient(90deg, #007bff, #6610f2);
+        }
+
+        .navmenu a:hover .navicon,
+        .navmenu .active .navicon {
+            color: #209cff;
+            transform: translateX(3px);
+        }
+
+        .header-toggle {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            font-size: 24px;
+            color: #fff;
+            background-color: #209cff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        /* Page Title Styles */
+        .page-title {
+            background: linear-gradient(135deg, var(--dark-bg) 0%, var(--secondary-color) 100%);
+            color: var(--text-light);
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-title h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+
+        .breadcrumbs {
+            position: relative;
+            z-index: 1;
+        }
+
+        .breadcrumbs ol {
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        .breadcrumbs ol li {
+            display: inline-block;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .breadcrumbs ol li::after {
+            content: '/';
+            margin-left: 10px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .breadcrumbs ol li:last-child::after {
+            display: none;
+        }
+
+        .breadcrumbs a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .breadcrumbs .current {
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Main Content */
+        .main {
+            margin-left: 300px;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .d-lg-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Portfolio Details Section */
+        .portfolio-details {
+            padding: 80px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .portfolio-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .glowing-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(50px);
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        .orb-1 {
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: var(--primary-color);
+            animation: float 10s ease-in-out infinite;
+        }
+
+        .orb-2 {
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background: var(--accent-color);
+            animation: float 8s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .col-lg-8,
+        .col-lg-4 {
+            width: 100%;
+            padding: 0 15px;
+        }
+
+        @media (min-width: 992px) {
+            .col-lg-8 {
+                width: 66.66667%;
+            }
+
+            .col-lg-4 {
+                width: 33.33333%;
+            }
+        }
+
+        /* Slider Styles */
+        .portfolio-details-slider {
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+        }
+
+        .portfolio-details-slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Info & Description */
+        .portfolio-info {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+            transition: var(--transition);
+        }
+
+        .portfolio-info:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-info h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--organizational-color);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-info ul {
+            list-style: none;
+        }
+
+        .portfolio-info ul li {
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-info ul li:last-child {
+            border-bottom: 0;
+        }
+
+        .portfolio-info ul li strong {
+            margin-right: 10px;
+            color: var(--secondary-color);
+            font-weight: 600;
+            display: inline-block;
+            min-width: 100px;
+        }
+
+        .portfolio-description {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            margin-bottom: 30px;
+        }
+
+        .portfolio-description:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-description h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--organizational-color);
+        }
+
+        .portfolio-description p {
+            line-height: 1.8;
+            color: #666;
+        }
+
+        /* Skills & Technologies */
+        .skills-technologies {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+        }
+
+        .skills-technologies h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tech-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background-color: var(--light-bg);
+            border-radius: 50px;
+            transition: var(--transition);
+        }
+
+        .tech-item:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow);
+        }
+
+        .tech-item img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            height: 200px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Achievements */
+        .achievements {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+            transition: var(--transition);
+        }
+
+        .achievements:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .achievements h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--organizational-color);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .achievements ul {
+            padding-left: 20px;
+        }
+
+        .achievements ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* Event Navigation */
+        .event-navigation {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        .event-tab {
+            padding: 10px 20px;
+            background: white;
+            border: 2px solid var(--organizational-color);
+            color: var(--organizational-color);
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .event-tab:hover {
+            background-color: var(--organizational-color);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+        }
+
+        .event-tab.active {
+            background-color: var(--organizational-color);
+            color: white;
+        }
+
+        /* Event Content */
+        .event-content {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .event-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .event-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .event-header h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--organizational-color);
+            margin-bottom: 5px;
+        }
+
+        .event-dates {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .event-image {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .event-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .event-details p {
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .event-highlights {
+            margin-top: 20px;
+        }
+
+        .event-highlights h4 {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .event-highlights ul {
+            padding-left: 20px;
+        }
+
+        .event-highlights ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .event-partners {
+            margin-top: 30px;
+        }
+
+        .event-partners h4 {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .partners-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .partner-logo {
+            width: 100px;
+            height: 60px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .partner-logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px 0;
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-left: 300px;
+        }
+
+        /* Responsive */
+        @media (max-width: 1199px) {
+            .header {
+                left: -300px;
+                padding-top: 80px;
+            }
+
+            .header-toggle {
+                display: flex;
+            }
+
+            .main,
+            .footer {
+                margin-left: 0;
+            }
+
+            .header.header-show {
+                left: 0;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .d-lg-flex {
+                flex-direction: column;
+            }
+
+            .breadcrumbs {
+                margin-top: 15px;
+            }
+
+            .portfolio-details-slider {
+                height: 400px;
+            }
+
+            .event-navigation {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-title {
+                padding: 40px 0;
+            }
+
+            .page-title h1 {
+                font-size: 2rem;
+            }
+
+            .portfolio-details {
+                padding: 50px 0;
+            }
+
+            .portfolio-details-slider {
+                height: 350px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .portfolio-details-slider {
+                height: 250px;
+            }
+
+            .tech-stack {
+                gap: 10px;
+            }
+
+            .tech-item {
+                padding: 6px 12px;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            .gallery-item {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-toggle d-xl-none bi bi-list"></div>
+
+        <!-- Profile Image -->
+        <div class="profile-img">
+            <img src="assets/img/profile.jpeg" alt="Doddy Suryadharma" class="img-fluid rounded-circle">
+        </div>
+
+        <!-- Site Logo -->
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Doddy Suryadharma</h1>
+        </a>
+
+        <!-- Social Media -->
+        <div class="social-links text-center">
+            <a href="https://github.com/dySrdh" class="github"><i class="bi bi-github"></i></a>
+            <a href="https://www.facebook.com/doddy.suryadharma/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/lycve_/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/doddy-suryadharma/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <!-- Navigation Menu -->
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+                <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+                <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Skills</a></li>
+        
+                <!-- PORTFOLIO DROPDOWN -->
+                <li class="dropdown">
+        <a href="#index,html#portfolio"><i class="bi bi-images navicon"></i> <span>Portfolio</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#"><span>Apps</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="DigitalClass-details.html">Digital Class</a></li>
+                                <li><a href="MATOA-details.html">Matoa</a></li>
+                                <li><a href="CERDAS-details.html">CerdasAps Bahasa Isyarat</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#"><span>Web</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="OBENG-details.html">OBENG</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#"><span>Organizational</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="advance-buddy.html">advanced Buddy</a></li>
+                                <li><a href="BG-details.html">Binusian Gaming</a></li>
+                                <li><a href="KSF-details.html">Sportfest</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="index.html#certifications"><i class="bi bi-patch-check navicon"></i> Certifications</a>
+                </li>
+                <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+                <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Page Title -->
+        <div class="page-title dark-background">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0">Binusian Gaming Leadership</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li class="current">Binusian Gaming</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    
+        <!-- Portfolio Details Section -->
+        <section id="portfolio-details" class="portfolio-details section organizational-details">
+            <div class="portfolio-background">
+                <div class="glowing-orb orb-1"></div>
+                <div class="glowing-orb orb-2"></div>
+            </div>
+    
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-8">
+                        <div class="portfolio-details-slider">
+                            <img src="assets/img/portfolio/BG.jpg" alt="Binusian Gaming Leadership Image">
+                        </div>
+    
+                        <!-- Event Navigation Tabs -->
+                    <div class="event-navigation">
+                        <div class="event-tab active" data-event="overview">Organization Overview</div>
+                        <div class="event-tab" data-event="levelup">Level Up! Championship</div>
+                        <div class="event-tab" data-event="gacc">Gopay Arena Community Championship</div>
+                        <div class="event-tab" data-event="bifest">BIFEST 2024</div>
+                        <div class="event-tab" data-event="produk-lokal">Produk Lokal Berkreasi</div>
+                        <div class="event-tab" data-event="wcg">World Cyber Games 2024</div>
+                        <div class="event-tab" data-event="hok">Honor of Kings Campus Attack</div>
+                        <div class="event-tab" data-event="campus">Campus Collaborations</div>
+                    </div>
+    
+                        <!-- Overview Content (Default) -->
+                        <div id="overview-content" class="event-content active">
+                            <div class="event-header">
+                                <h3>Binusian Gaming Organization</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>Mar 2024 - Mar 2025</span>
+                                </div>
+                            </div>
+    
+                            <div class="event-details">
+                                <p>As the Chairperson of Binusian Gaming for the Kemanggisan Region, I led our esports
+                                    organization through a transformative year focused on community building, competitive
+                                    excellence, and industry partnerships. Binusian Gaming serves as the premier student
+                                    activity unit dedicated to developing gaming culture and esports at BINUS University.
+                                </p>
+    
+                                <p>During my tenure, I implemented strategic initiatives to enhance member engagement,
+                                    create professional development opportunities, and establish Binusian Gaming as a
+                                    recognized entity in the collegiate esports landscape. Our efforts resulted in
+                                    successful national-level competitions, industry collaborations, and a stronger internal
+                                    community.</p>
+                            </div>
+    
+                            <div class="skills-technologies">
+                                <h3>Leadership Competencies</h3>
+                                <div class="tech-stack">
+                                    <div class="tech-item">
+                                        <img src="https://api.iconify.design/fluent-emoji-high-contrast/man-office-worker.svg"
+                                            alt="Leadership" width="30">
+                                        <span>Leadership</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://api.iconify.design/fluent-emoji-high-contrast/people-hugging.svg"
+                                            alt="Team Management" width="30">
+                                        <span>Team Management</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://api.iconify.design/fluent-emoji-high-contrast/calendar.svg"
+                                            alt="Event Planning" width="30">
+                                        <span>Event Planning</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://api.iconify.design/fluent-emoji-high-contrast/clipboard.svg"
+                                            alt="Organization" width="30">
+                                        <span>Organization</span>
+                                    </div>
+                                    <div class="tech-item">
+                                        <img src="https://api.iconify.design/fluent-emoji-high-contrast/handshake.svg"
+                                            alt="Partnership Building" width="30">
+                                        <span>Partnership Building</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="event-highlights">
+                                <h4>Key Achievements:</h4>
+                                <ul>
+                                    <li>Expanded organization membership by 40% through targeted recruitment campaigns</li>
+                                    <li>Successfully executed 4 major gaming events with a combined participation of 500+
+                                        students</li>
+                                    <li>Established partnerships with 6 corporate sponsors including tech companies and game
+                                        developers</li>
+                                    <li>Developed cross-campus relationships with gaming communities at other universities
+                                    </li>
+                                    <li>Created professional development workshops to help members build careers in gaming
+                                        and esports</li>
+                                </ul>
+                            </div>
+    
+                            <div class="gallery-grid">
+                                <div class="gallery-item">
+                                    <img src="assets/img/portfolio/BGP.webp" alt="Arena Community Championship">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="assets/img/portfolio/BG1.webp" alt="Level Up! Esport Championship">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="assets/img/portfolio/BG3.webp" alt="BIFEST BINUS BEKASI 2024">
+                                </div>
+                                <div class="gallery-item">
+                                    <img src="assets/img/portfolio/BGA.webp" alt="Campus Collab">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Level Up Championship Content -->
+                        <div id="levelup-content" class="event-content">
+                            <div class="event-header">
+                                <h3>Level Up! Esport Championship</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>February - June 2024</span>
+                                </div>
+                            </div>
+    
+                            <div class="event-image">
+                                <img src="assets/img/portfolio/BGL.webp" alt="Level Up! Championship">
+                            </div>
+    
+                            <div class="event-details">
+                                <p>As the Person-In-Charge (PIC) for the inaugural season of Binusian Gaming Level Up!
+                                    Esport Championship, I led a cross-functional team to create an engaging competitive
+                                    platform for student gamers. This event featured multiple game titles including Mobile
+                                    Legends, Valorant, and FIFA, attracting participants from across all BINUS campuses.</p>
+    
+                                <p>The championship was designed to discover and nurture gaming talent within the university
+                                    while promoting healthy competition and skill development. Throughout the multi-week
+                                    tournament, we organized livestreamed matches, player spotlights, and professional
+                                    commentary to elevate the experience.</p>
+    
+                                <div class="event-highlights">
+                                    <h4>Key Achievements:</h4>
+                                    <ul>
+                                        <li>Coordinated a tournament across 4 game titles with 200+ participants</li>
+                                        <li>Secured sponsorships from gaming peripheral brands and local esports
+                                            organizations</li>
+                                        <li>Established tournament infrastructure including registration system, match
+                                            scheduling, and result tracking</li>
+                                        <li>Organized professional livestreams with 1000+ concurrent viewers for finals</li>
+                                        <li>Created post-event content including highlight reels and player interviews</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/BGL.webp" alt="Level Up Finals">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/LVup2.jpg" alt="Level Up Teams">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- GACC Content -->
+                        <div id="gacc-content" class="event-content">
+                            <div class="event-header">
+                                <h3>Gopay Arena Community Championship</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>March - Mei 2024</span>
+                                </div>
+                            </div>
+    
+                <div class="event-video">
+                    <iframe width="100%" height="315"  src="https://www.youtube.com/embed/MZmVWocK3dw"
+                     title="YouTube video player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                    <script>
+                        document.getElementById('video-container').addEventListener('click', function () {
+                            const container = document.getElementById('video-container');
+                            container.innerHTML = `
+                                <iframe width="100%" height="315" 
+                                           src="https://www.youtube.com/embed/MZmVWocK3dw"
+
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            `;
+                        });
+                    </script>
+
+    
+                            <div class="event-details">
+                                <p>The Gopay Arena Community Championship (GACC) was a national-level esports competition
+                                    organized in partnership with GoPay. As the National Competition Committee Lead, I
+                                    coordinated with multiple stakeholders to deliver a premier esports experience for
+                                    collegiate and community gamers across Indonesia.</p>
+    
+                                <p>This championship offered a significant prize pool and provided an opportunity for BINUS
+                                    students to compete against teams from other universities and gaming communities. The
+                                    event generated substantial visibility for Binusian Gaming and established our
+                                    reputation as a serious contributor to the collegiate esports scene.</p>
+    
+                                <div class="event-highlights">
+                                    <h4>Key Responsibilities:</h4>
+                                    <ul>
+                                        <li>Led the national competition committee responsible for rules, scheduling, and
+                                            technical execution</li>
+                                        <li>Collaborated with GoPay representatives to align competition format with sponsor
+                                            expectations</li>
+                                        <li>Managed a team of 28 competition </li>
+                                        <li>Coordinated online qualifiers and in-person grand finals event</li>
+                                        <li>Developed promotional strategy resulting in 24+ team registrations</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/BGP.webp" alt="GACC Event">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/GACC3.jpg" alt="GACC Teams">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Produk Lokal Berkreasi Section -->
+                        <div id="produk-lokal-content" class="event-content">
+                            <div class="event-header">
+                                <h3>Produk Lokal Berkreasi Generasi Muda Berkarya Lomba Esport</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>29-30 Oktober 2024</span>
+                                </div>
+                            </div>
+                        
+                            <div class="event-video">
+                                <iframe src="https://www.instagram.com/reel/DBun2Ycy2s6/embed?autoplay=1" width="500" height="600" frameborder="0"
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" scrolling="no"></iframe>
+                            </div>
+                        
+                            <div class="event-details">
+                                <p>Teach For Indonesia bersama dengan School of Accounting BINUS University berkolaborasi dengan Suku Dinas
+                                    Perindustrian, Perdagangan, Koperasi, Usaha Kecil dan Menengah (PPKUKM) Jakarta Barat (Jakbar) menggelar
+                                    bazar indoor dengan tema <strong>"Produk Lokal Berkreasi Generasi Muda Berkarya"</strong>. Acara yang
+                                    diselenggarakan pada tanggal 29 & 30 Oktober 2024 di BINUS @Kemanggisan, Kampus Anggrek ini menampilkan
+                                    20 pelaku UMKM binaan Sudis PPKUKM Jakarta Barat dari 8 wilayah kecamatan.</p>
+                        
+                                <p>Sebagai bagian dari kegiatan ini, saya terlibat dalam penyelenggaraan <strong>Lomba E-Sport "Mobile
+                                        Legend"</strong>
+                                    yang berhasil menarik partisipasi 31 tim tingkat SMA dan SMK se-Jakarta Barat. Pemenang pertama
+                                    berkesempatan
+                                    mendapatkan hadiah berupa beasiswa dari BINUS University, uang tunai dan voucher belanja senilai Rp 1,5
+                                    juta.
+                                    Selain kompetisi esports, acara juga dimeriahkan dengan berbagai workshop seperti membatik, Paper Craft, dan
+                                    pembuatan
+                                    Gantungan Kunci Resin yang diikuti oleh mahasiswa dan karyawan BINUS University.</p>
+                        
+                                <p>Acara ini dihadiri oleh Bapak Iqbal Idham Ramid selaku Kepala Suku Dinas PPKUKM Administrasi Kota Jakarta
+                                    Barat,
+                                    Bapak Febri selaku Kepala Bagian Perekonomian Sekretariat Kota Administrasi Kota Jakarta Barat, dan Ibu
+                                    Reina S.Kom., M.M
+                                    selaku Vice Rector Academic Operation and Resources. Melalui keterlibatan dalam kegiatan ini, saya turut
+                                    berkontribusi
+                                    dalam memperkenalkan produk lokal ke target pasar yang lebih luas sambil mengintegrasikan esports sebagai
+                                    daya tarik utama bagi generasi muda.</p>
+                        
+                                <div class="event-highlights">
+                                    <h4>Key Contributions:</h4>
+                                    <ul>
+                                        <li>Penyelenggaraan lomba E-Sport "Mobile Legend" dengan partisipasi 31 tim tingkat SMA/SMK</li>
+                                        <li>Kolaborasi dengan Suku Dinas PPKUKM Jakarta Barat untuk promosi produk UMKM lokal</li>
+                                        <li>Fasilitasi workshop interaktif untuk mahasiswa dan karyawan BINUS</li>
+                                        <li>Pemberian kesempatan bagi pelaku UMKM untuk memasarkan produk mereka langsung ke konsumen</li>
+                                        <li>Integrasi esports sebagai jembatan antara UMKM dan generasi muda</li>
+                                    </ul>
+                                </div>
+                        
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/LOKAL1.jpg" alt="UMKM Showcase">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/LOKAL2.jpg" alt="Mobile Legend Tournament">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- World Cyber Games Section -->
+                        <div id="wcg-content" class="event-content">
+                            <div class="event-header">
+                                <h3>World Cyber Games Indonesia 2024 With Mineski</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>October 2024</span>
+                                </div>
+                            </div>
+                        
+                            <div class="event-image">
+                                <img src="assets/img/portfolio/wcg1.jpg" alt="World Cyber Games Indonesia 2024">
+                            </div>
+                        
+                            <div class="event-details">
+                                <p>Sebagai bagian dari upaya memperkuat posisi BINUS University dalam ekosistem esports Indonesia, saya terlibat
+                                    dalam
+                                    menjalin <strong>kerjasama strategis antara Binusian Gaming dan Mineski</strong>, organisasi esports ternama
+                                    di Asia
+                                    Tenggara. Kolaborasi ini menjadi gebrakan baru dalam komunitas esports kampus melalui partisipasi dalam
+                                    acara
+                                    World Cyber Games (WCG) Indonesia 2024.</p>
+                        
+                                <p>Hasil dari negosiasi yang dilakukan, Mineski memberikan dukungan berupa <strong>80 tiket masuk
+                                        gratis</strong> untuk dua hari
+                                    pelaksanaan acara bagi anggota Binusian Gaming, mahasiswa BINUS, dan komunitas esports terkait. Inisiatif
+                                    ini dirancang untuk
+                                    mendorong keterlibatan generasi muda dalam industri esports yang berkembang pesat di Indonesia.</p>
+                        
+                                <p>World Cyber Games Indonesia 2024 yang akan digelar di Jakarta pada bulan Desember mendatang akan menghadirkan
+                                    berbagai kompetisi esports bergengsi, sesi meet and greet dengan atlet esports profesional, pameran
+                                    teknologi gaming terbaru,
+                                    dan berbagai aktivitas menarik lainnya. Melalui kolaborasi ini, saya berkontribusi memperluas jaringan
+                                    esports kampus dan
+                                    membuka peluang bagi mahasiswa untuk terhubung dengan industri profesional.</p>
+                        
+                                <div class="event-highlights">
+                                    <h4>Key Contributions:</h4>
+                                    <ul>
+                                        <li>Fasilitasi kerjasama strategis antara Binusian Gaming dan Mineski</li>
+                                        <li>Perolehan 80 tiket gratis untuk komunitas esports kampus</li>
+                                        <li>Membuka akses ke kompetisi esports bergengsi tingkat nasional</li>
+                                        <li>Menciptakan peluang networking dengan profesional industri esports</li>
+                                        <li>Penguatan posisi BINUS dalam ekosistem esports Indonesia</li>
+                                    </ul>
+                                </div>
+                        
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/wcg3.jpg" alt="Mineski Collaboration">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/wcg2.jpg" alt="WCG Free Tickets">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Honor of Kings Section -->
+                        <div id="hok-content" class="event-content">
+                            <div class="event-header">
+                                <h3>HONOR OF KINGS CAMPUS ATTACK KEMANGGISAN</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>7 Februari 2025</span>
+                                </div>
+                            </div>
+                        
+                            <div class="event-video">
+                                <iframe src="https://www.instagram.com/reel/DFxBh46SUd1/embed?autoplay=1" width="500" height="600" frameborder="0"
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" scrolling="no"></iframe>
+                            </div>
+                        
+                            <div class="event-details">
+                                <p>Pada Jumat, 7 Februari 2025, saya terlibat dalam penyelenggaraan <strong>Honor of Kings Campus
+                                        Attack</strong> di
+                                    BINUS Kemanggisan. Turnamen yang berlangsung di Kampus Anggrek dari pukul 13.00 hingga 17.00 WIB ini
+                                    berhasil
+                                    menjadi ajang prestisius yang menyatukan para binusian dari berbagai region dalam kompetisi gaming yang seru
+                                    dan menantang.</p>
+                        
+                                <p>Sebagai koordinator acara, saya memastikan bahwa turnamen ini tidak hanya menjadi arena kompetisi, tetapi
+                                    juga wadah
+                                    untuk mempererat solidaritas antar mahasiswa. Para peserta menunjukkan aksi memukau dalam mengatur strategi,
+                                    memanfaatkan hero, dan bekerja sama untuk meraih kemenangan, sementara penonton memberikan dukungan penuh
+                                    yang menciptakan
+                                    atmosfer yang meriah dan energik.</p>
+                        
+                                <p>Acara ini menawarkan kesempatan emas bagi tim pemenang untuk mewakili BINUS University di babak selanjutnya,
+                                    membuka
+                                    peluang untuk membawa nama kampus ke level kompetisi yang lebih tinggi. Keterlibatan saya dalam kegiatan ini
+                                    merupakan
+                                    bagian dari komitmen untuk mengembangkan budaya esports di lingkungan kampus dan memberikan platform bagi
+                                    mahasiswa untuk
+                                    mengekspresikan bakat gaming mereka dalam lingkungan yang profesional namun tetap menyenangkan.</p>
+                        
+                                <div class="event-highlights">
+                                    <h4>Key Contributions:</h4>
+                                    <ul>
+                                        <li>Koordinasi turnamen Honor of Kings yang menarik partisipasi dari berbagai region kampus</li>
+                                        <li>Penyelenggaraan kompetisi sebagai jalur kualifikasi untuk turnamen tingkat yang lebih tinggi</li>
+                                        <li>Penciptaan platform untuk pengembangan keterampilan strategis dan kerja sama tim</li>
+                                        <li>Fasilitasi interaksi antar mahasiswa melalui aktivitas esports</li>
+                                        <li>Penguatan citra BINUS University dalam ekosistem esports kampus</li>
+                                    </ul>
+                                </div>
+                        
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/HOK2.jpg" alt="Honor of Kings Competition">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/HOK3.jpg" alt="Honor of Kings Winners">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- BIFEST Content -->
+                        <div id="bifest-content" class="event-content">
+                            <div class="event-header">
+                                <h3>BIFEST BINUS 2024</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>24 November</span>
+                                </div>
+                            </div>
+    
+                            <div class="event-image">
+                                <img src="assets/img/portfolio/BGB.jpg" alt="BIFEST BINUS 2024">
+                            </div>
+    
+                            <div class="event-details">
+                                <p>As part of my initiative to promote esports culture within the university, I took an active role in supporting and
+                                    coordinating esports activities during <strong>BINUS Festival (BIFEST) 2024</strong>. In collaboration with Binusian
+                                    Gaming, we successfully organized a two-day esports tournament that attracted passionate gamers from various
+                                    faculties.</p>
+                                
+                                <p>On the first day, participants competed in a high-energy <strong>Valorant</strong> tournament, where strategic
+                                    teamwork and precision were on full display. The second day shifted focus to the mobile gaming scene with an intense
+                                    <strong>Mobile Legends: Bang Bang (MLBB)</strong> competition, showcasing fast-paced action and team synergy.</p>
+                                
+                                <p>This event went beyond mere competition; it served as a platform to foster community building, expand the gaming
+                                    network within the campus, and cultivate a fun yet professional esports environment. Through this experience, I
+                                    contributed to creating a space where students could express their gaming passion, develop their competitive spirit,
+                                    and enjoy a memorable and spirited celebration of esports during BIFEST 2024.</p>
+
+    
+                                <div class="event-highlights">
+                                    <h4>Key Contributions:</h4>
+                                    <ul>
+                                        <li>Two-day esports tournament during BINUS Festival 2024</li>
+                                        <li>Day 1: Valorant competition highlighting FPS team strategy</li>
+                                        <li>Day 2: Mobile Legends: Bang Bang competition focused on mobile team play</li>
+                                        <li>Fostered a fun, inclusive, and sportsmanlike esports environment</li>
+                                        <li>Enabled student engagement and strengthened cross-faculty gamer networks</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/BIFEST1.jpg" alt="BIFEST Gaming Zone">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/BIFEST3.webp" alt="BIFEST Workshop">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Campus Collaborations Content -->
+                        <div id="campus-content" class="event-content">
+                            <div class="event-header">
+                                <h3>Campus Collaborations</h3>
+                                <div class="event-dates">
+                                    <i class="bi bi-calendar-event"></i>
+                                    <span>29 November 2024</span>
+                                </div>
+                            </div>
+    
+                            <div class="event-video">
+                                <iframe src="https://www.instagram.com/reel/DDEffmXi-0e/embed?autoplay=1" width="500" height="600" frameborder="0"
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" scrolling="no"></iframe>
+                            </div>
+    
+                            <div class="event-details">
+                                <p>An important focus of my leadership has been establishing collaborative relationships
+                                    with other BINUS campuses and student organizations. These cross-campus initiatives have
+                                    helped unify the Binusian Gaming community across all university locations and created
+                                    synergies with complementary student groups.</p>
+                            
+                                <p>Through regular joint activities, shared resources, and coordinated events, we've built a
+                                    stronger esports ecosystem throughout BINUS. These collaborations have enhanced the
+                                    value proposition for our members and created more diverse opportunities for
+                                    participation.</p>
+                            
+                                <p>One notable event was the <strong>Binusian Gaming Campus Collaboration</strong> held at Kemanggisan on November
+                                    29, 2024.
+                                    This collaborative initiative brought together Binusian Gaming, Universitas Indonesia ESports Club (UIESC),
+                                    and Veteran Jakarta E-Sports (VJE) under the theme <em>“From Sharing to Shaping the Next Generation.”</em>
+                                    The goal was to strengthen inter-university relationships and foster innovation in managing gaming
+                                    organizations.</p>
+                            
+                                <p>The event began with a <strong>Benchmarking Session</strong>, where each organization shared their structure,
+                                    history,
+                                    vision, and work programs. Binusian Gaming kicked off the session, followed by presentations from UIESC and VJE,
+                                    each highlighting their respective organizational frameworks and achievements in partnerships and events.</p>
+                            
+                                <p>This was followed by a <strong>Group Discussion Session</strong> titled <em>“Listen and Improve”</em>,
+                                    where all participants openly exchanged insights on internal roles, division responsibilities,
+                                    event execution strategies, and the biggest challenges faced within their organizations.
+                                    The session emphasized mutual learning and cultivating a strong sense of community within student-led esports
+                                    groups.</p>
+                            
+                                <p>As a closing activity, Binusian Gaming hosted a <strong>Campus Tour</strong> at BINUS University’s Anggrek
+                                    campus.
+                                    Both UIESC and VJE members expressed admiration for the facilities and gained insights into BINUS’ academic
+                                    systems,
+                                    leaving with a deeper appreciation of the university's ecosystem.</p>
+    
+                                <div class="event-highlights">
+                                    <h4>Key Partnerships:</h4>
+                                    <ul>
+                                        <li>Regular inter-campus tournaments connecting gamers across all BINUS locations</li>
+                                        <li>Collaborative events with BINUS Computer Science Student Association focusing on game development</li>
+                                        <li>Joint industry visits and company tours with BINUS Business School organizations</li>
+                                        <li>Shared resources and cross-promotion with BINUS Multimedia clubs</li>
+                                        <li>Mentorship program connecting senior and junior members across campuses</li>
+                                        <li>Collaborative campus-based initiatives such as the 2024 event with UIESC and VJE</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/BGA.webp" alt="Inter-campus Event">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/img/portfolio/collab2.jpg" alt="Collaboration Meeting">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        
+    
+                    <div class="col-lg-4">
+                        <div class="portfolio-info">
+                            <h3>Leadership Information</h3>
+                            <ul>
+                                <li><strong>Category</strong>: Organizational Experience</li>
+                                <li><strong>Duration</strong>: Mar 2024 - Mar 2025</li>
+                                <li><strong>Organization</strong>: Binusian Gaming</li>
+                                <li><strong>Team Size</strong>: 25+ members</li>
+                                <li><strong>Position</strong>: Chairperson - Kemanggisan Region</li>
+                            </ul>
+                        </div>
+    
+                        <div class="portfolio-description">
+                            <h2>Chairperson of Binusian Gaming</h2>
+                            <p>As the Chairperson of the Kemanggisan Region for Binusian Gaming, I was responsible for
+                                managing the student activity unit's operations and events on campus. I led strategic
+                                initiatives to develop esports culture within the university while creating opportunities
+                                for students to enhance their gaming skills and build community.</p>
+                            <p>During my leadership, I coordinated major competitions, including the Arena Community
+                                Championship 2024 in collaboration with Gopay, and served as the Person-In-Charge for the
+                                Binusian Gaming Level Up! Esport Championship season 1. These events significantly increased
+                                our organization's visibility and helped establish meaningful partnerships with industry
+                                stakeholders.</p>
+                        </div>
+    
+                        <div class="achievements">
+                            <h3>Key Accomplishments</h3>
+                            <ul>
+                                <li>Led National Competition Committee for Arena Community Championship 2024 with Gopay</li>
+                                <li>Served as PIC for Binusian Gaming Level Up! Esport Championship season 1</li>
+                                <li>Contributed to BIFEST BINUS BEKASI 2024 with seminars, workshops, and esports
+                                    tournaments</li>
+                                <li>Expanded membership and engagement in Binusian Gaming activities</li>
+                                <li>Established cross-campus relationships with multiple institutional partners</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- JavaScript for tab functionality -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Tab switching functionality
+                const eventTabs = document.querySelectorAll('.event-tab');
+                const eventContents = document.querySelectorAll('.event-content');
+
+                eventTabs.forEach(tab => {
+                    tab.addEventListener('click', function () {
+                        // Remove active class from all tabs and contents
+                        eventTabs.forEach(t => t.classList.remove('active'));
+                        eventContents.forEach(c => c.classList.remove('active'));
+
+                        // Add active class to clicked tab
+                        this.classList.add('active');
+
+                        // Show corresponding content
+                        const eventId = this.getAttribute('data-event');
+                        document.getElementById(`${eventId}-content`).classList.add('active');
+
+                        // Smooth scroll to top of content
+                        document.getElementById('portfolio-details').scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    });
+                });
+            });
+        </script>
+    </main>
+    
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Doddy Suryadharma</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scroll Top Button -->
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>

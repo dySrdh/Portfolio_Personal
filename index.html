@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Doddy Suryadharma Portofolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
+</head>
+
+
+<!-- HTML with header -->
+<header id="header" class="header">
+  <div class="header-toggle d-xl-none bi bi-list"></div>
+
+  <!-- Profile Image -->
+  <div class="profile-img">
+    <img src="assets/img/profile.jpeg" alt="" class="img-fluid rounded-circle">
+  </div>
+
+  <!-- Site Logo -->
+  <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+    <h1 class="sitename">Doddy Suryadharma</h1>
+  </a>
+
+  <!-- Social Media -->
+  <div class="social-links text-center">
+    <a href="https://github.com/dySrdh" class="github"><i class="bi bi-github"></i></a>
+    <a href="https://www.facebook.com/doddy.suryadharma/" class="facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.instagram.com/lycve_/" class="instagram"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/doddy-suryadharma/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
+      <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+      <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Skills</a></li>
+
+      <!-- PORTFOLIO DROPDOWN -->
+      <li class="dropdown">
+        <a href="#portfolio"><i class="bi bi-images navicon"></i> <span>Portfolio</span> <i
+            class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li class="dropdown">
+            <a href="#"><span>Apps</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="DigitalClass-details.html">Digital Class</a></li>
+              <li><a href="MATOA-details.html">Matoa</a></li>
+              <li><a href="CERDAS-details.html">CerdasAps Bahasa Isyarat</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#"><span>Web</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="OBENG-details.html">OBENG</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#"><span>Organizational</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+            <ul>
+             <li><a href="advance-buddy.html">advanced Buddy</a></li>
+              <li><a href="BG-details.html">Binusian Gaming</a></li>
+              <li><a href="KSF-details.html">Sportfest</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#certifications"><i class="bi bi-patch-check navicon"></i> Certifications</a></li>
+      <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+      <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<!-- JavaScript untuk dropdown dan toggle functionality -->
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    // Mobile navigation toggle
+     const scrollLinks = document.querySelectorAll('a[href^="#"]');
+
+    scrollLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        // If this is just a navigation link (not a dropdown toggle)
+        if (!e.target.classList.contains('toggle-dropdown')) {
+          const targetId = this.getAttribute('href');
+          if (targetId !== '#' && document.querySelector(targetId)) {
+            e.preventDefault();
+            const targetElement = document.querySelector(targetId);
+            const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+
+            // Smooth scroll with easing
+            window.scrollTo({
+              top: offsetTop,
+              behavior: 'smooth'
+            });
+
+            // Update active state
+            scrollLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+
+            // If on mobile, hide the menu after click
+            if (window.innerWidth < 1200) {
+              document.getElementById('header').classList.remove('header-show');
+            }
+          }
+        }
+      });
+    });
+   
+    
+    const headerToggle = document.querySelector('.header-toggle');
+    const header = document.getElementById('header');
+
+    if (headerToggle) {
+      headerToggle.addEventListener('click', function () {
+        header.classList.toggle('header-show');
+      });
+    }
+
+    // Fix for main content - ensure it's visible
+    const mainContent = document.getElementById('main') || document.querySelector('main');
+    if (mainContent && window.innerWidth >= 1200) {
+      mainContent.style.width = 'calc(100% - 300px)';
+      mainContent.style.marginLeft = '300px';
+      mainContent.style.display = 'block';
+    }
+
+    // Dropdown functionality
+    const dropdownLinks = document.querySelectorAll('.navmenu .dropdown > a');
+
+    dropdownLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        // Check if click is on dropdown toggle
+        const isToggleClick = e.target.classList.contains('toggle-dropdown') ||
+          e.target.parentElement.classList.contains('toggle-dropdown');
+
+        // If this is a link with a dropdown menu and click was on toggle
+        if (this.nextElementSibling && this.nextElementSibling.tagName === 'UL' && isToggleClick) {
+          e.preventDefault();
+          e.stopPropagation();
+
+          // Toggle dropdown
+          const parent = this.parentElement;
+          const nextEl = this.nextElementSibling;
+
+          if (nextEl) {
+            // Toggle active class for styling
+            parent.classList.toggle('active');
+
+            // Toggle dropdown-active class for visibility
+            if (nextEl.classList.contains('dropdown-active')) {
+              nextEl.classList.remove('dropdown-active');
+            } else {
+              nextEl.classList.add('dropdown-active');
+            }
+          }
+        }
+        // If not a toggle click but a link, let the default action occur
+      });
+    });
+
+    // Smooth scroll for navigation
+    const navLinks = document.querySelectorAll('.navmenu a[href^="#"]');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        // If this is just a navigation link (not a dropdown toggle)
+        if (!e.target.classList.contains('toggle-dropdown')) {
+          const targetId = this.getAttribute('href');
+          if (targetId !== '#' && document.querySelector(targetId)) {
+            e.preventDefault();
+            const targetElement = document.querySelector(targetId);
+            window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth'
+            });
+
+            // Add active class to clicked link
+            navLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+
+            // If on mobile, hide the menu after click
+            if (window.innerWidth < 1200) {
+              header.classList.remove('header-show');
+            }
+          }
+        }
+      });
+    });
+  });
+  window.addEventListener('scroll', function () {
+      let current = '';
+      const sections = document.querySelectorAll('section');
+      const scrollLinks = document.querySelectorAll('#navmenu a'); // pastikan ini ada
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= (sectionTop - 200)) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      scrollLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+</script>
+
+
+
+  <main class="main">
+
+   <div id="hero" class="hero-section position-relative">
+    <!-- Animated background elements -->
+    <div class="animated-bg">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="square-1"></div>
+      <div class="square-2"></div>
+    </div>
+  
+    <!-- Content container -->
+    <div class="container hero-container">
+      <div class="row align-items-center min-vh-80">
+        <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="200">
+          <h4 class="text-primary fw-bold mb-3">Hello, I'm</h4>
+          <h1 class="display-3 fw-bold text-gradient mb-4">Doddy Suryadharma</h1>
+          <p class="lead mb-4">I'm a <span class="typed text-primary fw-bold"
+              data-typed-items="Content Creator, Front End Developer, Mobile Developer, Computer Science Student"></span>
+          </p>
+          <div class="hero-buttons mt-5">
+            <a href="#portfolio" class="btn btn-primary rounded-pill px-4 py-3 me-3">
+              View My Work
+              <i class="bi bi-arrow-right-circle ms-2"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline-dark rounded-pill px-4 py-3">
+              Contact Me
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-image" data-aos="fade-left" data-aos-delay="400">
+          <div class="img-wrapper">
+            <img src="assets/img/background.jpg" alt="Doddy Suryadharma" class="img-fluid">
+            <div class="floating-badge" data-aos="fade-up" data-aos-delay="800">
+              <span class="badge-icon"><i class="bi bi-code-slash"></i></span>
+              <span>Developer</span>
+            </div>
+            <div class="floating-badge badge-2" data-aos="fade-up" data-aos-delay="1000">
+              <span class="badge-icon"><i class="bi bi-phone"></i></span>
+              <span>Mobile Apps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="hero-scroll-indicator">
+      <a href="#about">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div>
+          <span class="scroll-arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Typed.js initialization
+      if (document.querySelector('.typed')) {
+        let typed_strings = document.querySelector('.typed').getAttribute('data-typed-items');
+        typed_strings = typed_strings.split(',');
+        new Typed('.typed', {
+          strings: typed_strings,
+          loop: true,
+          typeSpeed: 100,
+          backSpeed: 50,
+          backDelay: 2000
+        });
+      }
+
+      // Optional: Parallax effect on mouse move
+      const heroSection = document.getElementById('hero');
+      const heroImage = document.querySelector('.hero-image img');
+      const badges = document.querySelectorAll('.floating-badge');
+
+      heroSection.addEventListener('mousemove', function (e) {
+        let xPos = (e.clientX / window.innerWidth - 0.5) * 20;
+        let yPos = (e.clientY / window.innerHeight - 0.5) * 20;
+
+        heroImage.style.transform = `translate(${xPos * 0.3}px, ${yPos * 0.3}px)`;
+
+        badges.forEach((badge, index) => {
+          const factor = index === 0 ? 0.5 : -0.5;
+          badge.style.transform = `translate(${xPos * factor}px, ${yPos * factor}px)`;
+        });
+      });
+    });
+  </script>
+
+  <!-- About Section -->
+  <section id="about" class="about section py-5">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h6 class="text-primary fw-bold text-uppercase mb-2">Get to know me</h6>
+        <h2 class="display-5 fw-bold mb-4">About Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <p class="lead text-muted">Currently a six-semester Computer Science student at BINUS University with over
+              three years of organizational experience, demonstrating strong teamwork and leadership skills. Seeking new
+              challenges through internship opportunities.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row gy-5 align-items-center" data-aos="fade-up" data-aos-delay="100">
+        <!-- Profile Image with Card Effect -->
+        <div class="col-lg-5">
+          <div class="position-relative">
+            <div class="bg-primary position-absolute"
+              style="width: 90%; height: 90%; bottom: -20px; right: -20px; z-index: 0; opacity: 0.1; border-radius: 10px;">
+            </div>
+            <img src="assets/img/profile.jpeg" class="img-fluid shadow"
+              style="border-radius: 10px; position: relative; z-index: 1;" alt="Profile Image">
+            <div class="bg-light p-4 shadow-sm position-absolute"
+              style="bottom: -30px; right: 20px; border-radius: 10px; z-index: 2;">
+              <div class="d-flex gap-3">
+                <div class="text-center">
+                  <h3 class="mb-0 fw-bold text-primary">3+</h3>
+                  <p class="small text-muted mb-0">Years Experience</p>
+                </div>
+                <div class="vr"></div>
+                <div class="text-center">
+                  <h3 class="mb-0 fw-bold text-primary">10+</h3>
+                  <p class="small text-muted mb-0">Projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Content -->
+        <div class="col-lg-7">
+          <div class="ps-lg-4">
+            <h2 class="fw-bold mb-4">Front-End Developer & Web/Mobile Developer</h2>
+            <p class="mb-4">At BINUS University Malang, I am deeply focused on the comprehensive study of full-stack
+              development, emphasizing front-end technologies, Software Engineering, and IT Development.</p>
+  
+            <div class="row g-4 mb-4">
+              <!-- Personal Info Cards -->
+              <div class="col-md-6">
+                <div class="d-flex align-items-center p-3 rounded bg-light">
+                  <i class="bi bi-calendar-date fs-4 text-primary me-3"></i>
+                  <div>
+                    <span class="text-muted small">Birthday</span>
+                    <p class="mb-0 fw-medium">25 March 2003</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <div class="d-flex align-items-center p-3 rounded bg-light">
+                  <i class="bi bi-geo-alt fs-4 text-primary me-3"></i>
+                  <div>
+                    <span class="text-muted small">Location</span>
+                    <p class="mb-0 fw-medium">Jakarta Barat, Indonesia</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <div class="d-flex align-items-center p-3 rounded bg-light">
+                  <i class="bi bi-envelope fs-4 text-primary me-3"></i>
+                  <div>
+                    <span class="text-muted small">Email</span>
+                    <p class="mb-0 fw-medium">suryadharma.dy@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <div class="d-flex align-items-center p-3 rounded bg-light">
+                  <i class="bi bi-phone fs-4 text-primary me-3"></i>
+                  <div>
+                    <span class="text-muted small">Phone</span>
+                    <p class="mb-0 fw-medium">+62 812-9445-3932</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- CTA Button -->
+            <div class="mt-4">
+              <a href="#contact" class="btn btn-primary px-4 py-3 rounded-pill">Let's Work Together <i
+                  class="bi bi-arrow-right ms-2"></i></a>
+              <a href="#resume" class="btn btn-outline-secondary px-4 py-3 rounded-pill ms-2">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /About Section -->
+
+
+
+<section id="skills" class="skills-section">
+  <div class="shape shape-1"></div>
+  <div class="shape shape-2"></div>
+  <div class="shape shape-3"></div>
+  <div class="shape shape-4"></div>
+
+  <div class="container">
+    <!-- Section Title -->
+    <div class="section-title">
+      <h2>PROGRAMMING LANGUAGE, FRAMEWORK & SOFTWARE</h2>
+      <p>My technical skills and proficiency levels in various technologies</p>
+    </div>
+
+
+    <!-- Skills Grid -->
+    <div class="skills-grid layout-4x2">
+      <!-- HTML Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-html"></i>
+          </div>
+          <h3 class="skill-name">HTML</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent html-percent"></div>
+        </div>
+        <div class="skill-percent-text">85%</div>
+      </div>
+
+      <!-- CSS Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-css"></i>
+          </div>
+          <h3 class="skill-name">CSS</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent css-percent"></div>
+        </div>
+        <div class="skill-percent-text">80%</div>
+      </div>
+
+      <!-- React Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <h3 class="skill-name">React</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent react-percent"></div>
+        </div>
+        <div class="skill-percent-text">85%</div>
+      </div>
+
+      <!-- Python Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-py"></i>
+          </div>
+          <h3 class="skill-name">Python</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent python-percent"></div>
+        </div>
+        <div class="skill-percent-text">65%</div>
+      </div>
+
+      <!-- PHP Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-filetype-php"></i>
+          </div>
+          <h3 class="skill-name">PHP</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent php-percent"></div>
+        </div>
+        <div class="skill-percent-text">80%</div>
+      </div>
+
+      <!-- WordPress Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-wordpress"></i>
+          </div>
+          <h3 class="skill-name">WordPress/CMS</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent wp-percent"></div>
+        </div>
+        <div class="skill-percent-text">80%</div>
+      </div>
+
+      <!-- MySQL Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-database"></i>
+          </div>
+          <h3 class="skill-name">MySQL</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent mysql-percent"></div>
+        </div>
+        <div class="skill-percent-text">75%</div>
+      </div>
+
+      <!-- Java Skill -->
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">
+            <i class="bi bi-cup-hot"></i>
+          </div>
+          <h3 class="skill-name">Java</h3>
+        </div>
+        <div class="skill-level">
+          <div class="skill-percent java-percent"></div>
+        </div>
+        <div class="skill-percent-text">85%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Trigger animation on load
+    setTimeout(function () {
+      $('.skills-grid').addClass('animate');
+    }, 500);
+
+    // Optional: Layout Switcher
+    $('#layout4x2').click(function () {
+      $('.skills-grid').removeClass('layout-2x4').addClass('layout-4x2');
+      $('.layout-selector button').removeClass('active');
+      $(this).addClass('active');
+    });
+
+    $('#layout2x4').click(function () {
+      $('.skills-grid').removeClass('layout-4x2').addClass('layout-2x4');
+      $('.layout-selector button').removeClass('active');
+      $(this).addClass('active');
+    });
+
+    // Optional: Trigger animation on scroll
+    $(window).scroll(function () {
+      var skillsSection = $('#skills');
+      if (skillsSection.length) {
+        var windowHeight = $(window).height();
+        var scrollTop = $(window).scrollTop();
+        var offsetTop = skillsSection.offset().top;
+
+        if (scrollTop + windowHeight > offsetTop) {
+          $('.skills-grid').addClass('animate');
+        }
+      }
+    });
+  });
+  </script>
+
+    <!-- Modern Skills Section -->
+    <section id="services" class="services section py-5" style="background-color: #f9fafb;">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h2 class="fw-bold" style="font-size: 2.5rem; color: #333;">Skills</h2>
+          <p class="text-muted">A glimpse into my key strengths and competencies</p>
+        </div>
+    
+        <div class="row gy-4">
+          <!-- Skill Card -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-people"></i></div>
+              <h5 class="fw-semibold mb-2">Team player, as well as independently</h5>
+              <p class="text-muted">Able to collaborate effectively in group settings while also demonstrating strong
+                self-management skills when working independently.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-chat-dots"></i></div>
+              <h5 class="fw-semibold mb-2">Excellent networking and communication</h5>
+              <p class="text-muted">Strong interpersonal skills with the ability to build relationships and communicate
+                ideas effectively across various channels.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-check2-circle"></i></div>
+              <h5 class="fw-semibold mb-2">Following instructions & quality results</h5>
+              <p class="text-muted">Detail-oriented in understanding requirements and consistently delivering high-quality
+                work.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-clock"></i></div>
+              <h5 class="fw-semibold mb-2">Time management</h5>
+              <p class="text-muted">Efficient in prioritizing tasks, meeting deadlines, and maximizing productivity.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-shield"></i></div>
+              <h5 class="fw-semibold mb-2">Work under pressure</h5>
+              <p class="text-muted">Maintains composure and delivers high performance even in stressful situations.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 hover-card">
+              <div class="icon mb-3 text-primary fs-1"><i class="bi bi-lightbulb"></i></div>
+              <h5 class="fw-semibold mb-2">Critical thinking</h5>
+              <p class="text-muted">Analyzes situations and develops effective, well-reasoned solutions to problems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Background Elements -->
+  <div class="portfolio-background">
+    <div class="glowing-orb orb-1"></div>
+    <div class="glowing-orb orb-2"></div>
+    <div class="glowing-orb orb-3"></div>
+    <div class="constellation"></div>
+  </div>
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>Explore my diverse collection of projects and experiences showcasing technical expertise and leadership skills.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">ALL</li>
+        <li data-filter=".filter-app">APP</li>
+        <li data-filter=".filter-website">WEBSITE</li>
+        <li data-filter=".filter-organizational">ORGANIZATIONAL</li>
+      </ul><!-- End Portfolio Filters -->
+
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- Portfolio Items from the first document -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/obeng1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>OBENG</h4>
+              <a href="assets/img/portfolio/obeng1.jpg" title="Online Bengkel ( OBENG )"
+                data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="OBENG-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+              <div class="skill-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" title="HTML5"
+                  alt="HTML5">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" title="CSS3"
+                  alt="CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  title="JavaScript" alt="JavaScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL"
+                  alt="MySQL">
+              </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/digitalclass1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Digital Class</h4>
+              <a href="assets/img/portfolio/digitalclass1.jpg" title="Digital Class"
+                data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                  class="bi bi-zoom-in"></i></a>
+              <a href="DigitalClass-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+              <div class="skill-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+                  title="Android" alt="Android">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" title="Unity/AR"
+                  alt="Unity/AR">
+                <img src="https://cdn.prod.website-files.com/5b7529a016d8f25106c56acf/65659f88576bb3e7e66e7a96_logo%20edu.webp" title="Assemblr EDU"  alt="Assemblr EDU" >
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="UI/UX"
+                  alt="UI/UX">
+              </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/Matoa.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Matoa</h4>
+              <a href="assets/img/portfolio/Matoa.jpg" title="Matoa" data-gallery="portfolio-gallery-branding"
+                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="MATOA-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+              <div class="skill-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
+                  title="Arduino" alt="Arduino">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  title="C++" alt="C++">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="Node.js"
+                  alt="Node.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                  title="MongoDB" alt="MongoDB">
+              </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/Picture5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>CerdasAps Bahasa Isyarat</h4>
+              <a href="assets/img/portfolio/Picture5.jpg" title="Sign Language App"
+                data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="CERDAS-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+              <div class="skill-icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java"
+                  alt="Java">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+                  title="Android" alt="Android">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1776px-Apache_NetBeans_Logo.svg.png" title="NetBeans"
+                alt="NetBeans">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="UI/UX" alt="UI/UX">
+
+              </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/seminar3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Panitia Seminar Binus Malang</h4>
+              <a href="assets/img/portfolio/seminar3.jpg" title="Panitia Seminar" data-gallery="portfolio-gallery-app"
+                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="Panitia-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+              <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+                <img src="https://api.iconify.design/mdi/account-group-outline.svg" width="30" title="Teamwork" alt="Teamwork"
+                  style="filter: invert(50%) sepia(70%) saturate(600%) hue-rotate(140deg) brightness(95%) contrast(85%);">
+              
+                <img src="https://api.iconify.design/mdi/camera-wireless.svg" width="30" title="Multimedia" alt="Multimedia"
+                  style="filter: invert(55%) sepia(50%) saturate(500%) hue-rotate(190deg) brightness(98%) contrast(90%);">
+              
+                <img src="https://api.iconify.design/mdi/calendar-check-outline.svg" width="30" title="Event Management"
+                  alt="Event Management"
+                  style="filter: invert(60%) sepia(60%) saturate(700%) hue-rotate(120deg) brightness(95%) contrast(92%);">
+              
+                <img src="https://api.iconify.design/mdi/laptop-windows.svg" width="30" title="Technical Support"
+                  alt="Technical Support"
+                  style="filter: invert(65%) sepia(30%) saturate(700%) hue-rotate(180deg) brightness(93%) contrast(88%);">
+              </div>
+
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/advanceBuddy.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Advanced Buddy calon Binusian 2027</h4>
+              <a href="assets/img/portfolio/advanceBuddy.jpg" title="Advanced Buddy"
+                data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                  class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+            <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+              <img src="https://api.iconify.design/mdi/account-heart-outline.svg" width="30" title="Mentoring" alt="Mentoring"
+                style="filter: invert(40%) sepia(80%) saturate(700%) hue-rotate(90deg) brightness(95%) contrast(90%);">
+            
+              <img src="https://api.iconify.design/mdi/message-text-outline.svg" width="30" title="Communication"
+                alt="Communication"
+                style="filter: invert(55%) sepia(50%) saturate(600%) hue-rotate(170deg) brightness(90%) contrast(85%);">
+            
+              <img src="https://api.iconify.design/mdi/account-tie-outline.svg" width="30" title="Leadership" alt="Leadership"
+                style="filter: invert(50%) sepia(70%) saturate(750%) hue-rotate(180deg) brightness(96%) contrast(90%);">
+            
+              <img src="https://api.iconify.design/mdi/compass-outline.svg" width="30" title="Guidance" alt="Guidance"
+                style="filter: invert(60%) sepia(70%) saturate(800%) hue-rotate(120deg) brightness(92%) contrast(85%);">
+            </div>
+
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/FLFP2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>First Year Program</h4>
+              <a href="assets/img/portfolio/FLFP2.jpg" title="Freshman Leader & Partner"
+                data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                  class="bi bi-zoom-in"></i></a>
+              <a href="FL-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+            <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+              <img src="https://api.iconify.design/mdi/account-heart-outline.svg" width="30" title="Mentorship" alt="Mentorship"
+                style="filter: invert(50%) sepia(60%) saturate(700%) hue-rotate(150deg) brightness(90%) contrast(85%);">
+            
+              <img src="https://api.iconify.design/mdi/message-text-outline.svg" width="30" title="Communication"
+                alt="Communication"
+                style="filter: invert(60%) sepia(40%) saturate(500%) hue-rotate(170deg) brightness(95%) contrast(88%);">
+            
+              <img src="https://api.iconify.design/mdi/heart-outline.svg" width="30" title="Motivation" alt="Motivation"
+                style="filter: invert(68%) sepia(35%) saturate(600%) hue-rotate(20deg) brightness(95%) contrast(85%);">
+            
+              <img src="https://api.iconify.design/mdi/account-tie-outline.svg" width="30" title="Leadership" alt="Leadership"
+                style="filter: invert(45%) sepia(80%) saturate(700%) hue-rotate(180deg) brightness(95%) contrast(90%);">
+            </div>
+
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+        <div class="portfolio-content h-100">
+          <img src="assets/img/portfolio/BG.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Ketua Region Kemanggisan UKM Binusian Gaming 2024</h4>
+            <a href="assets/img/portfolio/BG.jpg" title="Leader Binusian Gaming" data-gallery="portfolio-gallery-book"
+              class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <a href="BG-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+            <img src="https://api.iconify.design/mdi/account-group-outline.svg" width="30" title="Leadership" alt="Leadership"
+              style="filter: invert(34%) sepia(99%) saturate(748%) hue-rotate(176deg) brightness(93%) contrast(101%);">
+            <img src="https://api.iconify.design/mdi/account-cog-outline.svg" width="30" title="Team Management"
+              alt="Team Management"
+              style="filter: invert(50%) sepia(20%) saturate(300%) hue-rotate(90deg) brightness(100%) contrast(90%);">
+            <img src="https://api.iconify.design/mdi/calendar-check-outline.svg" width="30" title="Event Planning"
+              alt="Event Planning"
+              style="filter: invert(60%) sepia(10%) saturate(500%) hue-rotate(45deg) brightness(95%) contrast(85%);">
+            <img src="https://api.iconify.design/mdi/clipboard-list-outline.svg" width="30" title="Organization"
+              alt="Organization"
+              style="filter: invert(70%) sepia(30%) saturate(400%) hue-rotate(120deg) brightness(90%) contrast(80%);">
+          </div>
+          </div>
+        </div>
+      </div><!-- End Portfolio Item -->
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/GACC1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gopay Arena Community Championship 2024</h4>
+              <a href="assets/img/portfolio/GACC1.jpg" title="Gopay Arena Community"
+                data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="BG-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+                <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+                  <img src="https://api.iconify.design/mdi/calendar-star-outline.svg" width="30" title="Event Management"
+                    alt="Event Management"
+                    style="filter: invert(48%) sepia(92%) saturate(750%) hue-rotate(180deg) brightness(96%) contrast(95%);">
+                  <img src="https://api.iconify.design/mdi/gamepad-variant-outline.svg" width="30" title="Gaming" alt="Gaming"
+                    style="filter: invert(62%) sepia(33%) saturate(1227%) hue-rotate(170deg) brightness(95%) contrast(90%);">
+                  <img src="https://api.iconify.design/mdi/account-group-outline.svg" width="30" title="Community Building"
+                    alt="Community Building"
+                    style="filter: invert(54%) sepia(80%) saturate(800%) hue-rotate(140deg) brightness(97%) contrast(85%);">
+                  <img src="https://api.iconify.design/mdi/clipboard-check-outline.svg" width="30" title="Project Management"
+                    alt="Project Management"
+                    style="filter: invert(70%) sepia(30%) saturate(600%) hue-rotate(90deg) brightness(90%) contrast(95%);">
+                </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/LVUP.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Level Up! Esport Championship Season 1</h4>
+              <a href="assets/img/portfolio/LVUP.jpg" title="LVUP S1" data-gallery="portfolio-gallery-product"
+                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="BG-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+            <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+              <img src="https://api.iconify.design/mdi/gamepad-variant-outline.svg" width="30" title="Gaming" alt="Gaming"
+                style="filter: invert(62%) sepia(33%) saturate(1227%) hue-rotate(170deg) brightness(95%) contrast(90%);">
+            
+              <img src="https://api.iconify.design/mdi/lightbulb-on-outline.svg" width="30" title="Strategic Planning"
+                alt="Strategic Planning"
+                style="filter: invert(54%) sepia(88%) saturate(560%) hue-rotate(45deg) brightness(96%) contrast(90%);">
+            
+              <img src="https://api.iconify.design/mdi/calendar-star-outline.svg" width="30" title="Event Management"
+                alt="Event Management"
+                style="filter: invert(48%) sepia(92%) saturate(750%) hue-rotate(180deg) brightness(96%) contrast(95%);">
+            
+              <img src="https://api.iconify.design/mdi/account-cog-outline.svg" width="30" title="Team Coordination"
+                alt="Team Coordination"
+                style="filter: invert(67%) sepia(35%) saturate(680%) hue-rotate(110deg) brightness(90%) contrast(85%);">
+            </div>
+
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-organizational">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/background.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Head of Event Division Kemanggisan Sportfest 2024</h4>
+              <a href="assets/img/portfolio/background.jpg" title="Kemanggisan Sportfest"
+                data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                  class="bi bi-zoom-in"></i></a>
+              <a href="KSF-details.html" title="More Details" class="details-link"><i
+                  class="bi bi-link-45deg"></i></a>
+          <div class="skill-icons" style="display: flex; gap: 10px; margin-top: 10px;">
+            <img src="https://api.iconify.design/mdi/account-tie-outline.svg" width="30" title="Leadership" alt="Leadership"
+              style="filter: invert(45%) sepia(80%) saturate(700%) hue-rotate(180deg) brightness(95%) contrast(90%);">
+          
+            <img src="https://api.iconify.design/mdi/calendar-check-outline.svg" width="30" title="Event Planning"
+              alt="Event Planning"
+              style="filter: invert(55%) sepia(70%) saturate(600%) hue-rotate(190deg) brightness(97%) contrast(92%);">
+          
+            <img src="https://api.iconify.design/mdi/message-text-outline.svg" width="30" title="Communication"
+              alt="Communication"
+              style="filter: invert(60%) sepia(40%) saturate(500%) hue-rotate(170deg) brightness(95%) contrast(88%);">
+          
+            <img src="https://api.iconify.design/mdi/clipboard-check-outline.svg" width="30" title="Project Management"
+              alt="Project Management"
+              style="filter: invert(70%) sepia(30%) saturate(600%) hue-rotate(90deg) brightness(90%) contrast(95%);">
+          </div>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
+
+        
+
+      </div><!-- End Portfolio Container -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Portfolio Section -->
+
+<!-- Add this updated JavaScript for enhanced interactions and fixing isotope filter -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialize Isotope with proper settings
+    let iso = new Isotope('.isotope-container', {
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+
+    // Filter items on button click
+    document.querySelector('.isotope-filters').addEventListener('click', function (event) {
+      if (!event.target.matches('li')) return;
+
+      // Deactivate all filter buttons
+      document.querySelectorAll('.isotope-filters li').forEach(function (filterButton) {
+        filterButton.classList.remove('filter-active');
+      });
+
+      // Activate clicked button
+      event.target.classList.add('filter-active');
+
+      // Get filter value
+      let filterValue = event.target.getAttribute('data-filter');
+
+      // Filter items
+      iso.arrange({
+        filter: filterValue
+      });
+    });
+
+    // Mouse movement parallax effect for the orbs
+    const portfolioSection = document.querySelector('.portfolio.section');
+    const orbs = document.querySelectorAll('.glowing-orb');
+
+    if (portfolioSection && orbs.length > 0) {
+      portfolioSection.addEventListener('mousemove', function (e) {
+        let x = e.clientX / window.innerWidth;
+        let y = e.clientY / window.innerHeight;
+
+        orbs.forEach((orb, index) => {
+          // Different movement speed for each orb
+          let speed = 20 + (index * 10);
+          let offsetX = (x - 0.5) * speed;
+          let offsetY = (y - 0.5) * speed;
+
+          orb.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+        });
+      });
+    }
+
+    // Enhanced hover effect for portfolio items
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(item => {
+      item.addEventListener('mouseenter', function () {
+        portfolioItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.style.opacity = '0.6';
+          }
+        });
+      });
+
+      item.addEventListener('mouseleave', function () {
+        portfolioItems.forEach(otherItem => {
+          otherItem.style.opacity = '1';
+        });
+      });
+    });
+  });
+</script>
+
+<!-- Add this additional JavaScript for enhanced interactions -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Mouse movement parallax effect for the orbs
+    const portfolioSection = document.querySelector('.portfolio.section');
+    const orbs = document.querySelectorAll('.glowing-orb');
+
+    portfolioSection.addEventListener('mousemove', function (e) {
+      let x = e.clientX / window.innerWidth;
+      let y = e.clientY / window.innerHeight;
+
+      orbs.forEach((orb, index) => {
+        // Different movement speed for each orb
+        let speed = 20 + (index * 10);
+        let offsetX = (x - 0.5) * speed;
+        let offsetY = (y - 0.5) * speed;
+
+        orb.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+      });
+    });
+
+    // Enhanced hover effect for portfolio items
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(item => {
+      item.addEventListener('mouseenter', function () {
+        portfolioItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.style.opacity = '0.6';
+          }
+        });
+      });
+
+      item.addEventListener('mouseleave', function () {
+        portfolioItems.forEach(otherItem => {
+          otherItem.style.opacity = '1';
+        });
+      });
+    });
+  });
+</script>
+  
+  
+  
+<!-- Certifications Section -->
+<section id="certifications" class="certifications section light-background">
+  <div class="certifications-background">
+  <div class="floating-shape shape-1"></div>
+  <div class="floating-shape shape-2"></div>
+  <div class="floating-shape shape-3"></div>
+</div>
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Certifications</h2>
+    <p>Professional certifications and achievements that demonstrate my skills and expertise</p>
+  </div><!-- End Section Title -->
+
+  <!-- Filter Buttons -->
+  <div class="container" data-aos="fade-up">
+    <div class="certifications-filters">
+      <ul class="filters-list">
+        <li class="filter-active" data-filter="*">All</li>
+        <li data-filter=".filter-technical">Technical</li>
+        <li data-filter=".filter-soft-skills">Soft Skills</li>
+        <li data-filter=".filter-academic">Academic</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper init-swiper">
+    <script type="application/json" class="swiper-config">
+      {
+        "loop": true,
+        "speed": 600,
+        "autoplay": {
+          "delay": 5000
+        },
+        "slidesPerView": 3,
+        "spaceBetween": 20,
+        "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+        },
+        "breakpoints": {
+          "320": {
+            "slidesPerView": 1,
+            "spaceBetween": 20
+          },
+          "768": {
+            "slidesPerView": 2,
+            "spaceBetween": 20
+          },
+          "1200": {
+            "slidesPerView": 3,
+            "spaceBetween": 20
+          }
+        }
+      }
+    </script>
+      <div class="swiper-wrapper">
+
+        <!-- Certificate 1 -->
+        <div class="swiper-slide filter-technical">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat2.jpg" class="certification-img img-fluid"
+                    alt="Machine Learning Model Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">AI & ML</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>Model In Machine Learning</h3>
+                  <p>Kedaireka Matching Fund 2022: SMAPHA</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>Model In Machine Learning</h3>
+                <p>Smart Mapping for Public Health Application</p>
+                <p class="cert-date">Issued: 2022</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat2.jpg" class="glightbox cert-view-btn"
+                    title="Model In Machine Learning">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="swiper-slide filter-academic">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat1.jpg" class="certification-img img-fluid"
+                    alt="Freshman Partner Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">Leadership</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>Freshman Partner</h3>
+                  <p>BINUS University</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>Freshman Partner</h3>
+                <p>Recognition for guiding new students at BINUS University</p>
+                <p class="cert-date">Issued: 2023</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat1.jpg" class="glightbox cert-view-btn"
+                    title="Freshman Partner Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="swiper-slide filter-technical">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat3.jpg" class="certification-img img-fluid"
+                    alt="Women in STEM Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">STEM</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>Women in STEM: AI & Robotics</h3>
+                  <p>BINUS University</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>Women in STEM: AI & Robotics</h3>
+                <p>Advanced training in artificial intelligence and robotics applications</p>
+                <p class="cert-date">Issued: 2023</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat3.jpg" class="glightbox cert-view-btn"
+                    title="Women in STEM: AI & Robotics Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="swiper-slide filter-technical">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat4.1.jpg" class="certification-img img-fluid"
+                    alt="UI/UX Design Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">Design</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>UI/UX Design</h3>
+                  <p>Udemy</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>UI/UX Design</h3>
+                <p>Comprehensive course covering user interface and experience design principles</p>
+                <p class="cert-date">Issued by Udemy</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat4.jpg" class="glightbox cert-view-btn"
+                    title="UI/UX Design Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="swiper-slide filter-soft-skills">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat5.jpg" class="certification-img img-fluid"
+                    alt="Bazaar Indoor Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">Event</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>Bazaar Indoor - Produk Lokal</h3>
+                  <p>Dinas Perindustrian DKI Jakarta</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>Bazaar Indoor - Produk Lokal</h3>
+                <p>Berkreasi Generasi Muda Berkarya</p>
+                <p class="cert-date">Issued by Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil dan Menengah
+                  Provinsi DKI Jakarta</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat5.jpg" class="glightbox cert-view-btn"
+                    title="Bazaar Indoor Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="swiper-slide filter-technical">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat6.1.jpg" class="certification-img img-fluid"
+                    alt="SQL Test Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">Database</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>SQL Test</h3>
+                  <p>TESTDOME</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>SQL Test</h3>
+                <p>Certification in SQL database querying and management</p>
+                <p class="cert-date">Issued by TESTDOME</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat6.jpg" class="glightbox cert-view-btn"
+                    title="SQL Test Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 7 -->
+        <div class="swiper-slide filter-soft-skills">
+          <div class="certification-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="certification-img-container">
+                  <img src="assets/certifications/sertifikat8.jpg" class="certification-img img-fluid"
+                    alt="Problem Solving Certificate">
+                  <div class="certification-overlay">
+                    <span class="cert-category">Event</span>
+                  </div>
+                </div>
+                <div class="cert-info">
+                  <h3>Digifest HIMTI 2023</h3>
+                  <p>Himpunan Teknik informatika HIMTI</p>
+                </div>
+              </div>
+              <div class="card-back">
+                <h3>DIgifest HIMTI 2023</h3>
+                <p>Panitia Event & Coach for participant</p>
+                <p class="cert-date">Issued by HackerRank</p>
+                <div class="cert-actions">
+                  <a href="assets/certifications/sertifikat8.jpg" class="glightbox cert-view-btn"
+                    title="Problem Solving Certificate">
+                    <i class="bi bi-eye"></i> View Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="swiper-slide filter-technical">
+            <div class="certification-card">
+              <div class="card-inner">
+                <div class="card-front">
+                  <div class="certification-img-container">
+                    <img src="assets/certifications/sertifikat6.1.jpg" class="certification-img img-fluid"
+                      alt="SQL Test Certificate">
+                    <div class="certification-overlay">
+                      <span class="cert-category">Database</span>
+                    </div>
+                  </div>
+                  <div class="cert-info">
+                    <h3>SQL Test</h3>
+                    <p>TESTDOME</p>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <h3>SQL Test</h3>
+                  <p>Certification in SQL database querying and management</p>
+                  <p class="cert-date">Issued by TESTDOME</p>
+                  <div class="cert-actions">
+                    <a href="assets/certifications/sertifikat6.jpg" class="glightbox cert-view-btn" title="SQL Test Certificate">
+                      <i class="bi bi-eye"></i> View Certificate
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section><!-- /Certifications Section -->
+
+<!-- Add this script for filtering functionality -->
+<script>
+ document.addEventListener('DOMContentLoaded', function () {
+    // First define and initialize the swiper
+    let certificationSwiper = new Swiper('.init-swiper', {
+      // Configuration will be loaded from the JSON config
+    });
+
+    // Get the JSON config data
+    const swiperConfig = JSON.parse(document.querySelector('.swiper-config').textContent);
+
+    // Initialize swiper with the config
+    certificationSwiper = new Swiper('.init-swiper', swiperConfig);
+
+    // Filter functionality
+    const filterButtons = document.querySelectorAll('.filters-list li');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('filter-active'));
+        // Add active class to clicked button
+        this.classList.add('filter-active');
+
+        const filterValue = this.getAttribute('data-filter');
+        console.log("Filter selected:", filterValue);
+
+        // Filter logic - improved
+        const slides = document.querySelectorAll('.swiper-slide');
+
+        slides.forEach(slide => {
+          // First, reset any previous hiding
+          slide.classList.remove('isotope-hidden');
+
+          if (filterValue === '*') {
+            // Show all slides
+            slide.style.display = '';
+          } else {
+            const filterClass = filterValue.replace('.', '');
+            if (slide.classList.contains(filterClass)) {
+              slide.style.display = '';
+            } else {
+              // Hide slides that don't match
+              slide.style.display = 'none';
+              slide.classList.add('isotope-hidden');
+            }
+          }
+        });
+
+        // Update swiper after filtering
+        setTimeout(() => {
+          certificationSwiper.update();
+          certificationSwiper.slideTo(0);
+        }, 100); // Small delay to ensure DOM updates first
+      });
+    });
+
+    // Recalculate swiper height when images are loaded
+    const certImages = document.querySelectorAll('.certification-img');
+    certImages.forEach(img => {
+      if (img.complete) {
+        certificationSwiper.update();
+      } else {
+        img.addEventListener('load', function () {
+          certificationSwiper.update();
+        });
+      }
+    });
+  });
+</script>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+  
+    <!-- Section Title -->
+    <div class="container section-title text-center" data-aos="fade-up">
+      <h2>Resume</h2>
+  
+      <div class="resume-download-container" data-aos="fade-up" data-aos-delay="100">
+        <a href="assets/pdf/Cv Doddy Suryadharma CS (1).pdf" class="resume-button" download>
+          <span class="button-icon"><i class="bi bi-file-earmark-pdf"></i></span>
+          <span class="button-text">
+            <span class="primary-text">Download Resume</span>
+            <span class="secondary-text">PDF Format • Click to view or save</span>
+          </span>
+          <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </a>
+      </div>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="resume-block">
+            <h3 class="resume-title">Summary</h3>
+  
+            <div class="resume-item current-role">
+              <h4>PT. Siaga Abdi Utama</h4>
+              <div class="resume-badge">Mobile Developer Intern</div>
+              <p><em>Currently working as a Mobile Developer intern at PT Siaga Abdi Utama, developing Android
+                  applications with React Native and JavaScript, collaborating with UI/UX teams to implement designs, and
+                  participating in debugging, testing, and project management using tools like Git.</em></p>
+            </div>
+  
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <div class="resume-year">2022 - Present</div>
+              <h4>Bina Nusantara University</h4>
+              <div class="resume-badge">Computer Science - GPA: 3.45</div>
+              <p><em>Focus areas: Full Stack Development, IT Development, Software Engineering, Mobile Programming</em>
+              </p>
+              <div class="resume-courses">
+                <span class="course-tag">Algorithm & Programming</span>
+                <span class="course-tag">Data Structures</span>
+                <span class="course-tag">Computer Networks</span>
+                <span class="course-tag">AI</span>
+                <span class="course-tag">OOP</span>
+                <span class="course-tag">Software Engineering</span>
+                <span class="course-tag">Web Programming</span>
+                <span class="course-tag">Mobile App Development</span>
+              </div>
+            </div>
+  
+            <div class="resume-item">
+              <div class="resume-year">2019 - 2022</div>
+              <h4>SMK ORA et LABORA BSD</h4>
+              <div class="resume-badge">Electrical Power Generation Engineering</div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right Column -->
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="resume-block">
+            <h3 class="resume-title">Leadership Experience</h3>
+  
+            <div class="resume-item">
+              <div class="resume-year">Mar 2024 - Mar 2025</div>
+              <h4>Chairperson of Student Activity Unit</h4>
+              <div class="resume-badge">Binusian Gaming - Kemanggisan Region</div>
+              <p><em>Managing the Binusian Gaming student activity unit in Kemanggisan campus</em></p>
+              <ul class="resume-highlights">
+                <li>
+                  <strong>Led National Competition Committee</strong> in collaboration with Gopay for the Arena Community
+                  Championship 2024, coordinating venue, participant recruitment, and event execution
+                </li>
+                <li>
+                  <strong>Served as PIC</strong> for the Binusian Gaming Level Up! Esport Championship season 1,
+                  organizing a JABODETABEK-area esport event with multiple institutional partners
+                </li>
+                <li>
+                  <strong>Contributed to BIFEST BINUS BEKASI 2024</strong>, an annual festival featuring seminars,
+                  workshops, and a two-day esports tournament in collaboration with Binusian Gaming
+                </li>
+              </ul>
+            </div>
+  
+            <div class="resume-item">
+              <div class="resume-year">May 2024 - Sep 2024</div>
+              <h4>Head of Event Division</h4>
+              <div class="resume-badge">Kemanggisan Sportfest 2024</div>
+              <p><em>Led the Event Division, representing Binusian Gaming in collaboration with other sports-related
+                  student organizations to create tournaments for the BINUS Kemanggisan community</em></p>
+            </div>
+  
+            <div class="resume-item">
+              <div class="resume-year">Aug 2023 - Aug 2024</div>
+              <h4>Freshman Partner</h4>
+              <p><em>Guided and partnered with new students to ensure they received proper knowledge for achieving good
+                  academic performance in their first year</em></p>
+            </div>
+  
+            <div class="resume-item">
+              <div class="resume-year">Aug - Sep 2023</div>
+              <h4>Freshman Leader</h4>
+              <p><em>Guided new students in adapting to the campus environment</em></p>
+            </div>
+  
+            <div class="resume-item">
+              <div class="resume-year">Sep 2022 - May 2023</div>
+              <h4>Digifest 2023 Competition Committee</h4>
+              <p><em>Served as a coach and mentor for competition participants</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Resume Section -->
+
+    
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Hubungi kami untuk informasi lebih lanjut atau kirimkan pesan Anda</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 justify-content-center">
+        <div class="col-lg-8">
+          <!-- Contact Information -->
+          <div class="info-wrap mb-5 d-flex justify-content-between flex-wrap" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+ 62 812 9445 3932</p>
+              </div>
+            </div><!-- End Info Item -->
+  
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>suryadharma.dy@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+          </div>
+  
+          <!-- Contact Form -->
+          <form id="contactForm" class="contact-form shadow-sm rounded p-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                  <label for="name">Your Name</label>
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                  <label for="email">Your Email</label>
+                </div>
+              </div>
+  
+              <div class="col-md-12">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+  
+              <div class="col-md-12">
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="message" placeholder="Message" style="height: 150px"
+                    required></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+  
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg px-5 rounded-pill">
+                  <i class="bi bi-send me-2"></i>Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Contact Section -->
+  
+  <!-- Script for handling form submission -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      // Get form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
+
+      // Create mailto link
+      const mailtoLink = `mailto:suryadharma.dy@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message)}`;
+
+      // Open mail client
+      window.location.href = mailtoLink;
+    });
+  </script>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Doddy Suryadharma</strong> <span>2025</span></p>
+      </div>
+     
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

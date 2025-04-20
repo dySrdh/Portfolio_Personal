@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portofolio Detail KSF</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/Detail.css" rel="stylesheet">
+
+
+</head>
+
+
+<!-- HTML with header -->
+<header id="header" class="header">
+    <div class="header-toggle d-xl-none bi bi-list"></div>
+
+    <!-- Profile Image -->
+    <div class="profile-img">
+        <img src="assets/img/profile.jpeg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <!-- Site Logo -->
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <h1 class="sitename">Doddy Suryadharma</h1>
+    </a>
+
+    <!-- Social Media -->
+    <div class="social-links text-center">
+        <a href="https://github.com/dySrdh" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.facebook.com/doddy.suryadharma/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/lycve_/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/doddy-suryadharma/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="navmenu" class="navmenu">
+        <ul>
+            <li><a href="index.html"><i class="bi bi-house navicon"></i> Home</a></li>
+            <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+            <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Skills</a></li>
+    
+            <!-- PORTFOLIO DROPDOWN -->
+            <li class="dropdown">
+        <a href="#index,html#portfolio"><i class="bi bi-images navicon"></i> <span>Portfolio</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#"><span>Apps</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="DigitalClass-details.html">Digital Class</a></li>
+                            <li><a href="MATOA-details.html">Matoa</a></li>
+                            <li><a href="CERDAS-details.html">CerdasAps Bahasa Isyarat</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><span>Web</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="OBENG-details.html">OBENG</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#"><span>Organizational</span> <i class="bi bi-chevron-right toggle-dropdown"></i></a>
+                        <ul>
+                                <li><a href="advance-buddy.html">advanced Buddy</a></li>
+                            <li><a href="BG-details.html">Binusian Gaming</a></li>
+                            <li><a href="KSF-details.html">Sportfest</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="index.html#certifications"><i class="bi bi-patch-check navicon"></i> Certifications</a>
+            </li>
+            <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+            <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<!-- JavaScript untuk dropdown dan toggle functionality -->
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Mobile navigation toggle
+        const scrollLinks = document.querySelectorAll('a[href^="#"]');
+
+        scrollLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                // If this is just a navigation link (not a dropdown toggle)
+                if (!e.target.classList.contains('toggle-dropdown')) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId !== '#' && document.querySelector(targetId)) {
+                        e.preventDefault();
+                        const targetElement = document.querySelector(targetId);
+                        const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+
+                        // Smooth scroll with easing
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+
+                        // Update active state
+                        scrollLinks.forEach(link => link.classList.remove('active'));
+                        this.classList.add('active');
+
+                        // If on mobile, hide the menu after click
+                        if (window.innerWidth < 1200) {
+                            document.getElementById('header').classList.remove('header-show');
+                        }
+                    }
+                }
+            });
+        });
+
+
+        const headerToggle = document.querySelector('.header-toggle');
+        const header = document.getElementById('header');
+
+        if (headerToggle) {
+            headerToggle.addEventListener('click', function () {
+                header.classList.toggle('header-show');
+            });
+        }
+
+        // Fix for main content - ensure it's visible
+        const mainContent = document.getElementById('main') || document.querySelector('main');
+        if (mainContent && window.innerWidth >= 1200) {
+            mainContent.style.width = 'calc(100% - 300px)';
+            mainContent.style.marginLeft = '300px';
+            mainContent.style.display = 'block';
+        }
+
+        // Dropdown functionality
+        const dropdownLinks = document.querySelectorAll('.navmenu .dropdown > a');
+
+        dropdownLinks.forEach(function (link) {
+            link.addEventListener('click', function (e) {
+                // Check if click is on dropdown toggle
+                const isToggleClick = e.target.classList.contains('toggle-dropdown') ||
+                    e.target.parentElement.classList.contains('toggle-dropdown');
+
+                // If this is a link with a dropdown menu and click was on toggle
+                if (this.nextElementSibling && this.nextElementSibling.tagName === 'UL' && isToggleClick) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    // Toggle dropdown
+                    const parent = this.parentElement;
+                    const nextEl = this.nextElementSibling;
+
+                    if (nextEl) {
+                        // Toggle active class for styling
+                        parent.classList.toggle('active');
+
+                        // Toggle dropdown-active class for visibility
+                        if (nextEl.classList.contains('dropdown-active')) {
+                            nextEl.classList.remove('dropdown-active');
+                        } else {
+                            nextEl.classList.add('dropdown-active');
+                        }
+                    }
+                }
+                // If not a toggle click but a link, let the default action occur
+            });
+        });
+
+        // Smooth scroll for navigation
+        const navLinks = document.querySelectorAll('.navmenu a[href^="#"]');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                // If this is just a navigation link (not a dropdown toggle)
+                if (!e.target.classList.contains('toggle-dropdown')) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId !== '#' && document.querySelector(targetId)) {
+                        e.preventDefault();
+                        const targetElement = document.querySelector(targetId);
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+
+                        // Add active class to clicked link
+                        navLinks.forEach(link => link.classList.remove('active'));
+                        this.classList.add('active');
+
+                        // If on mobile, hide the menu after click
+                        if (window.innerWidth < 1200) {
+                            header.classList.remove('header-show');
+                        }
+                    }
+                }
+            });
+        });
+    });
+    window.addEventListener('scroll', function () {
+        let current = '';
+        const sections = document.querySelectorAll('section');
+        const scrollLinks = document.querySelectorAll('#navmenu a'); // pastikan ini ada
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= (sectionTop - 200)) {
+                current = section.getAttribute('id');
+            }
+        });
+
+        scrollLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${current}`) {
+                link.classList.add('active');
+            }
+        });
+    });
+
+</script>
+
+    <main class="main">
+        <!-- Page Title -->
+        <div class="page-title dark-background">
+            <div class="container d-lg-flex justify-content-between align-items-center">
+                <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Portfolio Details</li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section organizational-details">
+        <div class="portfolio-background">
+            <div class="glowing-orb orb-1"></div>
+            <div class="glowing-orb orb-2"></div>
+        </div>
+    
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="portfolio-details-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/img/portfolio/background.jpg" alt="Kemanggisan Sportfest Image">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="skills-technologies" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Skills Developed</h3>
+                        <div class="tech-stack">
+                            <div class="tech-item">
+                                <img src="https://api.iconify.design/fluent-emoji-high-contrast/man-office-worker.svg"
+                                    alt="Leadership" width="30">
+                                <span>Leadership</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://api.iconify.design/fluent-emoji-high-contrast/calendar.svg"
+                                    alt="Event Planning" width="30">
+                                <span>Event Planning</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://api.iconify.design/fluent-emoji-high-contrast/speech-balloon.svg"
+                                    alt="Communication" width="30">
+                                <span>Communication</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://api.iconify.design/fluent-emoji-high-contrast/clipboard.svg"
+                                    alt="Project Management" width="30">
+                                <span>Project Management</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://api.iconify.design/fluent-emoji-high-contrast/balance-scale.svg"
+                                    alt="Decision Making" width="30">
+                                <span>Decision Making</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+                        <div class="gallery-item">
+                            <img src="assets/img/portfolio/KSF1.jpg" alt="Sportfest Planning">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/portfolio/KSF2.jpg" alt="Sportfest Event">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/portfolio/KSF3.jpg" alt="Team Meeting">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="assets/img/portfolio/background.jpg" alt="Event Execution">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4">
+                    <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Event Information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: Organizational Experience</li>
+                            <li><strong>Event Date</strong>: 2024</li>
+                            <li><strong>Organization</strong>: Binus University Kemanggisan</li>
+                            <li><strong>Team Size</strong>: 20+ committee members</li>
+                            <li><strong>Role</strong>: Head of Event Division</li>
+                        </ul>
+                    </div>
+    
+                    <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Head of Event Division - Kemanggisan Sportfest 2024</h2>
+                        <p>As the Head of Event Division for Kemanggisan Sportfest 2024, I was responsible for planning,
+                            organizing, and executing all event activities during this major campus sports festival. I led a
+                            team of dedicated committee members to ensure that multiple sports competitions and activities
+                            ran smoothly throughout the event.</p>
+                        <p>The Sportfest brought together students from various departments and programs to compete in
+                            basketball, volleyball, futsal, badminton, and other sports. My division was tasked with
+                            coordinating schedules, managing venues, overseeing referees, and ensuring all participants had
+                            a positive experience throughout the competition.</p>
+                    </div>
+    
+                    <div class="achievements" data-aos="fade-up" data-aos-delay="350">
+                        <h3>Key Accomplishments</h3>
+                        <ul>
+                            <li>Successfully planned and executed 5+ sports competitions with over 500 participants</li>
+                            <li>Managed a team of 12 event staff to ensure smooth operations across multiple venues</li>
+                            <li>Developed detailed event timelines and contingency plans for seamless execution</li>
+                            <li>Created innovative opening and closing ceremonies that increased participant engagement</li>
+                        </ul>
+                    </div>
+    
+                    <div class="project-actions" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#" class="btn btn-primary">View Event Highlights</a>
+                        <a href="#" class="btn btn-outline">Sportfest Results</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+
+
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
