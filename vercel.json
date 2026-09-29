@@ -4,19 +4,23 @@
   "buildCommand": "",
   "installCommand": "",
   "outputDirectory": ".",
-  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/", "destination": "/v2/index.html" },
+    { "source": "/css/:path*", "destination": "/v2/css/:path*" },
+    { "source": "/js/:path*", "destination": "/v2/js/:path*" }
+  ],
   "redirects": [
-    { "source": "/", "destination": "/v2/", "permanent": false },
-    { "source": "/index.html", "destination": "/v2/", "permanent": false },
-    { "source": "/index-v1.html", "destination": "/v2/", "permanent": false },
-    { "source": "/(.*)-details.html", "destination": "/v2/", "permanent": false },
-    { "source": "/advance-buddy.html", "destination": "/v2/", "permanent": false },
-    { "source": "/portfolio-details.html", "destination": "/v2/", "permanent": false },
-    { "source": "/service-details.html", "destination": "/v2/", "permanent": false },
-    { "source": "/starter-page.html", "destination": "/v2/", "permanent": false }
+    { "source": "/v2", "destination": "/", "permanent": true },
+    { "source": "/v2/", "destination": "/", "permanent": true },
+    { "source": "/v2/index.html", "destination": "/", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/index-v1.html", "destination": "/", "permanent": false },
+    { "source": "/(.*)-details.html", "destination": "/", "permanent": false },
+    { "source": "/advance-buddy.html", "destination": "/", "permanent": false },
+    { "source": "/starter-page.html", "destination": "/", "permanent": false }
   ],
   "headers": [
     { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
-    { "source": "/v2/(css|js)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
+    { "source": "/(css|js)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
   ]
 }

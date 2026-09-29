@@ -1,4 +1,7 @@
-# Only the current portfolio (v2) is deployed to Vercel. The previous design stays in the repo (index-v1.html + *-details.html) but is not served.
+# Only the current portfolio (v2) is deployed to Vercel, served at the site root (see vercel.json rewrites).
+# The root index.html only forwards GitHub Pages visitors to v2/ — on Vercel the root is v2 itself.
+/index.html
+# The previous design stays in the repo (index-v1.html + *-details.html) but is not served.
 index-v1.html
 *-details.html
 advance-buddy.html
