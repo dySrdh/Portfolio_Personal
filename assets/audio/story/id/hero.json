@@ -1,0 +1,271 @@
+{
+ "source": "[softly] Dari zaman SMP, Doddy Suryadharma cuma punya satu mimpi... ... bikin dunia sendiri. Jadi game maker — orang yang menciptakan tempat buat dijelajahi, dan bikin orang benar-benar ngerasain sesuatu. [warmly] Nah, portfolio ini adalah langkah pertamanya. Bukan cuma halaman buat dibaca... tapi dunia kecil buat kamu jelajahi. [excited] Jadi — selamat datang! Yuk, kita mulai petualangannya.",
+ "text": "Dari zaman SMP, Doddy Suryadharma cuma punya satu mimpi... ... bikin dunia sendiri. Jadi game maker — orang yang menciptakan tempat buat dijelajahi, dan bikin orang benar-benar ngerasain sesuatu. Nah, portfolio ini adalah langkah pertamanya. Bukan cuma halaman buat dibaca... tapi dunia kecil buat kamu jelajahi. Jadi — selamat datang! Yuk, kita mulai petualangannya.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "world",
+   "start": 0.117,
+   "end": 13.321
+  },
+  {
+   "focus": "world",
+   "start": 13.321,
+   "end": 27.138541
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Dari zaman SMP, Doddy Suryadharma cuma punya satu mimpi...",
+   "start": 0.117,
+   "end": 3.8
+  },
+  {
+   "text": "...",
+   "start": 4.093,
+   "end": 4.093
+  },
+  {
+   "text": "bikin dunia sendiri.",
+   "start": 4.093,
+   "end": 5.303
+  },
+  {
+   "text": "Jadi game maker — orang yang menciptakan tempat buat dijelajahi, dan bikin orang benar-benar ngerasain sesuatu.",
+   "start": 6.195,
+   "end": 12.432
+  },
+  {
+   "text": "Nah, portfolio ini adalah langkah pertamanya.",
+   "start": 13.321,
+   "end": 16.22
+  },
+  {
+   "text": "Bukan cuma halaman buat dibaca...",
+   "start": 17.113,
+   "end": 18.815
+  },
+  {
+   "text": "tapi dunia kecil buat kamu jelajahi.",
+   "start": 19.214,
+   "end": 21.262
+  },
+  {
+   "text": "Jadi — selamat datang!",
+   "start": 22.152,
+   "end": 24.04
+  },
+  {
+   "text": "Yuk, kita mulai petualangannya.",
+   "start": 24.931,
+   "end": 27.139
+  }
+ ],
+ "words": [
+  {
+   "w": "Dari",
+   "t": 0.117
+  },
+  {
+   "w": "zaman",
+   "t": 0.356
+  },
+  {
+   "w": "SMP",
+   "t": 0.662
+  },
+  {
+   "w": "Doddy",
+   "t": 1.632
+  },
+  {
+   "w": "Suryadharma",
+   "t": 1.992
+  },
+  {
+   "w": "cuma",
+   "t": 2.577
+  },
+  {
+   "w": "punya",
+   "t": 2.829
+  },
+  {
+   "w": "satu",
+   "t": 3.042
+  },
+  {
+   "w": "mimpi",
+   "t": 3.268
+  },
+  {
+   "w": "bikin",
+   "t": 4.093
+  },
+  {
+   "w": "dunia",
+   "t": 4.452
+  },
+  {
+   "w": "sendiri",
+   "t": 4.704
+  },
+  {
+   "w": "Jadi",
+   "t": 6.195
+  },
+  {
+   "w": "game",
+   "t": 6.568
+  },
+  {
+   "w": "maker",
+   "t": 6.74
+  },
+  {
+   "w": "orang",
+   "t": 7.525
+  },
+  {
+   "w": "yang",
+   "t": 7.778
+  },
+  {
+   "w": "menciptakan",
+   "t": 7.871
+  },
+  {
+   "w": "tempat",
+   "t": 8.443
+  },
+  {
+   "w": "buat",
+   "t": 8.735
+  },
+  {
+   "w": "dijelajahi",
+   "t": 8.935
+  },
+  {
+   "w": "dan",
+   "t": 10.078
+  },
+  {
+   "w": "bikin",
+   "t": 10.304
+  },
+  {
+   "w": "orang",
+   "t": 10.544
+  },
+  {
+   "w": "benar-benar",
+   "t": 10.77
+  },
+  {
+   "w": "ngerasain",
+   "t": 11.288
+  },
+  {
+   "w": "sesuatu",
+   "t": 11.701
+  },
+  {
+   "w": "Nah",
+   "t": 13.321
+  },
+  {
+   "w": "portfolio",
+   "t": 14.119
+  },
+  {
+   "w": "ini",
+   "t": 14.598
+  },
+  {
+   "w": "adalah",
+   "t": 14.864
+  },
+  {
+   "w": "langkah",
+   "t": 15.17
+  },
+  {
+   "w": "pertamanya",
+   "t": 15.476
+  },
+  {
+   "w": "Bukan",
+   "t": 17.113
+  },
+  {
+   "w": "cuma",
+   "t": 17.459
+  },
+  {
+   "w": "halaman",
+   "t": 17.645
+  },
+  {
+   "w": "buat",
+   "t": 18.017
+  },
+  {
+   "w": "dibaca",
+   "t": 18.19
+  },
+  {
+   "w": "tapi",
+   "t": 19.214
+  },
+  {
+   "w": "dunia",
+   "t": 19.493
+  },
+  {
+   "w": "kecil",
+   "t": 19.759
+  },
+  {
+   "w": "buat",
+   "t": 20.105
+  },
+  {
+   "w": "kamu",
+   "t": 20.304
+  },
+  {
+   "w": "jelajahi",
+   "t": 20.504
+  },
+  {
+   "w": "Jadi",
+   "t": 22.152
+  },
+  {
+   "w": "selamat",
+   "t": 23.096
+  },
+  {
+   "w": "datang",
+   "t": 23.482
+  },
+  {
+   "w": "Yuk",
+   "t": 24.931
+  },
+  {
+   "w": "kita",
+   "t": 25.702
+  },
+  {
+   "w": "mulai",
+   "t": 25.955
+  },
+  {
+   "w": "petualangannya",
+   "t": 26.221
+  }
+ ]
+}

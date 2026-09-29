@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Anyone can read the portfolio; only you (via the Firebase Console) can change it.
+    match /{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

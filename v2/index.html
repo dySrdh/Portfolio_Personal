@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Doddy Suryadharma — Portfolio</title>
+<meta name="description" content="Doddy Suryadharma — Front-End & Web/Mobile Developer. Computer Science student at BINUS University.">
+<meta name="theme-color" content="#0b1120">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/media/favicon-64.png">
+<link rel="apple-touch-icon" href="../assets/media/apple-touch-icon.png">
+<link rel="preconnect" href="https://firestore.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap">
+<link rel="stylesheet" href="css/fantasy.css">
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js" } }
+</script>
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+    <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+    <symbol id="i-file-text" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></symbol>
+    <symbol id="i-maximize-2" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></symbol>
+    <symbol id="i-zoom-in" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></symbol>
+    <symbol id="i-zoom-out" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/></symbol>
+    <symbol id="i-external-link" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></symbol>
+    <symbol id="i-map-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/></symbol>
+    <symbol id="i-move-horizontal" viewBox="0 0 24 24"><path d="m18 8 4 4-4 4"/><path d="m6 8-4 4 4 4"/><path d="M2 12h20"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 3l14 9-14 9z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/></symbol>
+    <symbol id="i-skip-forward" viewBox="0 0 24 24"><path d="M5 4l10 8-10 8z"/><path d="M19 5v14"/></symbol>
+    <symbol id="i-volume-2" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol>
+    <symbol id="i-volume-x" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M22 9l-6 6"/><path d="M16 9l6 6"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></symbol>
+    <symbol id="i-phone-off" viewBox="0 0 24 24"><path d="M10.68 13.31a16 16 0 0 0 3.41 2.6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7 2 2 0 0 1 1.72 2v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.42 19.42 0 0 1-3.33-2.67m-2.67-3.34a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91"/><path d="M22 2 2 22"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol>
+    <symbol id="b-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></symbol>
+    <symbol id="b-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></symbol>
+    <symbol id="b-instagram" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/></symbol>
+    <symbol id="b-facebook" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.249v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></symbol>
+  </defs>
+</svg>
+
+<div class="splash" id="splash">
+  <div class="splash-bg" aria-hidden="true">
+    <i class="sb-aurora sb-a1"></i><i class="sb-aurora sb-a2"></i><i class="sb-aurora sb-a3"></i>
+    <i class="sb-stars sb-s1"></i><i class="sb-stars sb-s2"></i><i class="sb-stars sb-s3"></i>
+    <svg class="sb-isles" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="sbRock" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2645"/><stop offset="1" stop-color="#0a0f1e" stop-opacity="0"/></linearGradient>
+        <linearGradient id="sbTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3a5e"/><stop offset="1" stop-color="#1b2645"/></linearGradient>
+        <symbol id="sbIsle" viewBox="-110 -46 220 190" overflow="visible">
+          <path d="M-100 0 L100 0 L80 30 L46 66 L14 132 L-8 98 L-42 64 L-80 32 Z" fill="url(#sbRock)"/>
+          <ellipse cx="0" cy="0" rx="100" ry="15" fill="url(#sbTop)"/>
+          <path d="M-66 -4 l9 -30 l9 30z M-50 -6 l7 -22 l7 22z M44 -4 l10 -34 l10 34z" fill="#23335a"/>
+        </symbol>
+      </defs>
+      <g class="sb-isle sb-far" style="--d:0s"><use href="#sbIsle" x="70" y="120" width="170" height="147"/></g>
+      <g class="sb-isle sb-far" style="--d:-3s"><use href="#sbIsle" x="1180" y="96" width="200" height="173"/></g>
+      <g class="sb-isle sb-mid" style="--d:-1.5s"><use href="#sbIsle" x="220" y="210" width="280" height="242"/></g>
+      <g class="sb-isle sb-mid" style="--d:-4s"><use href="#sbIsle" x="960" y="200" width="300" height="259"/></g>
+      <g class="sb-isle sb-main" style="--d:-2s">
+        <use href="#sbIsle" x="540" y="250" width="360" height="311"/>
+        <g class="sb-crystal"><path d="M720 318 l12 -26 l-12 -36 l-12 36z" fill="#e2c07e"/><path d="M720 256 l12 36 l-12 26z" fill="#b8913f"/></g>
+      </g>
+    </svg>
+    <i class="sb-mist"></i>
+    <i class="splash-frame"></i>
+  </div>
+  <div class="splash-in">
+    <div class="splash-eyebrow" data-i18n>Welcome to</div>
+    <svg class="sig" id="sig" viewBox="0 0 640 190" aria-label="Doddy Suryadharma" role="img">
+      <text class="sig-text" x="320" y="112" text-anchor="middle">Doddy Suryadharma</text>
+      <path class="sig-flourish" d="M120 150 C 220 128, 330 170, 430 142 S 540 124, 560 136"/>
+    </svg>
+    <div class="splash-tag" data-i18n>The first world</div>
+    <div class="splash-status" id="splashStatus" data-i18n>Summoning the world…</div>
+    <div class="splash-bar" role="progressbar" aria-label="Loading" data-i18n-attr="aria-label" aria-valuemin="0" aria-valuemax="100"><i id="splashBar"></i></div>
+    <div class="splash-actions" id="splashActions" hidden>
+      <div class="splash-choices">
+        <button class="choice choice-story" id="splashStory">
+          <span class="choice-ico"><svg class="i"><use href="#i-play"/></svg></span>
+          <span class="choice-txt"><b data-i18n>Begin the Story</b><small data-i18n>A narrated journey · about 3 minutes</small></span>
+        </button>
+        <button class="choice" id="splashEnter">
+          <span class="choice-ico"><svg class="i"><use href="#i-map"/></svg></span>
+          <span class="choice-txt"><b data-i18n>Explore on my own</b><small data-i18n>Wander the isles at your own pace</small></span>
+        </button>
+      </div>
+      <div class="splash-foot">
+        <span class="splash-lang"><span data-i18n>Language</span><span class="seg lang-seg" role="group" aria-label="Language" data-i18n-attr="aria-label"><button class="seg-btn" data-lang="en" aria-pressed="true">English</button><button class="seg-btn" data-lang="id" aria-pressed="false">Bahasa Indonesia</button></span></span>
+        <small class="splash-hint"><svg class="i"><use href="#i-volume-2"/></svg><span data-i18n>Best with sound on</span></small>
+      </div>
+    </div>
+    <div class="splash-desk"><svg class="i"><use href="#i-monitor"/></svg><span data-i18n>Best experienced on a desktop — the 3D world opens up on a bigger screen.</span></div>
+  </div>
+</div>
+
+<div class="scene" id="scene" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="cine" aria-hidden="true"><i class="cine-bar cine-top"></i><i class="cine-bar cine-bot"></i>
+  <div class="cine-title" id="cineTitle"><span class="label-cinzel" data-i18n>Level 1 · The beginning of a dream</span><b data-i18n>The Tale of Doddy Suryadharma</b><i class="cine-rule"></i></div>
+</div>
+
+<nav class="nav">
+  <div class="nav-in">
+    <div class="nav-left">
+      <a href="#hero" class="hud" id="hud" data-go="hero" aria-live="polite" aria-label="Doddy Suryadharma — back to the start" data-i18n-attr="aria-label">
+        <span class="hud-lv"><small>Lv</small><b id="hudLv">1</b></span>
+        <span class="hud-txt">
+          <b class="hud-who">Doddy Suryadharma</b>
+          <span class="hud-sub"><span id="hudName">The Dreamer Kid</span><span class="hud-xp"><i id="hudXp"></i></span></span>
+        </span>
+      </a>
+    </div>
+    <button class="chap-btn" id="chapBtn" aria-label="Open journey map" data-i18n-attr="aria-label" aria-expanded="false" aria-controls="mapSheet">
+      <svg class="i i-gold"><use href="#i-map"/></svg>
+      <span class="chap-num" id="chapNum">Prologue</span>
+      <span class="chap-dot"></span>
+      <span class="chap-name" id="chapName">The Crystal Shrine</span>
+      <svg class="i i-muted chap-chev"><use href="#i-chevron-down"/></svg>
+    </button>
+    <div class="nav-right">
+      <button class="lang-btn" id="langBtn" aria-label="Switch to Bahasa Indonesia"><svg class="i"><use href="#i-globe"/></svg><b>EN</b></button>
+      <button class="music-btn" id="musicBtn" aria-label="Turn music on" aria-pressed="false"><svg class="i"><use href="#i-volume-x"/></svg></button>
+      <a href="#resume" class="cv-btn" data-cv>
+        <svg class="i"><use href="#i-download"/></svg><span class="cv-long" data-i18n>Download CV</span><span class="cv-short">CV</span>
+      </a>
+    </div>
+  </div>
+  <div class="progress" id="progress"></div>
+</nav>
+
+<div class="map-scrim" id="mapScrim"></div>
+<div class="map-sheet" id="mapSheet" role="dialog" aria-label="Journey Map" data-i18n-attr="aria-label">
+  <div class="map-head">
+    <div class="map-title"><span class="label-cinzel" data-i18n>Journey Map</span><span class="map-prog" id="mapProg">Chapter 1 of 7 · 0% explored</span></div>
+    <button class="icon-btn-sm" id="mapClose" aria-label="Close" data-i18n-attr="aria-label"><svg class="i"><use href="#i-x"/></svg></button>
+  </div>
+  <div class="map-rows" id="mapRows"></div>
+</div>
+
+<div class="lvup" id="lvup" aria-hidden="true"><span class="label-cinzel" data-i18n>Level up!</span><b id="lvupTxt"></b></div>
+
+<div class="rail" id="rail"><div class="rail-line"></div><div class="rail-fill" id="railFill"></div></div>
+
+<main class="main">
+
+  <section id="hero" class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dia-sm"><span></span></span><span id="heroGreet">Prologue · Hello, I'm</span></div>
+        <h1 class="h1" id="heroName">Doddy<br>Suryadharma</h1>
+        <div class="divider"><span></span><i></i><span></span></div>
+        <div class="hero-roles">
+          <div class="hero-role" id="heroRole" aria-live="polite">Front End Developer</div>
+          <div class="hero-sub" id="heroSub"></div>
+        </div>
+        <div class="btn-row">
+          <button class="btn-gold" data-story="start"><span data-i18n>Begin the Story</span><span class="btn-gold-ico"><svg class="i"><use href="#i-play"/></svg></span></button>
+          <a href="#portfolio" class="btn-glass" data-go="portfolio" id="heroWork">View My Work</a>
+        </div>
+      </div>
+      <div class="hero-meta" id="heroMeta"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap about-grid">
+      <div class="portrait reveal" data-reveal="about">
+        <span class="portrait-dia"><span></span></span>
+        <div class="portrait-frame">
+          <div class="portrait-photo"><img id="aboutPhoto" alt="Doddy Suryadharma" width="400" height="500" decoding="async"></div>
+          <div class="nameplate">
+            <div class="nameplate-top">
+              <span class="label-cinzel" data-i18n>The Adventurer</span>
+              <span class="nameplate-name" id="aboutName">Doddy Suryadharma</span>
+              <span class="nameplate-role" id="aboutRole"></span>
+            </div>
+            <div class="stats" id="aboutStats"></div>
+          </div>
+        </div>
+      </div>
+      <div class="panel about-panel reveal" data-reveal="about">
+        <span class="pdia"></span>
+        <div class="head"><div class="head-row"><span class="num-dia"><span>I</span></span><span class="place" data-i18n>The Adventurer's Camp</span></div><h2 class="h2" data-i18n>About Me</h2><div class="divider"><span></span><i></i><span></span></div></div>
+        <div class="about-text" id="aboutText"></div>
+        <div class="glist" id="aboutFacts"></div>
+        <div class="btn-row">
+          <a href="#contact" class="btn-gold" data-go="contact" id="aboutContact">Contact Me<span class="btn-gold-ico"><svg class="i"><use href="#i-arrow-right"/></svg></span></a>
+          <a href="#resume" class="btn-glass" data-go="resume" data-i18n>View Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="sec skills-sec">
+    <div class="wrap stack-32">
+      <div class="panel reveal" data-reveal="skills">
+        <span class="pdia"></span>
+        <div class="panel-top">
+          <div class="head"><div class="head-row"><span class="num-dia"><span>II</span></span><span class="place" data-i18n>The Training Grounds</span></div><h2 class="h2" data-i18n>Skills</h2><div class="divider"><span></span><i></i><span></span></div></div>
+          <p class="lead" data-i18n>Programming languages, frameworks &amp; software. Each obelisk above rises to my proficiency — hover a skill to light its stone.</p>
+        </div>
+        <div class="skill-grid" id="skillGrid"></div>
+        <div class="toolkit">
+          <span class="caps" data-i18n>Also in the toolkit</span>
+          <div class="chips" id="toolChips"></div>
+        </div>
+        <div class="toolkit" id="compBox" hidden>
+          <span class="caps" data-i18n>Core competencies</span>
+          <div class="chips" id="compChips"></div>
+        </div>
+      </div>
+      <div class="panel reveal" data-reveal="traits" id="traitsPanel">
+        <span class="pdia"></span>
+        <div class="traits-head"><span class="place" data-i18n>Passive Traits</span><div class="h3" data-i18n>What I bring to the party</div></div>
+        <div class="traits carousel" id="traits"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="sec pf-sec">
+    <div class="wrap">
+      <div class="panel pf-panel reveal" data-reveal="portfolio">
+        <span class="pdia"></span>
+        <div class="panel-top">
+          <div class="head"><div class="head-row"><span class="num-dia"><span>III</span></span><span class="place" data-i18n>The Guild Isles</span></div><h2 class="h2" data-i18n>Portfolio</h2><div class="divider"><span></span><i></i><span></span></div></div>
+          <p class="lead" data-i18n>Four isles, four kinds of quests. Pick a guild to fly there — tap any quest to open its full log.</p>
+        </div>
+        <div class="filterbar">
+          <div class="seg" id="filters" role="group" aria-label="Filter quests" data-i18n-attr="aria-label"></div>
+          <span class="quest-count" id="questCount"></span>
+        </div>
+        <div class="cards carousel" id="cards"></div>
+        <nav class="pager" id="pager" aria-label="Quest pages" data-i18n-attr="aria-label" hidden></nav>
+        <div class="swipe-hint"><svg class="i i-gold"><use href="#i-move-horizontal"/></svg><span data-i18n>Swipe to browse all quests</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="certs">
+    <div class="certs-sticky">
+      <div class="reveal" data-reveal="certifications">
+        <div class="head head-center"><div class="head-row"><span class="num-dia"><span>IV</span></span><span class="place" data-i18n>The Relic Vault</span></div><h2 class="h2" data-i18n>Certifications</h2></div>
+      </div>
+      <button class="cert-hit" id="certHit" aria-label="View certificate" data-i18n-attr="aria-label"></button>
+      <div class="cert-bottom">
+        <div class="cert-ctrl glass">
+          <button class="round-btn" id="certPrev" aria-label="Previous certificate" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-left"/></svg></button>
+          <div class="cert-mid">
+            <span class="cert-sub" id="certSub"></span>
+            <div class="cert-title" id="certTitle"></div>
+            <div class="cert-dots" id="certDots"></div>
+          </div>
+          <a class="cert-view" id="certView" href="#" aria-label="View certificate" data-i18n-attr="aria-label"><svg class="i"><use href="#i-maximize-2"/></svg><span data-i18n>View</span></a>
+          <button class="round-btn" id="certNext" aria-label="Next certificate" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-right"/></svg></button>
+        </div>
+        <span class="cert-hint"><i class="dia-5"></i><span class="hint-long" data-i18n>Scroll to turn the vault · Tap a relic to view it in full</span><span class="hint-short" data-i18n>Scroll or tap a relic</span></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="sec res-sec">
+    <div class="wrap">
+      <div class="panel res-panel reveal" data-reveal="resume">
+        <span class="pdia"></span>
+        <div class="panel-top">
+          <div class="head"><div class="head-row"><span class="num-dia"><span>V</span></span><span class="place" data-i18n>The Long Road</span></div><h2 class="h2" data-i18n>Resume</h2><div class="divider"><span></span><i></i><span></span></div></div>
+          <div class="res-intro">
+            <p class="lead" data-i18n>Every lantern on the road is a milestone — education, achievements and the teams I've led.</p>
+            <a href="#resume" class="cv-card" data-cv>
+              <span class="cv-card-ico"><svg class="i"><use href="#i-file-text"/></svg></span>
+              <span class="cv-card-txt"><b data-i18n>Download Resume</b><small id="cvHint">View or save</small></span>
+              <svg class="i i-gold"><use href="#i-download"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="seg seg-4 res-tabs" id="resTabs"></div>
+        <div class="res-cols" id="resCols"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-wrap">
+      <div class="panel contact-panel reveal" data-reveal="contact">
+        <span class="pdia"></span>
+        <div class="head"><div class="head-row"><span class="num-dia"><span>VI</span></span><span class="place" data-i18n>The Beacon</span></div><h2 class="h2" data-i18n>Contact</h2><div class="divider"><span></span><i></i><span></span></div></div>
+        <p class="lead" data-i18n>Light the beacon — send a message and I'll answer the call.</p>
+        <button class="oracle-cta" data-oracle="open">
+          <span class="orb-dot orb-dot-lg" aria-hidden="true"></span>
+          <span class="oracle-cta-txt"><b data-i18n>Ask my AI Oracle</b><small data-i18n>Talk or type — it knows my work and experience</small></span>
+          <svg class="i i-gold"><use href="#i-sparkles"/></svg>
+        </button>
+        <div class="glist" id="contactRows"></div>
+        <form class="form" id="contactForm">
+          <div class="form-group">
+            <input name="name" required placeholder="Your name" data-i18n-attr="placeholder" autocomplete="name">
+            <input name="email" type="email" required placeholder="Your email" data-i18n-attr="placeholder" autocomplete="email">
+            <input name="subject" required placeholder="Subject" data-i18n-attr="placeholder">
+            <textarea name="message" required placeholder="Message" data-i18n-attr="placeholder" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn-gold btn-block" data-i18n>Light the Beacon</button>
+        </form>
+        <div class="elsewhere">
+          <span class="caps" data-i18n>Find me elsewhere</span>
+          <div class="socials" id="socials"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span class="footer-dia"></span>
+    <div class="footer-social" id="footerSocial"></div>
+    <span>© <span id="year">2025</span> <b>Doddy Suryadharma</b> · <span data-i18n>The journey continues.</span></span>
+  </footer>
+</main>
+
+<div class="storybar" id="storybar" role="region" aria-label="Story mode" data-i18n-attr="aria-label" hidden>
+  <div class="storybar-top"><span class="label-cinzel" id="storyChap">Prologue</span><div class="story-dots" id="storyDots"></div></div>
+  <p class="story-cap" id="storyCap" aria-live="polite"></p>
+  <div class="storybar-ctrl">
+    <button class="round-btn round-44" id="storyPlay" aria-label="Pause story"><svg class="i"><use href="#i-pause"/></svg></button>
+    <button class="round-btn round-44" id="storyNext" aria-label="Next chapter" data-i18n-attr="aria-label"><svg class="i"><use href="#i-skip-forward"/></svg></button>
+    <div class="seg lang-seg lang-sm" role="group" aria-label="Language" data-i18n-attr="aria-label"><button class="seg-btn" data-lang="en" aria-pressed="true">EN</button><button class="seg-btn" data-lang="id" aria-pressed="false">ID</button></div>
+    <button class="pill-btn story-exit" id="storyStop"><svg class="i"><use href="#i-x"/></svg><span data-i18n>Exit story</span></button>
+  </div>
+</div>
+
+<button class="oracle-fab" id="oracleFab" data-oracle="open" aria-label="Ask my AI Oracle" data-i18n-attr="aria-label" hidden><span class="orb-dot" aria-hidden="true"></span><span class="oracle-fab-lbl" data-i18n>Ask me</span></button>
+
+<div class="oracle" id="oracle" role="dialog" aria-label="Ask Doddy's AI Oracle" data-i18n-attr="aria-label">
+  <div class="oracle-card">
+    <button class="icon-btn-sm oracle-close" id="oracleClose" aria-label="Close" data-i18n-attr="aria-label"><svg class="i"><use href="#i-x"/></svg></button>
+    <div class="oracle-head">
+      <span class="orb-dot" aria-hidden="true"></span>
+      <span class="oracle-title"><span class="label-cinzel" data-i18n>The Oracle's Isle</span><b>Doddy · Lv 23 · Game Master</b><span class="oracle-status" id="oracleStatus">Ask me anything about my work</span></span>
+    </div>
+    <div class="oracle-log" id="oracleLog" aria-live="polite"></div>
+    <div class="oracle-suggest" id="oracleSuggest"></div>
+    <form class="oracle-input" id="oracleForm" autocomplete="off">
+      <input id="oracleText" placeholder="Type a question…" aria-label="Your question" data-i18n-attr="aria-label">
+      <button type="submit" class="round-btn round-44" aria-label="Send" data-i18n-attr="aria-label"><svg class="i"><use href="#i-send"/></svg></button>
+    </form>
+    <div class="oracle-actions">
+      <button class="btn-gold" id="oracleTalk"><svg class="i"><use href="#i-mic"/></svg>Talk to me</button>
+      <button class="btn-glass" id="oracleEnd" hidden><svg class="i"><use href="#i-phone-off"/></svg>End call</button>
+    </div>
+    <small class="oracle-note" data-i18n>An AI trained on my portfolio — answers can be imperfect. Voice uses your microphone.</small>
+  </div>
+</div>
+
+<div class="detail" id="detail" role="dialog" aria-modal="true" aria-label="Quest detail" data-i18n-attr="aria-label">
+  <div class="detail-scroll" id="detailScroll">
+    <div class="detail-bar">
+      <div class="detail-bar-in">
+        <button class="pill-btn" id="detailBack"><svg class="i"><use href="#i-chevron-left"/></svg><span class="back-lbl" data-i18n>Quest Log</span></button>
+        <div class="detail-center" id="detailCenter"></div>
+        <div class="detail-nav">
+          <button class="round-btn round-44" data-step="-1" aria-label="Previous quest" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-left"/></svg></button>
+          <button class="round-btn round-44" data-step="1" aria-label="Next quest" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="detail-body" id="detailBody"></div>
+  </div>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer" data-i18n-attr="aria-label">
+  <div class="lb-top">
+    <span class="lb-count" id="lbCount"></span>
+    <div class="lb-actions">
+      <button class="lb-btn" id="lbZoom" aria-label="Zoom" data-i18n-attr="aria-label"><svg class="i"><use href="#i-zoom-in"/></svg><span class="lb-lbl" id="lbZoomLbl">Zoom 2×</span></button>
+      <a class="lb-btn" id="lbOpen" href="#" target="_blank" rel="noopener" aria-label="Open original" data-i18n-attr="aria-label"><span class="lb-lbl" data-i18n>Open original</span><svg class="i"><use href="#i-external-link"/></svg></a>
+      <button class="lb-close" id="lbClose" aria-label="Close" data-i18n-attr="aria-label"><svg class="i"><use href="#i-x"/></svg></button>
+    </div>
+  </div>
+  <div class="lb-stage" id="lbStage">
+    <img class="lb-img" id="lbImg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Previous" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-left"/></svg></button>
+    <button class="lb-arrow lb-next" id="lbNext" aria-label="Next" data-i18n-attr="aria-label"><svg class="i"><use href="#i-arrow-right"/></svg></button>
+  </div>
+  <div class="lb-bottom">
+    <span class="lb-cap" id="lbCap"></span>
+    <div class="lb-thumbs" id="lbThumbs"></div>
+  </div>
+</div>
+
+</body>
+</html>

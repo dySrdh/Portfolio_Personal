@@ -1,0 +1,233 @@
+{
+ "source": "[softly] Dan akhirnya, kita sampai di Mercusuar — akhir dari bab pertama mimpinya... ... [warmly] dan mungkin, awal dari ceritamu bareng dia. [excited] Nyalakan mercusuarnya buat kirim pesan... atau tanya apa aja ke Oracle-nya. [whispers] Suatu hari nanti, pulau-pulau ini bakal jadi game beneran. [warmly] Makasih ya, udah mainin level pertamanya.",
+ "text": "Dan akhirnya, kita sampai di Mercusuar — akhir dari bab pertama mimpinya... ... dan mungkin, awal dari ceritamu bareng dia. Nyalakan mercusuarnya buat kirim pesan... atau tanya apa aja ke Oracle-nya. Suatu hari nanti, pulau-pulau ini bakal jadi game beneran. Makasih ya, udah mainin level pertamanya.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "beacon",
+   "start": 0.117,
+   "end": 8.469
+  },
+  {
+   "focus": "oracle",
+   "start": 8.469,
+   "end": 20.131374
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Dan akhirnya, kita sampai di Mercusuar — akhir dari bab pertama mimpinya...",
+   "start": 0.117,
+   "end": 4.558
+  },
+  {
+   "text": "...",
+   "start": 4.93,
+   "end": 4.93
+  },
+  {
+   "text": "dan mungkin, awal dari ceritamu bareng dia.",
+   "start": 4.93,
+   "end": 7.577
+  },
+  {
+   "text": "Nyalakan mercusuarnya buat kirim pesan...",
+   "start": 8.469,
+   "end": 10.384
+  },
+  {
+   "text": "atau tanya apa aja ke Oracle-nya.",
+   "start": 10.437,
+   "end": 12.166
+  },
+  {
+   "text": "Suatu hari nanti, pulau-pulau ini bakal jadi game beneran.",
+   "start": 13.057,
+   "end": 16.541
+  },
+  {
+   "text": "Makasih ya, udah mainin level pertamanya.",
+   "start": 17.432,
+   "end": 20.131
+  }
+ ],
+ "words": [
+  {
+   "w": "Dan",
+   "t": 0.117
+  },
+  {
+   "w": "akhirnya",
+   "t": 0.316
+  },
+  {
+   "w": "kita",
+   "t": 1.26
+  },
+  {
+   "w": "sampai",
+   "t": 1.499
+  },
+  {
+   "w": "di",
+   "t": 1.779
+  },
+  {
+   "w": "Mercusuar",
+   "t": 1.845
+  },
+  {
+   "w": "akhir",
+   "t": 2.829
+  },
+  {
+   "w": "dari",
+   "t": 3.202
+  },
+  {
+   "w": "bab",
+   "t": 3.414
+  },
+  {
+   "w": "pertama",
+   "t": 3.601
+  },
+  {
+   "w": "mimpinya",
+   "t": 3.933
+  },
+  {
+   "w": "dan",
+   "t": 4.93
+  },
+  {
+   "w": "mungkin",
+   "t": 5.143
+  },
+  {
+   "w": "awal",
+   "t": 5.954
+  },
+  {
+   "w": "dari",
+   "t": 6.247
+  },
+  {
+   "w": "ceritamu",
+   "t": 6.433
+  },
+  {
+   "w": "bareng",
+   "t": 6.885
+  },
+  {
+   "w": "dia",
+   "t": 7.138
+  },
+  {
+   "w": "Nyalakan",
+   "t": 8.469
+  },
+  {
+   "w": "mercusuarnya",
+   "t": 8.868
+  },
+  {
+   "w": "buat",
+   "t": 9.506
+  },
+  {
+   "w": "kirim",
+   "t": 9.719
+  },
+  {
+   "w": "pesan",
+   "t": 9.932
+  },
+  {
+   "w": "atau",
+   "t": 10.437
+  },
+  {
+   "w": "tanya",
+   "t": 10.69
+  },
+  {
+   "w": "apa",
+   "t": 10.956
+  },
+  {
+   "w": "aja",
+   "t": 11.115
+  },
+  {
+   "w": "ke",
+   "t": 11.421
+  },
+  {
+   "w": "Oracle-nya",
+   "t": 11.488
+  },
+  {
+   "w": "Suatu",
+   "t": 13.057
+  },
+  {
+   "w": "hari",
+   "t": 13.429
+  },
+  {
+   "w": "nanti",
+   "t": 13.602
+  },
+  {
+   "w": "pulau-pulau",
+   "t": 14.48
+  },
+  {
+   "w": "ini",
+   "t": 14.985
+  },
+  {
+   "w": "bakal",
+   "t": 15.238
+  },
+  {
+   "w": "jadi",
+   "t": 15.517
+  },
+  {
+   "w": "game",
+   "t": 15.783
+  },
+  {
+   "w": "beneran",
+   "t": 15.969
+  },
+  {
+   "w": "Makasih",
+   "t": 17.432
+  },
+  {
+   "w": "ya",
+   "t": 17.924
+  },
+  {
+   "w": "udah",
+   "t": 18.549
+  },
+  {
+   "w": "mainin",
+   "t": 18.802
+  },
+  {
+   "w": "level",
+   "t": 19.134
+  },
+  {
+   "w": "pertamanya",
+   "t": 19.373
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+{
+ "source": "[in awe] Coba lihat ke atas. Ini Arena Latihan — setiap obelisk makin tinggi, kalau skill-nya makin jago. TypeScript. React dan Next.js. Java. Git. [excited] Ini yang paling tinggi — diasah lewat produk beneran, begadang berkali-kali... dan debugging yang nggak ada habisnya. [warmly] Tapi kekuatan utamanya? Cara dia kerja bareng orang — tetap tenang walaupun di bawah tekanan, dan selalu siap jadi pemimpin.",
+ "text": "Coba lihat ke atas. Ini Arena Latihan — setiap obelisk makin tinggi, kalau skill-nya makin jago. TypeScript. React dan Next.js. Java. Git. Ini yang paling tinggi — diasah lewat produk beneran, begadang berkali-kali... dan debugging yang nggak ada habisnya. Tapi kekuatan utamanya? Cara dia kerja bareng orang — tetap tenang walaupun di bawah tekanan, dan selalu siap jadi pemimpin.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "obelisks",
+   "start": 0.101,
+   "end": 7.936
+  },
+  {
+   "focus": "skill-grid",
+   "start": 7.936,
+   "end": 22.697
+  },
+  {
+   "focus": "traits",
+   "start": 22.697,
+   "end": 30.585083
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Coba lihat ke atas.",
+   "start": 0.101,
+   "end": 1.404
+  },
+  {
+   "text": "Ini Arena Latihan — setiap obelisk makin tinggi, kalau skill-nya makin jago.",
+   "start": 2.314,
+   "end": 7.048
+  },
+  {
+   "text": "TypeScript.",
+   "start": 7.936,
+   "end": 8.96
+  },
+  {
+   "text": "React dan Next.js.",
+   "start": 9.851,
+   "end": 10.795
+  },
+  {
+   "text": "Java.",
+   "start": 10.795,
+   "end": 13.095
+  },
+  {
+   "text": "Git.",
+   "start": 13.986,
+   "end": 14.704
+  },
+  {
+   "text": "Ini yang paling tinggi — diasah lewat produk beneran, begadang berkali-kali...",
+   "start": 15.612,
+   "end": 19.88
+  },
+  {
+   "text": "dan debugging yang nggak ada habisnya.",
+   "start": 19.973,
+   "end": 21.809
+  },
+  {
+   "text": "Tapi kekuatan utamanya?",
+   "start": 22.697,
+   "end": 24.226
+  },
+  {
+   "text": "Cara dia kerja bareng orang — tetap tenang walaupun di bawah tekanan, dan selalu siap jadi pemimpin.",
+   "start": 25.133,
+   "end": 30.585
+  }
+ ],
+ "words": [
+  {
+   "w": "Coba",
+   "t": 0.101
+  },
+  {
+   "w": "lihat",
+   "t": 0.42
+  },
+  {
+   "w": "ke",
+   "t": 0.713
+  },
+  {
+   "w": "atas",
+   "t": 0.792
+  },
+  {
+   "w": "Ini",
+   "t": 2.314
+  },
+  {
+   "w": "Arena",
+   "t": 2.553
+  },
+  {
+   "w": "Latihan",
+   "t": 2.819
+  },
+  {
+   "w": "setiap",
+   "t": 3.75
+  },
+  {
+   "w": "obelisk",
+   "t": 4.109
+  },
+  {
+   "w": "makin",
+   "t": 4.495
+  },
+  {
+   "w": "tinggi",
+   "t": 4.734
+  },
+  {
+   "w": "kalau",
+   "t": 5.585
+  },
+  {
+   "w": "skill-nya",
+   "t": 5.811
+  },
+  {
+   "w": "makin",
+   "t": 6.21
+  },
+  {
+   "w": "jago",
+   "t": 6.489
+  },
+  {
+   "w": "TypeScript",
+   "t": 7.936
+  },
+  {
+   "w": "React",
+   "t": 9.851
+  },
+  {
+   "w": "dan",
+   "t": 10.276
+  },
+  {
+   "w": "Next",
+   "t": 10.476
+  },
+  {
+   "w": "js",
+   "t": 10.795
+  },
+  {
+   "w": "Java",
+   "t": 12.324
+  },
+  {
+   "w": "Git",
+   "t": 13.986
+  },
+  {
+   "w": "Ini",
+   "t": 15.612
+  },
+  {
+   "w": "yang",
+   "t": 15.824
+  },
+  {
+   "w": "paling",
+   "t": 15.944
+  },
+  {
+   "w": "tinggi",
+   "t": 16.183
+  },
+  {
+   "w": "diasah",
+   "t": 17.021
+  },
+  {
+   "w": "lewat",
+   "t": 17.447
+  },
+  {
+   "w": "produk",
+   "t": 17.673
+  },
+  {
+   "w": "beneran",
+   "t": 17.926
+  },
+  {
+   "w": "begadang",
+   "t": 18.737
+  },
+  {
+   "w": "berkali-kali",
+   "t": 19.149
+  },
+  {
+   "w": "dan",
+   "t": 19.973
+  },
+  {
+   "w": "debugging",
+   "t": 20.199
+  },
+  {
+   "w": "yang",
+   "t": 20.652
+  },
+  {
+   "w": "nggak",
+   "t": 20.811
+  },
+  {
+   "w": "ada",
+   "t": 20.984
+  },
+  {
+   "w": "habisnya",
+   "t": 21.13
+  },
+  {
+   "w": "Tapi",
+   "t": 22.697
+  },
+  {
+   "w": "kekuatan",
+   "t": 23.056
+  },
+  {
+   "w": "utamanya",
+   "t": 23.468
+  },
+  {
+   "w": "Cara",
+   "t": 25.133
+  },
+  {
+   "w": "dia",
+   "t": 25.359
+  },
+  {
+   "w": "kerja",
+   "t": 25.532
+  },
+  {
+   "w": "bareng",
+   "t": 25.838
+  },
+  {
+   "w": "orang",
+   "t": 26.051
+  },
+  {
+   "w": "tetap",
+   "t": 26.822
+  },
+  {
+   "w": "tenang",
+   "t": 27.088
+  },
+  {
+   "w": "walaupun",
+   "t": 27.327
+  },
+  {
+   "w": "di",
+   "t": 27.739
+  },
+  {
+   "w": "bawah",
+   "t": 27.806
+  },
+  {
+   "w": "tekanan",
+   "t": 28.019
+  },
+  {
+   "w": "dan",
+   "t": 28.91
+  },
+  {
+   "w": "selalu",
+   "t": 29.122
+  },
+  {
+   "w": "siap",
+   "t": 29.428
+  },
+  {
+   "w": "jadi",
+   "t": 29.694
+  },
+  {
+   "w": "pemimpin",
+   "t": 29.92
+  }
+ ]
+}

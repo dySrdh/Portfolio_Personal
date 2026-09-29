@@ -1,0 +1,512 @@
+{
+ "source": "[mysteriously] Beyond the ridge lie the Guild Isles... four islands, and seventeen quests. [proudly] The newest isle is where he works today — Fanisin, where fans talk face to face with the AI twins of the creators they love. Then, one character at a time: Jesus Live... and Fly Calmer. The next isle holds his internships — real systems, for real teams. An HR platform, a payment gateway, a supply system. [playfully] Another isle is where it all began — campus projects, like a classroom you can walk through in augmented reality. [proudly] And the last... leadership. Guiding the Binusian Gaming community, and running events for hundreds of students.",
+ "text": "Beyond the ridge lie the Guild Isles... four islands, and seventeen quests. The newest isle is where he works today — Fanisin, where fans talk face to face with the AI twins of the creators they love. Then, one character at a time: Jesus Live... and Fly Calmer. The next isle holds his internships — real systems, for real teams. An HR platform, a payment gateway, a supply system. Another isle is where it all began — campus projects, like a classroom you can walk through in augmented reality. And the last... leadership. Guiding the Binusian Gaming community, and running events for hundreds of students.",
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_v3",
+ "beats": [
+  {
+   "focus": "isles",
+   "start": 0,
+   "end": 6.28
+  },
+  {
+   "focus": "filter:kerja",
+   "start": 6.28,
+   "end": 22.12
+  },
+  {
+   "focus": "filter:internship",
+   "start": 22.12,
+   "end": 33.32
+  },
+  {
+   "focus": "filter:campus",
+   "start": 33.32,
+   "end": 40.882
+  },
+  {
+   "focus": "filter:organisasi",
+   "start": 40.882,
+   "end": 48.802
+  }
+ ],
+ "words": [
+  {
+   "w": "Beyond",
+   "t": 0.199
+  },
+  {
+   "w": "the",
+   "t": 0.28
+  },
+  {
+   "w": "ridge",
+   "t": 0.48
+  },
+  {
+   "w": "lie",
+   "t": 1
+  },
+  {
+   "w": "the",
+   "t": 1.38
+  },
+  {
+   "w": "Guild",
+   "t": 1.507
+  },
+  {
+   "w": "Isles...",
+   "t": 1.933
+  },
+  {
+   "w": "four",
+   "t": 3.264
+  },
+  {
+   "w": "islands,",
+   "t": 3.59
+  },
+  {
+   "w": "and",
+   "t": 4.36
+  },
+  {
+   "w": "seventeen",
+   "t": 4.544
+  },
+  {
+   "w": "quests.",
+   "t": 5.2
+  },
+  {
+   "w": "The",
+   "t": 6.868
+  },
+  {
+   "w": "newest",
+   "t": 6.926
+  },
+  {
+   "w": "isle",
+   "t": 7.307
+  },
+  {
+   "w": "is",
+   "t": 7.653
+  },
+  {
+   "w": "where",
+   "t": 7.787
+  },
+  {
+   "w": "he",
+   "t": 7.973
+  },
+  {
+   "w": "works",
+   "t": 8.133
+  },
+  {
+   "w": "today",
+   "t": 8.48
+  },
+  {
+   "w": "—",
+   "t": 9.24
+  },
+  {
+   "w": "Fanisin,",
+   "t": 9.66
+  },
+  {
+   "w": "where",
+   "t": 10.333
+  },
+  {
+   "w": "fans",
+   "t": 10.88
+  },
+  {
+   "w": "talk",
+   "t": 11.264
+  },
+  {
+   "w": "face",
+   "t": 11.568
+  },
+  {
+   "w": "to",
+   "t": 11.813
+  },
+  {
+   "w": "face",
+   "t": 12
+  },
+  {
+   "w": "with",
+   "t": 12.384
+  },
+  {
+   "w": "the",
+   "t": 12.68
+  },
+  {
+   "w": "AI",
+   "t": 12.96
+  },
+  {
+   "w": "twins",
+   "t": 13.36
+  },
+  {
+   "w": "of",
+   "t": 13.787
+  },
+  {
+   "w": "the",
+   "t": 13.86
+  },
+  {
+   "w": "creators",
+   "t": 13.982
+  },
+  {
+   "w": "they",
+   "t": 14.512
+  },
+  {
+   "w": "love.",
+   "t": 14.72
+  },
+  {
+   "w": "Then,",
+   "t": 15.36
+  },
+  {
+   "w": "one",
+   "t": 16.5
+  },
+  {
+   "w": "character",
+   "t": 16.856
+  },
+  {
+   "w": "at",
+   "t": 17.413
+  },
+  {
+   "w": "a",
+   "t": 17.56
+  },
+  {
+   "w": "time:",
+   "t": 17.68
+  },
+  {
+   "w": "Jesus",
+   "t": 18.893
+  },
+  {
+   "w": "Live...",
+   "t": 19.488
+  },
+  {
+   "w": "and",
+   "t": 20.68
+  },
+  {
+   "w": "Fly",
+   "t": 20.9
+  },
+  {
+   "w": "Calmer.",
+   "t": 21.28
+  },
+  {
+   "w": "The",
+   "t": 22.12
+  },
+  {
+   "w": "next",
+   "t": 23.04
+  },
+  {
+   "w": "isle",
+   "t": 23.44
+  },
+  {
+   "w": "holds",
+   "t": 23.733
+  },
+  {
+   "w": "his",
+   "t": 24.04
+  },
+  {
+   "w": "internships",
+   "t": 24.24
+  },
+  {
+   "w": "—",
+   "t": 25.32
+  },
+  {
+   "w": "real",
+   "t": 25.584
+  },
+  {
+   "w": "systems,",
+   "t": 25.92
+  },
+  {
+   "w": "for",
+   "t": 26.54
+  },
+  {
+   "w": "real",
+   "t": 26.784
+  },
+  {
+   "w": "teams.",
+   "t": 27.133
+  },
+  {
+   "w": "An",
+   "t": 28.027
+  },
+  {
+   "w": "HR",
+   "t": 28.693
+  },
+  {
+   "w": "platform,",
+   "t": 29.031
+  },
+  {
+   "w": "a",
+   "t": 29.96
+  },
+  {
+   "w": "payment",
+   "t": 30.05
+  },
+  {
+   "w": "gateway,",
+   "t": 30.47
+  },
+  {
+   "w": "a",
+   "t": 31.48
+  },
+  {
+   "w": "supply",
+   "t": 31.577
+  },
+  {
+   "w": "system.",
+   "t": 32
+  },
+  {
+   "w": "Another",
+   "t": 33.829
+  },
+  {
+   "w": "isle",
+   "t": 34.029
+  },
+  {
+   "w": "is",
+   "t": 34.375
+  },
+  {
+   "w": "where",
+   "t": 34.509
+  },
+  {
+   "w": "it",
+   "t": 34.669
+  },
+  {
+   "w": "all",
+   "t": 34.762
+  },
+  {
+   "w": "began",
+   "t": 34.975
+  },
+  {
+   "w": "—",
+   "t": 35.722
+  },
+  {
+   "w": "campus",
+   "t": 36.059
+  },
+  {
+   "w": "projects,",
+   "t": 36.473
+  },
+  {
+   "w": "like",
+   "t": 37.314
+  },
+  {
+   "w": "a",
+   "t": 37.482
+  },
+  {
+   "w": "classroom",
+   "t": 37.586
+  },
+  {
+   "w": "you",
+   "t": 38.182
+  },
+  {
+   "w": "can",
+   "t": 38.302
+  },
+  {
+   "w": "walk",
+   "t": 38.53
+  },
+  {
+   "w": "through",
+   "t": 38.752
+  },
+  {
+   "w": "in",
+   "t": 38.989
+  },
+  {
+   "w": "augmented",
+   "t": 39.106
+  },
+  {
+   "w": "reality.",
+   "t": 39.752
+  },
+  {
+   "w": "And",
+   "t": 41.507
+  },
+  {
+   "w": "the",
+   "t": 41.542
+  },
+  {
+   "w": "last...",
+   "t": 41.714
+  },
+  {
+   "w": "leadership.",
+   "t": 42.729
+  },
+  {
+   "w": "Guiding",
+   "t": 43.474
+  },
+  {
+   "w": "the",
+   "t": 44.442
+  },
+  {
+   "w": "Binusian",
+   "t": 44.602
+  },
+  {
+   "w": "Gaming",
+   "t": 45.191
+  },
+  {
+   "w": "community,",
+   "t": 45.658
+  },
+  {
+   "w": "and",
+   "t": 46.602
+  },
+  {
+   "w": "running",
+   "t": 46.752
+  },
+  {
+   "w": "events",
+   "t": 47.031
+  },
+  {
+   "w": "for",
+   "t": 47.482
+  },
+  {
+   "w": "hundreds",
+   "t": 47.646
+  },
+  {
+   "w": "of",
+   "t": 48.029
+  },
+  {
+   "w": "students.",
+   "t": 48.144
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Beyond the ridge lie the Guild Isles...",
+   "start": 0.199,
+   "end": 3.2
+  },
+  {
+   "text": "four islands, and seventeen quests.",
+   "start": 3.264,
+   "end": 5.76
+  },
+  {
+   "text": "The newest isle is where he works today — Fanisin, where fans talk face to face with the AI twins of the creators they love.",
+   "start": 6.868,
+   "end": 15.12
+  },
+  {
+   "text": "Then, one character at a time: Jesus Live...",
+   "start": 15.36,
+   "end": 20.64
+  },
+  {
+   "text": "and Fly Calmer.",
+   "start": 20.68,
+   "end": 21.84
+  },
+  {
+   "text": "The next isle holds his internships — real systems, for real teams.",
+   "start": 22.12,
+   "end": 27.76
+  },
+  {
+   "text": "An HR platform, a payment gateway, a supply system.",
+   "start": 28.027,
+   "end": 33.04
+  },
+  {
+   "text": "Another isle is where it all began — campus projects, like a classroom you can walk through in augmented reality.",
+   "start": 33.829,
+   "end": 40.322
+  },
+  {
+   "text": "And the last...",
+   "start": 41.507,
+   "end": 42.682
+  },
+  {
+   "text": "leadership.",
+   "start": 42.729,
+   "end": 43.282
+  },
+  {
+   "text": "Guiding the Binusian Gaming community, and running events for hundreds of students.",
+   "start": 43.474,
+   "end": 48.802
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-v2-seed",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "node seed.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

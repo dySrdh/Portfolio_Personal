@@ -1,0 +1,149 @@
+{
+ "source": "[hushed] Sekarang... pelan-pelan, kita masuk ke Ruang Relik. Tiap bingkai yang bersinar itu sertifikat — dari machine learning, SQL, mentoring, sampai kompetisi. [softly] Bukti dari semua yang dia pelajari sepanjang perjalanan.",
+ "text": "Sekarang... pelan-pelan, kita masuk ke Ruang Relik. Tiap bingkai yang bersinar itu sertifikat — dari machine learning, SQL, mentoring, sampai kompetisi. Bukti dari semua yang dia pelajari sepanjang perjalanan.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "vault",
+   "start": 0.102,
+   "end": 14.493082
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Sekarang...",
+   "start": 0.102,
+   "end": 0.567
+  },
+  {
+   "text": "pelan-pelan, kita masuk ke Ruang Relik.",
+   "start": 0.594,
+   "end": 2.841
+  },
+  {
+   "text": "Tiap bingkai yang bersinar itu sertifikat — dari machine learning, SQL, mentoring, sampai kompetisi.",
+   "start": 3.75,
+   "end": 10.612
+  },
+  {
+   "text": "Bukti dari semua yang dia pelajari sepanjang perjalanan.",
+   "start": 11.501,
+   "end": 14.493
+  }
+ ],
+ "words": [
+  {
+   "w": "Sekarang",
+   "t": 0.102
+  },
+  {
+   "w": "pelan-pelan",
+   "t": 0.594
+  },
+  {
+   "w": "kita",
+   "t": 1.578
+  },
+  {
+   "w": "masuk",
+   "t": 1.817
+  },
+  {
+   "w": "ke",
+   "t": 2.096
+  },
+  {
+   "w": "Ruang",
+   "t": 2.149
+  },
+  {
+   "w": "Relik",
+   "t": 2.349
+  },
+  {
+   "w": "Tiap",
+   "t": 3.75
+  },
+  {
+   "w": "bingkai",
+   "t": 3.949
+  },
+  {
+   "w": "yang",
+   "t": 4.282
+  },
+  {
+   "w": "bersinar",
+   "t": 4.402
+  },
+  {
+   "w": "itu",
+   "t": 4.774
+  },
+  {
+   "w": "sertifikat",
+   "t": 4.973
+  },
+  {
+   "w": "dari",
+   "t": 6.051
+  },
+  {
+   "w": "machine",
+   "t": 6.29
+  },
+  {
+   "w": "learning",
+   "t": 6.622
+  },
+  {
+   "w": "SQL",
+   "t": 7.513
+  },
+  {
+   "w": "mentoring",
+   "t": 8.511
+  },
+  {
+   "w": "sampai",
+   "t": 9.468
+  },
+  {
+   "w": "kompetisi",
+   "t": 9.867
+  },
+  {
+   "w": "Bukti",
+   "t": 11.501
+  },
+  {
+   "w": "dari",
+   "t": 11.9
+  },
+  {
+   "w": "semua",
+   "t": 12.073
+  },
+  {
+   "w": "yang",
+   "t": 12.432
+  },
+  {
+   "w": "dia",
+   "t": 12.618
+  },
+  {
+   "w": "pelajari",
+   "t": 12.764
+  },
+  {
+   "w": "sepanjang",
+   "t": 13.216
+  },
+  {
+   "w": "perjalanan",
+   "t": 13.682
+  }
+ ]
+}

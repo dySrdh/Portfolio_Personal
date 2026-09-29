@@ -1,0 +1,60 @@
+{
+ "source": "[softly] Ever since junior high, Doddy Suryadharma has carried one dream... [pause] to build worlds. To become a game maker — someone who creates places people can step into, and truly feel. [warmly] This portfolio is the very first step of that dream. Not a page to read... but a small world to journey through. [excited] So — welcome, traveler. Your adventure begins now.",
+ "text": "Ever since junior high, Doddy Suryadharma has carried one dream... to build worlds. To become a game maker — someone who creates places people can step into, and truly feel. This portfolio is the very first step of that dream. Not a page to read... but a small world to journey through. So — welcome, traveler. Your adventure begins now.",
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_v3",
+ "beats": [
+  {
+   "focus": "world",
+   "start": 0,
+   "end": 13.56
+  },
+  {
+   "focus": "world",
+   "start": 13.56,
+   "end": 26.4
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Ever since junior high, Doddy Suryadharma has carried one dream...",
+   "start": 0.134,
+   "end": 5.2
+  },
+  {
+   "text": "to build worlds.",
+   "start": 5.267,
+   "end": 6.32
+  },
+  {
+   "text": "To become a game maker — someone who creates places people can step into, and truly feel.",
+   "start": 6.64,
+   "end": 13.04
+  },
+  {
+   "text": "This portfolio is the very first step of that dream.",
+   "start": 14.208,
+   "end": 17.12
+  },
+  {
+   "text": "Not a page to read...",
+   "start": 17.36,
+   "end": 19.6
+  },
+  {
+   "text": "but a small world to journey through.",
+   "start": 19.62,
+   "end": 21.68
+  },
+  {
+   "text": "So — welcome, traveler.",
+   "start": 23,
+   "end": 24.56
+  },
+  {
+   "text": "Your adventure begins now.",
+   "start": 24.624,
+   "end": 26.4
+  }
+ ]
+}

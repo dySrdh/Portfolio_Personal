@@ -1,0 +1,3189 @@
+{
+ "site": {
+  "profile": {
+   "name": "Doddy Suryadharma",
+   "greeting": {
+    "en": "Hello, I'm",
+    "id": "Halo, saya"
+   },
+   "roles": [
+    "AI Engineer",
+    "Full-Stack Developer",
+    "Mobile Developer",
+    "Content Creator"
+   ],
+   "headline": {
+    "en": "Full-Stack & Mobile Developer · AI Engineer",
+    "id": "Full-Stack & Mobile Developer · AI Engineer"
+   },
+   "photo": "assets/media/profile/profile.jpg",
+   "about": [
+    {
+     "en": "Junior AI Engineer at Fanisin and a Bachelor's degree graduate in Computer Science (S.Kom) from BINUS University.",
+     "id": "Junior AI Engineer di Fanisin dan lulusan Sarjana Ilmu Komputer (S.Kom) dari BINUS University."
+    },
+    {
+     "en": "At Fanisin — a US-based startup — I help build an AI character app platform end to end: one cross-platform app with React Native (Expo) and TypeScript, real-time video and voice (WebRTC), secure payments with Stripe, and a serverless backend on AWS (CDK, Lambda, DynamoDB, Bedrock). My work spans feature development, AI integration, testing, debugging and production support — and before that, as a freelance full-stack developer (Apr–May 2026), I built ERP modules with Next.js for a local enterprise.",
+     "id": "Di Fanisin — startup asal Amerika — saya ikut membangun platform aplikasi karakter AI dari ujung ke ujung: satu aplikasi lintas platform dengan React Native (Expo) dan TypeScript, video dan suara real-time (WebRTC), pembayaran aman dengan Stripe, serta backend serverless di AWS (CDK, Lambda, DynamoDB, Bedrock). Pekerjaan saya mencakup pengembangan fitur, integrasi AI, testing, debugging, dan dukungan production — dan sebelumnya, sebagai freelance full-stack developer (Apr–Mei 2026), saya membangun modul ERP dengan Next.js untuk sebuah perusahaan lokal."
+    },
+    {
+     "en": "Passionate about Artificial Intelligence, Large Language Models (LLMs), mobile technologies, and building reliable software that delivers meaningful user experiences. Continuously learning and exploring new technologies to grow as an engineer and create impactful solutions.",
+     "id": "Antusias dengan Artificial Intelligence, Large Language Models (LLM), teknologi mobile, dan membangun software andal yang memberi pengalaman bermakna bagi pengguna. Terus belajar dan mengeksplorasi teknologi baru untuk berkembang sebagai engineer dan menciptakan solusi yang berdampak."
+    }
+   ],
+   "birthday": {
+    "en": "25 March 2003",
+    "id": "25 Maret 2003"
+   },
+   "location": {
+    "en": "West Jakarta, Indonesia",
+    "id": "Jakarta Barat, Indonesia"
+   },
+   "email": "suryadharma.dy@gmail.com",
+   "phone": "+62 812-9445-3932",
+   "experienceYears": 1,
+   "projectsCompleted": 15,
+   "gpa": "3.54",
+   "education": {
+    "en": "Computer Science · BINUS University",
+    "id": "Ilmu Komputer · BINUS University"
+   },
+   "portfolioButton": {
+    "en": "View My Work",
+    "id": "Lihat Karya Saya"
+   },
+   "contactButton": {
+    "en": "Contact Me",
+    "id": "Hubungi Saya"
+   },
+   "cvUrl": "https://cv-doddy-suryadharma.vercel.app/",
+   "socials": [
+    {
+     "platform": "github",
+     "label": "GitHub",
+     "handle": "dySrdh",
+     "url": "https://github.com/dySrdh"
+    },
+    {
+     "platform": "linkedin",
+     "label": "LinkedIn",
+     "handle": "doddy-suryadharma",
+     "url": "https://linkedin.com/in/doddy-suryadharma"
+    },
+    {
+     "platform": "email",
+     "label": "Email",
+     "handle": "suryadharma.dy@gmail.com",
+     "url": "mailto:suryadharma.dy@gmail.com"
+    }
+   ]
+  },
+  "skills": {
+   "items": [
+    {
+     "name": "JavaScript",
+     "percent": 80,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+     "category": "language",
+     "color": "#F7DF1E"
+    },
+    {
+     "name": "TypeScript",
+     "percent": 85,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+     "category": "language",
+     "color": "#3178C6"
+    },
+    {
+     "name": "React / Next.js",
+     "percent": 85,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+     "category": "framework",
+     "color": "#61DAFB"
+    },
+    {
+     "name": "React Native / Expo",
+     "percent": 85,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+     "category": "framework",
+     "color": "#61DAFB"
+    },
+    {
+     "name": "Node.js",
+     "percent": 80,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+     "category": "framework",
+     "color": "#5FA04E"
+    },
+    {
+     "name": "PHP",
+     "percent": 80,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+     "category": "language",
+     "color": "#777BB4"
+    },
+    {
+     "name": "Java",
+     "percent": 85,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+     "category": "language",
+     "color": "#ED8B00"
+    },
+    {
+     "name": "Python",
+     "percent": 75,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+     "category": "language",
+     "color": "#3776AB"
+    },
+    {
+     "name": "MySQL",
+     "percent": 80,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+     "category": "tools",
+     "color": "#4479A1"
+    },
+    {
+     "name": "Postman",
+     "percent": 85,
+     "icon": "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+     "category": "tools",
+     "color": "#FF6C37"
+    },
+    {
+     "name": "Supabase",
+     "percent": 75,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+     "category": "tools",
+     "color": "#3ECF8E"
+    },
+    {
+     "name": "AWS (Serverless)",
+     "percent": 75,
+     "icon": "https://api.iconify.design/logos/aws.svg",
+     "category": "tools",
+     "color": "#FF9900"
+    },
+    {
+     "name": "DynamoDB",
+     "percent": 75,
+     "icon": "https://api.iconify.design/logos/aws-dynamodb.svg",
+     "category": "tools",
+     "color": "#4053D6"
+    },
+    {
+     "name": "Tailwind CSS",
+     "percent": 80,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+     "category": "framework",
+     "color": "#06B6D4"
+    },
+    {
+     "name": "Git",
+     "percent": 85,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+     "category": "tools",
+     "color": "#F05032"
+    },
+    {
+     "name": "Docker",
+     "percent": 70,
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+     "category": "tools",
+     "color": "#2496ED"
+    }
+   ]
+  },
+  "traits": {
+   "items": [
+    {
+     "title": {
+      "en": "Team player, as well as independently",
+      "id": "Kerja tim maupun mandiri"
+     },
+     "desc": {
+      "en": "Collaborates effectively in groups while showing strong self-management alone.",
+      "id": "Berkolaborasi efektif dalam tim dan tetap disiplin saat bekerja sendiri."
+     }
+    },
+    {
+     "title": {
+      "en": "Excellent networking and communication",
+      "id": "Jejaring dan komunikasi yang baik"
+     },
+     "desc": {
+      "en": "Builds relationships and communicates ideas effectively across channels.",
+      "id": "Membangun relasi dan menyampaikan ide secara efektif di berbagai saluran."
+     }
+    },
+    {
+     "title": {
+      "en": "Following instructions & quality results",
+      "id": "Teliti mengikuti arahan & hasil berkualitas"
+     },
+     "desc": {
+      "en": "Detail-oriented in requirements; consistently delivers quality work.",
+      "id": "Detail dalam memahami kebutuhan; konsisten memberikan hasil kerja berkualitas."
+     }
+    },
+    {
+     "title": {
+      "en": "Time management",
+      "id": "Manajemen waktu"
+     },
+     "desc": {
+      "en": "Prioritizes tasks, meets deadlines and maximizes productivity.",
+      "id": "Memprioritaskan tugas, tepat tenggat, dan memaksimalkan produktivitas."
+     }
+    },
+    {
+     "title": {
+      "en": "Work under pressure",
+      "id": "Bekerja di bawah tekanan"
+     },
+     "desc": {
+      "en": "Keeps composure and performs well in stressful situations.",
+      "id": "Tetap tenang dan berkinerja baik dalam situasi penuh tekanan."
+     }
+    },
+    {
+     "title": {
+      "en": "Critical thinking",
+      "id": "Berpikir kritis"
+     },
+     "desc": {
+      "en": "Analyzes situations and develops well-reasoned solutions.",
+      "id": "Menganalisis situasi dan merumuskan solusi yang beralasan kuat."
+     }
+    }
+   ]
+  },
+  "tools": {
+   "items": [
+    {
+     "name": "HTML / CSS",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+     "name": "C",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    },
+    {
+     "name": "Vue.js",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+    },
+    {
+     "name": "CodeIgniter 4",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
+    },
+    {
+     "name": "WordPress",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
+    },
+    {
+     "name": "Stripe",
+     "icon": "https://api.iconify.design/simple-icons/stripe.svg?color=%23635bff"
+    },
+    {
+     "name": "Clerk",
+     "icon": "https://api.iconify.design/simple-icons/clerk.svg?color=%236c47ff"
+    },
+    {
+     "name": "PostHog",
+     "icon": "https://api.iconify.design/simple-icons/posthog.svg?color=%23f9bd2b"
+    },
+    {
+     "name": "Android Studio",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+    },
+    {
+     "name": "Figma",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    }
+   ]
+  },
+  "competencies": {
+   "items": [
+    {
+     "en": "Full-Stack Development",
+     "id": "Pengembangan Full-Stack"
+    },
+    {
+     "en": "Mobile Development",
+     "id": "Pengembangan Mobile"
+    },
+    {
+     "en": "Serverless Architecture",
+     "id": "Arsitektur Serverless"
+    },
+    {
+     "en": "Infrastructure as Code (IaC)",
+     "id": "Infrastructure as Code (IaC)"
+    },
+    {
+     "en": "Real-time Communication (WebRTC)",
+     "id": "Komunikasi Real-time (WebRTC)"
+    },
+    {
+     "en": "LLM / AI Integration",
+     "id": "Integrasi LLM / AI"
+    },
+    {
+     "en": "Payment Integration",
+     "id": "Integrasi Pembayaran"
+    },
+    {
+     "en": "RESTful API Integration",
+     "id": "Integrasi RESTful API"
+    },
+    {
+     "en": "CI/CD",
+     "id": "CI/CD"
+    },
+    {
+     "en": "Data Structures & Algorithms",
+     "id": "Struktur Data & Algoritma"
+    }
+   ]
+  }
+ },
+ "projects": [
+  {
+   "order": -3,
+   "id": "fanisin",
+   "title": {
+    "en": "Fanisin — AI Twins of Creators",
+    "id": "Fanisin — AI Twin para Kreator"
+   },
+   "category": "kerja",
+   "description": {
+    "en": "The main Fanisin app: fans text, voice-call and video-call the AI twins of creators and experts they trust. I build new features and the main front end, polish the UI across pages, debug production issues and create banner visuals — with Claude Code, Claude Design, APIs and webhooks.",
+    "id": "Aplikasi utama Fanisin: penggemar bisa chat, telepon, dan video call dengan AI twin kreator dan pakar yang mereka percaya. Saya membangun fitur baru dan front end utama, merapikan UI di berbagai halaman, men-debug masalah production, dan membuat visual banner — dengan Claude Code, Claude Design, API, dan webhook."
+   },
+   "image": "assets/media/work/fanisin-cover.webp",
+   "gallery": [
+    "assets/media/work/fanisin-home.webp",
+    "assets/media/work/fanisin-catalog.webp",
+    "assets/media/work/fanisin-chat.webp",
+    "assets/media/work/fanisin-mobile.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "TypeScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+     "name": "Expo",
+     "icon": "https://api.iconify.design/simple-icons/expo.svg"
+    },
+    {
+     "name": "AWS (CDK · Lambda · Bedrock)",
+     "icon": "https://api.iconify.design/logos/aws.svg"
+    },
+    {
+     "name": "DynamoDB",
+     "icon": "https://api.iconify.design/logos/aws-dynamodb.svg"
+    },
+    {
+     "name": "Stripe",
+     "icon": "https://api.iconify.design/simple-icons/stripe.svg?color=%23635bff"
+    },
+    {
+     "name": "Clerk",
+     "icon": "https://api.iconify.design/simple-icons/clerk.svg?color=%236c47ff"
+    },
+    {
+     "name": "WebRTC (Daily.co)",
+     "icon": "https://api.iconify.design/simple-icons/webrtc.svg?color=%23ffffff"
+    },
+    {
+     "name": "Claude Code",
+     "icon": "https://api.iconify.design/simple-icons/claude.svg"
+    },
+    {
+     "name": "Claude Design",
+     "icon": "https://api.iconify.design/simple-icons/anthropic.svg"
+    },
+    {
+     "name": "APIs",
+     "icon": "https://api.iconify.design/mdi/api.svg"
+    },
+    {
+     "name": "Webhooks",
+     "icon": "https://api.iconify.design/mdi/webhook.svg"
+    },
+    {
+     "name": {
+      "en": "Banner & Content Design",
+      "id": "Desain Banner & Konten"
+     },
+     "icon": "https://api.iconify.design/mdi/palette-outline.svg"
+    }
+   ],
+   "role": "AI Engineer · Full-Stack + Mobile",
+   "date": {
+    "en": "Apr 2026 – Present",
+    "id": "Apr 2026 – Sekarang"
+   },
+   "teamSize": 0,
+   "projectUrl": "https://fanisin.com",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "Fanisin is the parent app of a growing roster of creators who have become AI twins. Fans can chat, call, or video-call a twin built from material the creator approves — any time of day, on iOS, Android and the web.",
+     "id": "Fanisin adalah aplikasi induk bagi deretan kreator yang terus bertambah dan kini punya AI twin. Penggemar bisa chat, telepon, atau video call dengan twin yang dibangun dari materi yang disetujui sang kreator — kapan saja, di iOS, Android, dan web."
+    },
+    {
+     "en": "As an engineer on the full-stack and mobile side, I work across the product: shipping new features end to end, building the main front end — the home page, hero and creator catalog — and optimising how every other page looks and feels on mobile and desktop. Under the hood that means a serverless AWS backend, real-time AI video and voice, and a Stripe-powered token economy.",
+     "id": "Sebagai engineer di sisi full-stack dan mobile, saya bekerja di seluruh produk: merilis fitur baru dari awal sampai akhir, membangun front end utama — beranda, hero, dan katalog kreator — serta mengoptimalkan tampilan dan nuansa setiap halaman lain di mobile dan desktop. Di balik layar, itu berarti backend serverless di AWS, video dan suara AI real-time, serta ekonomi token berbasis Stripe."
+    },
+    {
+     "en": "Day to day that means debugging real production issues, wiring features to APIs and webhooks, and even creating content like banners for launches. I build with AI tooling — Claude Code for engineering and Claude Design for visuals — to move from idea to production fast.",
+     "id": "Sehari-hari itu berarti men-debug masalah production yang nyata, menghubungkan fitur ke API dan webhook, bahkan membuat konten seperti banner untuk peluncuran. Saya membangun dengan bantuan AI — Claude Code untuk engineering dan Claude Design untuk visual — supaya ide cepat sampai ke production."
+    }
+   ],
+   "listTitle": {
+    "en": "What I did",
+    "id": "Yang saya kerjakan"
+   },
+   "highlights": [
+    {
+     "en": "Built the main front-end experience: home hero, creator catalog, \"Recently visited\" and \"New on Fanisin\" rails",
+     "id": "Membangun pengalaman front end utama: hero beranda, katalog kreator, serta rail \"Recently visited\" dan \"New on Fanisin\""
+    },
+    {
+     "en": "Shipped new features for text, voice and video calls with AI twins",
+     "id": "Merilis fitur baru untuk chat, panggilan suara, dan video call dengan AI twin"
+    },
+    {
+     "en": "Optimised layouts and UI consistency across pages on web and mobile",
+     "id": "Mengoptimalkan layout dan konsistensi UI di semua halaman web dan mobile"
+    },
+    {
+     "en": "Integrated APIs and webhooks for real-time conversations, tokens and billing",
+     "id": "Mengintegrasikan API dan webhook untuk percakapan real-time, token, dan tagihan"
+    },
+    {
+     "en": "Debugged production issues across sessions, configuration and data",
+     "id": "Men-debug masalah production pada sesi, konfigurasi, dan data"
+    },
+    {
+     "en": "Designed banners and campaign content for launches",
+     "id": "Mendesain banner dan konten kampanye untuk peluncuran"
+    },
+    {
+     "en": "Architected one Expo + React Native app for web, iOS and Android with Expo Router and real-time video, voice and text sync",
+     "id": "Merancang satu aplikasi Expo + React Native untuk web, iOS, dan Android dengan Expo Router serta sinkronisasi video, suara, dan teks real-time"
+    },
+    {
+     "en": "Integrated Tavus conversational AI, ElevenLabs voice agents and Daily.co WebRTC — removing cold-start freezes and resource leaks",
+     "id": "Mengintegrasikan AI percakapan Tavus, voice agent ElevenLabs, dan WebRTC Daily.co — menghilangkan freeze saat cold start dan kebocoran resource"
+    },
+    {
+     "en": "Built a serverless backend with 25+ AWS Lambda functions and DynamoDB (GSI), including a FIFO token ledger and atomic chat quotas",
+     "id": "Membangun backend serverless dengan 25+ fungsi AWS Lambda dan DynamoDB (GSI), termasuk ledger token FIFO dan kuota chat yang atomik"
+    },
+    {
+     "en": "Implemented Clerk JWT role-based access and Stripe subscriptions with idempotent, refund-safe webhooks",
+     "id": "Mengimplementasikan akses berbasis peran dengan JWT Clerk dan langganan Stripe dengan webhook idempoten yang aman untuk refund"
+    },
+    {
+     "en": "Built an AWS Bedrock (Claude) memory pipeline that remembers durable user facts across sessions",
+     "id": "Membangun pipeline memori AWS Bedrock (Claude) yang mengingat fakta penting pengguna lintas sesi"
+    },
+    {
+     "en": "Set up multi-environment AWS CDK v2 stacks with CodePipeline, Route 53 and approval gates",
+     "id": "Menyiapkan stack AWS CDK v2 multi-environment dengan CodePipeline, Route 53, dan approval gate"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Company",
+      "id": "Perusahaan"
+     },
+     "value": "Fanisin · New York, USA (Remote)"
+    },
+    {
+     "label": "Platform",
+     "value": "iOS · Android · Web"
+    }
+   ],
+   "links": [
+    {
+     "label": {
+      "en": "Visit Fanisin",
+      "id": "Kunjungi Fanisin"
+     },
+     "url": "https://fanisin.com"
+    }
+   ],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "order": -2,
+   "id": "jesus-live",
+   "title": {
+    "en": "Jesus Live — Faith Companion",
+    "id": "Jesus Live — Teman Perjalanan Iman"
+   },
+   "category": "kerja",
+   "description": {
+    "en": "A single-character app built on the Fanisin platform: a calm space to talk with Jesus by video, voice or text — to ask about faith and scripture, or simply reflect.",
+    "id": "Aplikasi satu karakter di atas platform Fanisin: ruang yang tenang untuk berbicara dengan Yesus lewat video, suara, atau teks — untuk bertanya tentang iman dan Alkitab, atau sekadar merenung."
+   },
+   "image": "assets/media/work/jesuslive-cover.webp",
+   "gallery": [
+    "assets/media/work/jesuslive-screens.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "TypeScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+     "name": "Claude Code",
+     "icon": "https://api.iconify.design/simple-icons/claude.svg"
+    },
+    {
+     "name": "Claude Design",
+     "icon": "https://api.iconify.design/simple-icons/anthropic.svg"
+    },
+    {
+     "name": "APIs",
+     "icon": "https://api.iconify.design/mdi/api.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "2026",
+   "teamSize": 0,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "Jesus Live takes Fanisin's AI-twin technology and focuses it on one character. The whole experience is designed to feel calm and warm — a place to talk, ask about faith and scripture, or simply sit and reflect.",
+     "id": "Jesus Live membawa teknologi AI twin Fanisin dan memfokuskannya pada satu karakter. Seluruh pengalamannya dirancang agar terasa tenang dan hangat — tempat untuk berbicara, bertanya tentang iman dan Alkitab, atau sekadar duduk dan merenung."
+    },
+    {
+     "en": "I built the mobile front end around that feeling: a soft cream-and-gold design, a gentle home screen, and a simple flow to choose how you want to talk.",
+     "id": "Saya membangun front end mobile-nya dengan nuansa itu: desain krem dan emas yang lembut, layar beranda yang teduh, dan alur sederhana untuk memilih cara kamu ingin berbicara."
+    }
+   ],
+   "listTitle": {
+    "en": "What I did",
+    "id": "Yang saya kerjakan"
+   },
+   "highlights": [
+    {
+     "en": "\"Sit with Jesus\" home with a one-tap start",
+     "id": "Beranda \"Sit with Jesus\" yang bisa dimulai dengan sekali ketuk"
+    },
+    {
+     "en": "\"Choose a path\" onboarding — video, voice or text, with clear per-minute pricing",
+     "id": "Onboarding \"Choose a path\" — video, suara, atau teks, dengan harga per menit yang jelas"
+    },
+    {
+     "en": "Two avatar experiences: photoreal and illustrated",
+     "id": "Dua pengalaman avatar: fotorealistis dan ilustrasi"
+    },
+    {
+     "en": "Daily verse card and a streak to build a habit",
+     "id": "Kartu ayat harian dan streak untuk membangun kebiasaan"
+    },
+    {
+     "en": "Calm, mobile-first cream and gold visual style",
+     "id": "Gaya visual krem dan emas yang tenang, mobile-first"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Company",
+      "id": "Perusahaan"
+     },
+     "value": "Fanisin"
+    },
+    {
+     "label": "Platform",
+     "value": "Mobile"
+    }
+   ],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "order": -1,
+   "id": "fly-calmer",
+   "title": {
+    "en": "Fly Calmer — Talk with Pilot Pete",
+    "id": "Fly Calmer — Ngobrol dengan Pilot Pete"
+   },
+   "category": "kerja",
+   "description": {
+    "en": "A single-character app on the Fanisin platform for anxious flyers: a pilot in your pocket. Talk with Pilot Pete through turbulence, take-off and landing — by video, voice or text.",
+    "id": "Aplikasi satu karakter di platform Fanisin untuk penumpang yang takut terbang: pilot di saku kamu. Ngobrol dengan Pilot Pete saat turbulensi, lepas landas, dan mendarat — lewat video, suara, atau teks."
+   },
+   "image": "assets/media/work/flycalmer-cover.webp",
+   "gallery": [
+    "assets/media/work/flycalmer-home.webp",
+    "assets/media/work/flycalmer-signin.webp",
+    "assets/media/work/flycalmer-tokens.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "TypeScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+     "name": "Claude Code",
+     "icon": "https://api.iconify.design/simple-icons/claude.svg"
+    },
+    {
+     "name": "Claude Design",
+     "icon": "https://api.iconify.design/simple-icons/anthropic.svg"
+    },
+    {
+     "name": "APIs",
+     "icon": "https://api.iconify.design/mdi/api.svg"
+    },
+    {
+     "name": "Webhooks",
+     "icon": "https://api.iconify.design/mdi/webhook.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "2026",
+   "teamSize": 0,
+   "projectUrl": "https://www.flycalmer.com",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "Fly Calmer brings the Fanisin AI-twin experience to one very specific moment: being scared on a plane. Pilot Pete — a real airline pilot who founded Fly Calmer — becomes a companion you can talk to before and during your flight.",
+     "id": "Fly Calmer membawa pengalaman AI twin Fanisin ke satu momen yang sangat spesifik: rasa takut di pesawat. Pilot Pete — pilot maskapai sungguhan yang mendirikan Fly Calmer — menjadi teman bicara sebelum dan selama penerbangan."
+    },
+    {
+     "en": "I worked on the web front end: a calm navy aviation look, quick topics for the moments that scare people most, and a clear tokens and billing page.",
+     "id": "Saya mengerjakan front end web-nya: tampilan penerbangan bernuansa navy yang tenang, topik cepat untuk momen yang paling menakutkan, serta halaman token dan tagihan yang jelas."
+    }
+   ],
+   "listTitle": {
+    "en": "What I did",
+    "id": "Yang saya kerjakan"
+   },
+   "highlights": [
+    {
+     "en": "\"Talk with Pilot Pete\" home with one-tap topics: turbulence, take-off, landing, weather, long haul, breathe",
+     "id": "Beranda \"Talk with Pilot Pete\" dengan topik sekali ketuk: turbulensi, lepas landas, mendarat, cuaca, penerbangan jauh, dan latihan napas"
+    },
+    {
+     "en": "Sign in with Google, Apple or email",
+     "id": "Masuk dengan Google, Apple, atau email"
+    },
+    {
+     "en": "Tokens & billing: monthly subscription or pay as you go",
+     "id": "Token & tagihan: langganan bulanan atau bayar sesuai pemakaian"
+    },
+    {
+     "en": "Calm navy and sky-blue aviation visual style",
+     "id": "Gaya visual penerbangan navy dan biru langit yang tenang"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Company",
+      "id": "Perusahaan"
+     },
+     "value": "Fanisin"
+    },
+    {
+     "label": "Platform",
+     "value": "Web"
+    }
+   ],
+   "links": [
+    {
+     "label": "Fly Calmer",
+     "url": "https://www.flycalmer.com"
+    }
+   ],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "payment-gateway-system",
+   "order": 1,
+   "title": {
+    "en": "Payment Gateway System",
+    "id": "Sistem Payment Gateway"
+   },
+   "category": "internship",
+   "description": {
+    "en": "Initiated the front-end development for a payment management application. Built a modular and reusable architecture using components like modals and forms to handle payment modules and fund requests. The development prioritized user interactivity and strict adherence to UI/UX design specifications for a seamless payment experience.",
+    "id": "Memulai pengembangan front end untuk aplikasi manajemen pembayaran. Membangun arsitektur modular dan reusable dengan komponen seperti modal dan form untuk menangani modul pembayaran dan pengajuan dana. Pengembangannya mengutamakan interaktivitas pengguna dan kepatuhan ketat pada spesifikasi desain UI/UX demi pengalaman pembayaran yang mulus."
+   },
+   "image": "assets/media/showcase/payment-gateway-system-cover.webp",
+   "gallery": [
+    "assets/media/showcase/payment-gateway-system-1.webp",
+    "assets/media/showcase/payment-gateway-system-2.webp",
+    "assets/media/showcase/payment-gateway-system-3.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "Modular UI",
+     "icon": "https://api.iconify.design/mdi/view-module.svg"
+    },
+    {
+     "name": {
+      "en": "Form Logic",
+      "id": "Logika Form"
+     },
+     "icon": "https://api.iconify.design/mdi/form-select.svg"
+    },
+    {
+     "name": {
+      "en": "Responsive Design",
+      "id": "Desain Responsif"
+     },
+     "icon": "https://api.iconify.design/mdi/responsive.svg"
+    },
+    {
+     "name": "Vuexy UI",
+     "icon": "https://api.iconify.design/mdi/palette-outline.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "",
+   "teamSize": 2,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "sauverse-recruitment-portal",
+   "order": 2,
+   "title": {
+    "en": "SAUVERSE Recruitment Portal",
+    "id": "Portal Rekrutmen SAUVERSE"
+   },
+   "category": "internship",
+   "description": {
+    "en": "Focused on the development of a digital recruitment platform. Using React Native, I translated complex Figma designs into precise code for a multi-step registration process. This included meticulous UI slicing to ensure 100% design accuracy and seamless integration with backend APIs to handle user registration data effectively.",
+    "id": "Berfokus pada pengembangan platform rekrutmen digital. Dengan React Native, saya menerjemahkan desain Figma yang kompleks menjadi kode yang presisi untuk proses registrasi multi-langkah. Termasuk slicing UI yang teliti agar desain 100% akurat, serta integrasi mulus dengan API backend untuk mengelola data registrasi pengguna."
+   },
+   "image": "assets/media/showcase/sauverse-recruitment-portal-cover.webp",
+   "gallery": [
+    "assets/media/showcase/sauverse-recruitment-portal-1.webp",
+    "assets/media/showcase/sauverse-recruitment-portal-2.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "Figma",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    },
+    {
+     "name": {
+      "en": "Slicing Design",
+      "id": "Slicing Desain"
+     },
+     "icon": "https://api.iconify.design/mdi/layers-outline.svg"
+    },
+    {
+     "name": {
+      "en": "API Integration",
+      "id": "Integrasi API"
+     },
+     "icon": "https://api.iconify.design/mdi/api.svg"
+    }
+   ],
+   "role": "Mobile Developer",
+   "date": "",
+   "teamSize": 2,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "supply-system",
+   "order": 3,
+   "title": {
+    "en": "Supply System",
+    "id": "Sistem Supply"
+   },
+   "category": "internship",
+   "description": {
+    "en": "Developed a comprehensive logistics management ecosystem consisting of a web dashboard and a mobile application. The web component features analytical dashboards and data management for users and locations. The mobile app, developed using pure Java, includes core features such as QR Code scanning logic, data validation history, and authentication modules, focusing on real-time data synchronization between platforms.",
+    "id": "Mengembangkan ekosistem manajemen logistik yang lengkap, terdiri dari dashboard web dan aplikasi mobile. Bagian web memiliki dashboard analitik serta manajemen data pengguna dan lokasi. Aplikasi mobile-nya, dibangun dengan Java murni, mencakup fitur inti seperti logika pemindaian QR Code, riwayat validasi data, dan modul autentikasi, dengan fokus pada sinkronisasi data real-time antarplatform."
+   },
+   "image": "assets/media/showcase/supply-system-cover.webp",
+   "gallery": [
+    "assets/media/showcase/supply-system-1.webp",
+    "assets/media/showcase/supply-system-2.webp"
+   ],
+   "skills": [
+    {
+     "name": "Java",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+     "name": "Android",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+    },
+    {
+     "name": {
+      "en": "QR Scanning",
+      "id": "Pemindaian QR"
+     },
+     "icon": "https://api.iconify.design/mdi/qrcode-scan.svg"
+    },
+    {
+     "name": {
+      "en": "Web Dashboard",
+      "id": "Dashboard Web"
+     },
+     "icon": "https://api.iconify.design/mdi/view-dashboard.svg"
+    }
+   ],
+   "role": "Mobile Developer",
+   "date": "",
+   "teamSize": 2,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "new-mysau-hris-platform",
+   "order": 4,
+   "title": {
+    "en": "New MySAU HRIS Platform",
+    "id": "Platform HRIS MySAU Baru"
+   },
+   "category": "internship",
+   "description": {
+    "en": "Successfully redeveloped the internal Human Resource Information System (HRIS) website using the PHP CodeIgniter 4 framework. The project involved creating a comprehensive dashboard, managing employee attendance, profiles, and labor data. I implemented a dynamic organizational structure visualization and a system-wide Dark Mode using advanced JavaScript logic. Security measures included middleware implementation, Captcha verification, and API integration for authentication and verification processes.",
+    "id": "Berhasil membangun ulang website Human Resource Information System (HRIS) internal dengan framework PHP CodeIgniter 4. Proyek ini mencakup pembuatan dashboard lengkap serta pengelolaan absensi, profil, dan data ketenagakerjaan karyawan. Saya mengimplementasikan visualisasi struktur organisasi yang dinamis dan Dark Mode di seluruh sistem dengan logika JavaScript tingkat lanjut. Dari sisi keamanan, saya menerapkan middleware, verifikasi Captcha, dan integrasi API untuk proses autentikasi dan verifikasi."
+   },
+   "image": "assets/media/showcase/new-mysau-hris-platform-cover.webp",
+   "gallery": [
+    "assets/media/showcase/new-mysau-hris-platform-1.webp",
+    "assets/media/showcase/new-mysau-hris-platform-2.webp",
+    "assets/media/showcase/new-mysau-hris-platform-3.webp"
+   ],
+   "skills": [
+    {
+     "name": "PHP",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+    },
+    {
+     "name": "CodeIgniter 4",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
+    },
+    {
+     "name": "JavaScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+     "name": {
+      "en": "API Integration",
+      "id": "Integrasi API"
+     },
+     "icon": "https://api.iconify.design/mdi/api.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "",
+   "teamSize": 2,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "kemanggisan-sportfest-2024",
+   "order": 5,
+   "title": "Kemanggisan Sportfest 2024",
+   "category": "organisasi",
+   "description": {
+    "en": "Head of the event division for Kemanggisan Sportfest, the annual campus sports tournament.",
+    "id": "Menjabat sebagai kepala divisi acara untuk turnamen olahraga tahunan Kemanggisan Sportfest."
+   },
+   "image": "assets/media/showcase/kemanggisan-sportfest-2024-cover.webp",
+   "gallery": [
+    "assets/media/showcase/kemanggisan-sportfest-2024-1.webp",
+    "assets/media/showcase/kemanggisan-sportfest-2024-2.webp",
+    "assets/media/showcase/kemanggisan-sportfest-2024-3.webp"
+   ],
+   "skills": [
+    {
+     "name": {
+      "en": "Leadership",
+      "id": "Kepemimpinan"
+     },
+     "icon": "https://api.iconify.design/mdi/account-tie-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Event Planning",
+      "id": "Perencanaan Acara"
+     },
+     "icon": "https://api.iconify.design/mdi/calendar-check-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Communication",
+      "id": "Komunikasi"
+     },
+     "icon": "https://api.iconify.design/mdi/message-text-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Project Management",
+      "id": "Manajemen Proyek"
+     },
+     "icon": "https://api.iconify.design/mdi/clipboard-check-outline.svg"
+    }
+   ],
+   "role": {
+    "en": "Head of Event Division",
+    "id": "Kepala Divisi Acara"
+   },
+   "date": "2024",
+   "teamSize": 20,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "As the Head of Event Division for Kemanggisan Sportfest 2024, I was responsible for planning, organizing, and executing all event activities during this major campus sports festival. I led a team of dedicated committee members to ensure that multiple sports competitions and activities ran smoothly throughout the event.",
+     "id": "Sebagai Kepala Divisi Acara Kemanggisan Sportfest 2024, saya bertanggung jawab merencanakan, mengorganisir, dan menjalankan seluruh kegiatan acara selama festival olahraga kampus besar ini. Saya memimpin tim panitia yang berdedikasi agar berbagai kompetisi dan kegiatan olahraga berjalan lancar sepanjang acara."
+    },
+    {
+     "en": "The Sportfest brought together students from various departments and programs to compete in basketball, volleyball, futsal, badminton, and other sports. My division was tasked with coordinating schedules, managing venues, overseeing referees, and ensuring all participants had a positive experience throughout the competition.",
+     "id": "Sportfest mempertemukan mahasiswa dari berbagai jurusan dan program untuk bertanding basket, voli, futsal, bulu tangkis, dan cabang olahraga lainnya. Divisi saya bertugas mengoordinasikan jadwal, mengelola venue, mengawasi wasit, dan memastikan semua peserta mendapat pengalaman yang menyenangkan selama kompetisi."
+    }
+   ],
+   "listTitle": {
+    "en": "Key Accomplishments",
+    "id": "Pencapaian Utama"
+   },
+   "highlights": [
+    {
+     "en": "Successfully planned and executed 5+ sports competitions with over 500 participants",
+     "id": "Berhasil merencanakan dan menjalankan 5+ kompetisi olahraga dengan lebih dari 500 peserta"
+    },
+    {
+     "en": "Managed a team of 12 event staff to ensure smooth operations across multiple venues",
+     "id": "Memimpin tim 12 staf acara agar operasional berjalan lancar di berbagai venue"
+    },
+    {
+     "en": "Developed detailed event timelines and contingency plans for seamless execution",
+     "id": "Menyusun timeline acara yang detail dan rencana cadangan agar eksekusi berjalan mulus"
+    },
+    {
+     "en": "Created innovative opening and closing ceremonies that increased participant engagement",
+     "id": "Merancang upacara pembukaan dan penutupan yang inovatif sehingga meningkatkan keterlibatan peserta"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Event Date",
+      "id": "Tanggal Acara"
+     },
+     "value": "2024"
+    },
+    {
+     "label": {
+      "en": "Organization",
+      "id": "Organisasi"
+     },
+     "value": "Binus University Kemanggisan"
+    }
+   ],
+   "competencies": [
+    {
+     "en": "Leadership",
+     "id": "Kepemimpinan"
+    },
+    {
+     "en": "Event Planning",
+     "id": "Perencanaan Acara"
+    },
+    {
+     "en": "Communication",
+     "id": "Komunikasi"
+    },
+    {
+     "en": "Organization",
+     "id": "Organisasi"
+    },
+    {
+     "en": "Fair Play",
+     "id": "Sportivitas"
+    }
+   ],
+   "links": [],
+   "campaigns": []
+  },
+  {
+   "id": "ketua-region-binusian-gaming-2024",
+   "order": 6,
+   "title": {
+    "en": "Binusian Gaming Regional Chair 2024",
+    "id": "Ketua Region Binusian Gaming 2024"
+   },
+   "category": "organisasi",
+   "description": {
+    "en": "Led the Binusian Gaming student activity unit in the Kemanggisan region — managing the team and shaping the strategy to grow the campus gaming community.",
+    "id": "Memimpin unit kegiatan mahasiswa Binusian Gaming region Kemanggisan, mengelola tim, dan menyusun strategi pengembangan komunitas gaming kampus."
+   },
+   "image": "assets/media/showcase/ketua-region-binusian-gaming-2024-cover.webp",
+   "gallery": [
+    "assets/media/showcase/ketua-region-binusian-gaming-2024-1.webp"
+   ],
+   "skills": [
+    {
+     "name": {
+      "en": "Leadership",
+      "id": "Kepemimpinan"
+     },
+     "icon": "https://api.iconify.design/mdi/account-group-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Team Management",
+      "id": "Manajemen Tim"
+     },
+     "icon": "https://api.iconify.design/mdi/account-cog-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Event Planning",
+      "id": "Perencanaan Acara"
+     },
+     "icon": "https://api.iconify.design/mdi/calendar-check-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Organization",
+      "id": "Organisasi"
+     },
+     "icon": "https://api.iconify.design/mdi/clipboard-list-outline.svg"
+    }
+   ],
+   "role": {
+    "en": "Regional Leader",
+    "id": "Pemimpin Region"
+   },
+   "date": "2024",
+   "teamSize": 5,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "As the Chairperson of the Kemanggisan Region for Binusian Gaming, I was responsible for managing the student activity unit's operations and events on campus. I led strategic initiatives to develop esports culture within the university while creating opportunities for students to enhance their gaming skills and build community.",
+     "id": "Sebagai Ketua Binusian Gaming Region Kemanggisan, saya bertanggung jawab mengelola operasional dan acara unit kegiatan mahasiswa ini di kampus. Saya memimpin inisiatif strategis untuk mengembangkan budaya esports di universitas sekaligus membuka kesempatan bagi mahasiswa untuk mengasah skill gaming dan membangun komunitas."
+    },
+    {
+     "en": "During my leadership, I coordinated major competitions, including the Arena Community Championship 2024 in collaboration with Gopay, and served as the Person-In-Charge for the Binusian Gaming Level Up! Esport Championship season 1. These events significantly increased our organization's visibility and helped establish meaningful partnerships with industry stakeholders.",
+     "id": "Selama kepemimpinan saya, saya mengoordinasikan kompetisi besar, termasuk Arena Community Championship 2024 bersama Gopay, dan menjadi Person-In-Charge untuk Binusian Gaming Level Up! Esport Championship season 1. Acara-acara ini meningkatkan visibilitas organisasi secara signifikan dan membuka kemitraan yang berarti dengan para pelaku industri."
+    }
+   ],
+   "listTitle": {
+    "en": "Key Accomplishments",
+    "id": "Pencapaian Utama"
+   },
+   "highlights": [
+    {
+     "en": "Led National Competition Committee for Arena Community Championship 2024 with Gopay",
+     "id": "Memimpin Panitia Kompetisi Nasional Arena Community Championship 2024 bersama Gopay"
+    },
+    {
+     "en": "Served as PIC for Binusian Gaming Level Up! Esport Championship season 1",
+     "id": "Menjadi PIC Binusian Gaming Level Up! Esport Championship season 1"
+    },
+    {
+     "en": "Contributed to BIFEST BINUS BEKASI 2024 with seminars, workshops, and esports tournaments",
+     "id": "Berkontribusi di BIFEST BINUS BEKASI 2024 lewat seminar, workshop, dan turnamen esports"
+    },
+    {
+     "en": "Expanded membership and engagement in Binusian Gaming activities",
+     "id": "Memperluas keanggotaan dan keterlibatan dalam kegiatan Binusian Gaming"
+    },
+    {
+     "en": "Established cross-campus relationships with multiple institutional partners",
+     "id": "Menjalin hubungan lintas kampus dengan berbagai mitra institusi"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Duration",
+      "id": "Durasi"
+     },
+     "value": "Mar 2024 – Mar 2025"
+    },
+    {
+     "label": {
+      "en": "Organization",
+      "id": "Organisasi"
+     },
+     "value": "Binusian Gaming"
+    },
+    {
+     "label": {
+      "en": "Position",
+      "id": "Posisi"
+     },
+     "value": {
+      "en": "Chairperson – Kemanggisan Region",
+      "id": "Ketua – Region Kemanggisan"
+     }
+    }
+   ],
+   "competencies": [
+    {
+     "en": "Leadership",
+     "id": "Kepemimpinan"
+    },
+    {
+     "en": "Team Management",
+     "id": "Manajemen Tim"
+    },
+    {
+     "en": "Event Planning",
+     "id": "Perencanaan Acara"
+    },
+    {
+     "en": "Organization",
+     "id": "Organisasi"
+    },
+    {
+     "en": "Partnership Building",
+     "id": "Membangun Kemitraan"
+    }
+   ],
+   "links": [],
+   "campaigns": [
+    {
+     "name": {
+      "en": "Overview",
+      "id": "Ringkasan"
+     },
+     "date": "Mar 2024 – Mar 2025",
+     "story": [
+      {
+       "en": "As the Chairperson of Binusian Gaming for the Kemanggisan Region, I led our esports organization through a transformative year focused on community building, competitive excellence, and industry partnerships. Binusian Gaming serves as the premier student activity unit dedicated to developing gaming culture and esports at BINUS University.",
+       "id": "Sebagai Ketua Binusian Gaming Region Kemanggisan, saya memimpin organisasi esports kami melewati tahun penuh transformasi yang berfokus pada membangun komunitas, prestasi kompetitif, dan kemitraan industri. Binusian Gaming adalah unit kegiatan mahasiswa utama yang mengembangkan budaya gaming dan esports di BINUS University."
+      },
+      {
+       "en": "During my tenure, I implemented strategic initiatives to enhance member engagement, create professional development opportunities, and establish Binusian Gaming as a recognized entity in the collegiate esports landscape. Our efforts resulted in successful national-level competitions, industry collaborations, and a stronger internal community.",
+       "id": "Selama masa jabatan saya, saya menjalankan inisiatif strategis untuk meningkatkan keterlibatan anggota, membuka peluang pengembangan profesional, dan menjadikan Binusian Gaming entitas yang diakui di kancah esports kampus. Hasilnya: kompetisi tingkat nasional yang sukses, kolaborasi dengan industri, dan komunitas internal yang semakin solid."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Achievements",
+      "id": "Pencapaian Utama"
+     },
+     "highlights": [
+      {
+       "en": "Expanded organization membership by 40% through targeted recruitment campaigns",
+       "id": "Menambah keanggotaan organisasi sebesar 40% lewat kampanye rekrutmen yang terarah"
+      },
+      {
+       "en": "Successfully executed 4 major gaming events with a combined participation of 500+ students",
+       "id": "Sukses menjalankan 4 acara gaming besar dengan total 500+ mahasiswa peserta"
+      },
+      {
+       "en": "Established partnerships with 6 corporate sponsors including tech companies and game developers",
+       "id": "Menjalin kemitraan dengan 6 sponsor korporat, termasuk perusahaan teknologi dan pengembang game"
+      },
+      {
+       "en": "Developed cross-campus relationships with gaming communities at other universities",
+       "id": "Membangun relasi lintas kampus dengan komunitas gaming di universitas lain"
+      },
+      {
+       "en": "Created professional development workshops to help members build careers in gaming and esports",
+       "id": "Mengadakan workshop pengembangan profesional untuk membantu anggota berkarier di dunia gaming dan esports"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/BGP.webp",
+       "caption": "Arena Community Championship"
+      },
+      {
+       "src": "assets/img/portfolio/BG1.webp",
+       "caption": "Level Up! Esport Championship"
+      },
+      {
+       "src": "assets/img/portfolio/BG3.webp",
+       "caption": "BIFEST BINUS BEKASI 2024"
+      },
+      {
+       "src": "assets/img/portfolio/BGA.webp",
+       "caption": {
+        "en": "Campus Collab",
+        "id": "Kolaborasi Kampus"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Level Up! Championship",
+     "date": {
+      "en": "February – June 2024",
+      "id": "Februari – Juni 2024"
+     },
+     "story": [
+      {
+       "en": "As the Person-In-Charge (PIC) for the inaugural season of Binusian Gaming Level Up! Esport Championship, I led a cross-functional team to create an engaging competitive platform for student gamers. This event featured multiple game titles including Mobile Legends, Valorant, and FIFA, attracting participants from across all BINUS campuses.",
+       "id": "Sebagai Person-In-Charge (PIC) musim perdana Binusian Gaming Level Up! Esport Championship, saya memimpin tim lintas fungsi untuk menciptakan panggung kompetisi yang seru bagi gamer mahasiswa. Acara ini mempertandingkan beberapa judul game seperti Mobile Legends, Valorant, dan FIFA, dan menarik peserta dari seluruh kampus BINUS."
+      },
+      {
+       "en": "The championship was designed to discover and nurture gaming talent within the university while promoting healthy competition and skill development. Throughout the multi-week tournament, we organized livestreamed matches, player spotlights, and professional commentary to elevate the experience.",
+       "id": "Kejuaraan ini dirancang untuk menemukan dan membina talenta gaming di kampus sambil mendorong kompetisi yang sehat dan pengembangan skill. Sepanjang turnamen yang berlangsung beberapa minggu, kami menghadirkan pertandingan live streaming, sorotan pemain, dan komentator profesional untuk meningkatkan pengalamannya."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Achievements",
+      "id": "Pencapaian Utama"
+     },
+     "highlights": [
+      {
+       "en": "Coordinated a tournament across 4 game titles with 200+ participants",
+       "id": "Mengoordinasikan turnamen 4 judul game dengan 200+ peserta"
+      },
+      {
+       "en": "Secured sponsorships from gaming peripheral brands and local esports organizations",
+       "id": "Mendapatkan sponsor dari brand periferal gaming dan organisasi esports lokal"
+      },
+      {
+       "en": "Established tournament infrastructure including registration system, match scheduling, and result tracking",
+       "id": "Membangun infrastruktur turnamen, mulai dari sistem registrasi, penjadwalan pertandingan, hingga pencatatan hasil"
+      },
+      {
+       "en": "Organized professional livestreams with 1000+ concurrent viewers for finals",
+       "id": "Menyelenggarakan live streaming profesional dengan 1000+ penonton bersamaan di babak final"
+      },
+      {
+       "en": "Created post-event content including highlight reels and player interviews",
+       "id": "Membuat konten pascaacara seperti video highlight dan wawancara pemain"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/BGL.webp",
+       "caption": {
+        "en": "Level Up Finals",
+        "id": "Final Level Up"
+       }
+      },
+      {
+       "src": "assets/img/portfolio/LVup2.jpg",
+       "caption": {
+        "en": "Level Up Teams",
+        "id": "Tim Level Up"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Gopay Arena Championship",
+     "date": {
+      "en": "March – May 2024",
+      "id": "Maret – Mei 2024"
+     },
+     "story": [
+      {
+       "en": "The Gopay Arena Community Championship (GACC) was a national-level esports competition organized in partnership with GoPay. As the National Competition Committee Lead, I coordinated with multiple stakeholders to deliver a premier esports experience for collegiate and community gamers across Indonesia.",
+       "id": "Gopay Arena Community Championship (GACC) adalah kompetisi esports tingkat nasional yang diselenggarakan bersama GoPay. Sebagai Ketua Panitia Kompetisi Nasional, saya berkoordinasi dengan banyak pihak untuk menghadirkan pengalaman esports kelas atas bagi gamer kampus dan komunitas di seluruh Indonesia."
+      },
+      {
+       "en": "This championship offered a significant prize pool and provided an opportunity for BINUS students to compete against teams from other universities and gaming communities. The event generated substantial visibility for Binusian Gaming and established our reputation as a serious contributor to the collegiate esports scene.",
+       "id": "Kejuaraan ini menawarkan total hadiah yang besar dan memberi kesempatan mahasiswa BINUS bertanding melawan tim dari universitas dan komunitas gaming lain. Acara ini mendongkrak visibilitas Binusian Gaming dan mengukuhkan reputasi kami sebagai kontributor serius di kancah esports kampus."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Responsibilities",
+      "id": "Tanggung Jawab Utama"
+     },
+     "highlights": [
+      {
+       "en": "Led the national competition committee responsible for rules, scheduling, and technical execution",
+       "id": "Memimpin panitia kompetisi nasional yang menangani regulasi, penjadwalan, dan eksekusi teknis"
+      },
+      {
+       "en": "Collaborated with GoPay representatives to align competition format with sponsor expectations",
+       "id": "Berkolaborasi dengan perwakilan GoPay untuk menyelaraskan format kompetisi dengan harapan sponsor"
+      },
+      {
+       "en": "Managed a team of 28 competition committee members",
+       "id": "Memimpin tim 28 panitia kompetisi"
+      },
+      {
+       "en": "Coordinated online qualifiers and in-person grand finals event",
+       "id": "Mengoordinasikan babak kualifikasi online dan grand final secara langsung"
+      },
+      {
+       "en": "Developed promotional strategy resulting in 24+ team registrations",
+       "id": "Menyusun strategi promosi yang menghasilkan 24+ tim pendaftar"
+      }
+     ],
+     "video": "https://www.youtube.com/embed/MZmVWocK3dw",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/BGP.webp",
+       "caption": "GACC Event"
+      },
+      {
+       "src": "assets/img/portfolio/GACC3.jpg",
+       "caption": {
+        "en": "GACC Teams",
+        "id": "Tim GACC"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Produk Lokal Berkreasi",
+     "date": {
+      "en": "29–30 October 2024",
+      "id": "29–30 Oktober 2024"
+     },
+     "story": [
+      {
+       "en": "Teach For Indonesia and the BINUS University School of Accounting, together with the West Jakarta Office of Industry, Trade, Cooperatives and SMEs (PPKUKM), held an indoor bazaar themed \"Produk Lokal Berkreasi Generasi Muda Berkarya\" (Creative Local Products, Young Generation at Work). Held on 29–30 October 2024 at BINUS @Kemanggisan, Anggrek Campus, it featured 20 small businesses mentored by the West Jakarta PPKUKM office from 8 districts.",
+       "id": "Teach For Indonesia bersama dengan School of Accounting BINUS University berkolaborasi dengan Suku Dinas Perindustrian, Perdagangan, Koperasi, Usaha Kecil dan Menengah (PPKUKM) Jakarta Barat menggelar bazar indoor dengan tema \"Produk Lokal Berkreasi Generasi Muda Berkarya\". Acara yang diselenggarakan pada tanggal 29 & 30 Oktober 2024 di BINUS @Kemanggisan, Kampus Anggrek ini menampilkan 20 pelaku UMKM binaan Sudis PPKUKM Jakarta Barat dari 8 wilayah kecamatan."
+      },
+      {
+       "en": "As part of the event, I helped run a \"Mobile Legend\" esports competition that drew 31 high-school and vocational-school teams from across West Jakarta. The winners received a BINUS University scholarship, cash and shopping vouchers worth Rp 1.5 million. Beyond the esports competition, the event also featured workshops such as batik making, paper craft and resin keychain making.",
+       "id": "Sebagai bagian dari kegiatan ini, saya terlibat dalam penyelenggaraan Lomba E-Sport \"Mobile Legend\" yang berhasil menarik partisipasi 31 tim tingkat SMA dan SMK se-Jakarta Barat. Pemenang pertama berkesempatan mendapatkan hadiah berupa beasiswa dari BINUS University, uang tunai dan voucher belanja senilai Rp 1,5 juta. Selain kompetisi esports, acara juga dimeriahkan dengan berbagai workshop seperti membatik, Paper Craft, dan pembuatan Gantungan Kunci Resin."
+      },
+      {
+       "en": "The event was attended by Mr. Iqbal Idham Ramid, Head of the West Jakarta PPKUKM Office; Mr. Febri, Head of the Economic Affairs Division of the West Jakarta City Secretariat; and Mrs. Reina S.Kom., M.M, Vice Rector of Academic Operation and Resources.",
+       "id": "Acara ini dihadiri oleh Bapak Iqbal Idham Ramid selaku Kepala Suku Dinas PPKUKM Administrasi Kota Jakarta Barat, Bapak Febri selaku Kepala Bagian Perekonomian Sekretariat Kota Administrasi Kota Jakarta Barat, dan Ibu Reina S.Kom., M.M selaku Vice Rector Academic Operation and Resources."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Contributions",
+      "id": "Kontribusi Utama"
+     },
+     "highlights": [
+      {
+       "en": "Ran a \"Mobile Legend\" esports competition with 31 high-school and vocational-school teams",
+       "id": "Penyelenggaraan lomba E-Sport \"Mobile Legend\" dengan partisipasi 31 tim tingkat SMA/SMK"
+      },
+      {
+       "en": "Collaborated with the West Jakarta PPKUKM office to promote local small-business products",
+       "id": "Kolaborasi dengan Suku Dinas PPKUKM Jakarta Barat untuk promosi produk UMKM lokal"
+      },
+      {
+       "en": "Facilitated interactive workshops for BINUS students and staff",
+       "id": "Fasilitasi workshop interaktif untuk mahasiswa dan karyawan BINUS"
+      },
+      {
+       "en": "Gave small businesses the chance to sell their products directly to consumers",
+       "id": "Pemberian kesempatan bagi pelaku UMKM untuk memasarkan produk mereka langsung ke konsumen"
+      },
+      {
+       "en": "Used esports as a bridge between small businesses and the younger generation",
+       "id": "Integrasi esports sebagai jembatan antara UMKM dan generasi muda"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/LOKAL1.jpg",
+       "caption": {
+        "en": "UMKM Showcase",
+        "id": "Pameran UMKM"
+       }
+      },
+      {
+       "src": "assets/img/portfolio/LOKAL2.jpg",
+       "caption": {
+        "en": "Mobile Legend Tournament",
+        "id": "Turnamen Mobile Legend"
+       }
+      }
+     ]
+    },
+    {
+     "name": "World Cyber Games 2024",
+     "date": {
+      "en": "October 2024",
+      "id": "Oktober 2024"
+     },
+     "story": [
+      {
+       "en": "To strengthen BINUS University's place in Indonesia's esports ecosystem, I helped build a strategic partnership between Binusian Gaming and Mineski, one of Southeast Asia's leading esports organizations. The collaboration was a breakthrough for the campus esports community through its participation in World Cyber Games (WCG) Indonesia 2024.",
+       "id": "Sebagai bagian dari upaya memperkuat posisi BINUS University dalam ekosistem esports Indonesia, saya terlibat dalam menjalin kerjasama strategis antara Binusian Gaming dan Mineski, organisasi esports ternama di Asia Tenggara. Kolaborasi ini menjadi gebrakan baru dalam komunitas esports kampus melalui partisipasi dalam acara World Cyber Games (WCG) Indonesia 2024."
+      },
+      {
+       "en": "As a result of the negotiations, Mineski provided 80 free two-day passes for Binusian Gaming members, BINUS students and partner esports communities. The initiative was designed to get young people involved in Indonesia's fast-growing esports industry.",
+       "id": "Hasil dari negosiasi yang dilakukan, Mineski memberikan dukungan berupa 80 tiket masuk gratis untuk dua hari pelaksanaan acara bagi anggota Binusian Gaming, mahasiswa BINUS, dan komunitas esports terkait. Inisiatif ini dirancang untuk mendorong keterlibatan generasi muda dalam industri esports yang berkembang pesat di Indonesia."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Contributions",
+      "id": "Kontribusi Utama"
+     },
+     "highlights": [
+      {
+       "en": "Facilitated a strategic partnership between Binusian Gaming and Mineski",
+       "id": "Fasilitasi kerjasama strategis antara Binusian Gaming dan Mineski"
+      },
+      {
+       "en": "Secured 80 free tickets for the campus esports community",
+       "id": "Perolehan 80 tiket gratis untuk komunitas esports kampus"
+      },
+      {
+       "en": "Opened access to a prestigious national esports competition",
+       "id": "Membuka akses ke kompetisi esports bergengsi tingkat nasional"
+      },
+      {
+       "en": "Created networking opportunities with esports industry professionals",
+       "id": "Menciptakan peluang networking dengan profesional industri esports"
+      },
+      {
+       "en": "Strengthened BINUS's position in Indonesia's esports ecosystem",
+       "id": "Penguatan posisi BINUS dalam ekosistem esports Indonesia"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/wcg1.jpg",
+       "caption": "World Cyber Games Indonesia 2024"
+      },
+      {
+       "src": "assets/img/portfolio/wcg3.jpg",
+       "caption": {
+        "en": "Mineski Collaboration",
+        "id": "Kolaborasi Mineski"
+       }
+      },
+      {
+       "src": "assets/img/portfolio/wcg2.jpg",
+       "caption": {
+        "en": "WCG Free Tickets",
+        "id": "Tiket Gratis WCG"
+       }
+      }
+     ]
+    },
+    {
+     "name": "Honor of Kings Campus Attack",
+     "date": {
+      "en": "7 February 2025",
+      "id": "7 Februari 2025"
+     },
+     "story": [
+      {
+       "en": "On Friday, 7 February 2025, I helped organize Honor of Kings Campus Attack at BINUS Kemanggisan. Held at the Anggrek Campus from 1 to 5 PM, the tournament became a prestigious event that brought Binusians from different regions together in an exciting, challenging gaming competition.",
+       "id": "Pada Jumat, 7 Februari 2025, saya terlibat dalam penyelenggaraan Honor of Kings Campus Attack di BINUS Kemanggisan. Turnamen yang berlangsung di Kampus Anggrek dari pukul 13.00 hingga 17.00 WIB ini berhasil menjadi ajang prestisius yang menyatukan para binusian dari berbagai region dalam kompetisi gaming yang seru dan menantang."
+      },
+      {
+       "en": "As event coordinator, I made sure the tournament was not only a competition but also a way to bring students closer together. It gave the winning team a golden opportunity to represent BINUS University in the next round.",
+       "id": "Sebagai koordinator acara, saya memastikan bahwa turnamen ini tidak hanya menjadi arena kompetisi, tetapi juga wadah untuk mempererat solidaritas antar mahasiswa. Acara ini menawarkan kesempatan emas bagi tim pemenang untuk mewakili BINUS University di babak selanjutnya."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Contributions",
+      "id": "Kontribusi Utama"
+     },
+     "highlights": [
+      {
+       "en": "Coordinated an Honor of Kings tournament with players from several campus regions",
+       "id": "Koordinasi turnamen Honor of Kings yang menarik partisipasi dari berbagai region kampus"
+      },
+      {
+       "en": "Ran the competition as a qualifier for a higher-level tournament",
+       "id": "Penyelenggaraan kompetisi sebagai jalur kualifikasi untuk turnamen tingkat yang lebih tinggi"
+      },
+      {
+       "en": "Created a platform to develop strategic skills and teamwork",
+       "id": "Penciptaan platform untuk pengembangan keterampilan strategis dan kerja sama tim"
+      },
+      {
+       "en": "Brought students together through esports activities",
+       "id": "Fasilitasi interaksi antar mahasiswa melalui aktivitas esports"
+      },
+      {
+       "en": "Strengthened BINUS University's image in the campus esports scene",
+       "id": "Penguatan citra BINUS University dalam ekosistem esports kampus"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/HOK2.jpg",
+       "caption": {
+        "en": "Honor of Kings Competition",
+        "id": "Kompetisi Honor of Kings"
+       }
+      },
+      {
+       "src": "assets/img/portfolio/HOK3.jpg",
+       "caption": {
+        "en": "Honor of Kings Winners",
+        "id": "Pemenang Honor of Kings"
+       }
+      }
+     ]
+    },
+    {
+     "name": "BIFEST BINUS 2024",
+     "date": "24 November 2024",
+     "story": [
+      {
+       "en": "As part of my initiative to promote esports culture within the university, I took an active role in supporting and coordinating esports activities during BINUS Festival (BIFEST) 2024. In collaboration with Binusian Gaming, we successfully organized a two-day esports tournament that attracted passionate gamers from various faculties.",
+       "id": "Sebagai bagian dari inisiatif saya memajukan budaya esports di kampus, saya aktif mendukung dan mengoordinasikan kegiatan esports di BINUS Festival (BIFEST) 2024. Bersama Binusian Gaming, kami sukses menggelar turnamen esports dua hari yang menarik gamer antusias dari berbagai fakultas."
+      },
+      {
+       "en": "On the first day, participants competed in a high-energy Valorant tournament, where strategic teamwork and precision were on full display. The second day shifted focus to the mobile gaming scene with an intense Mobile Legends: Bang Bang (MLBB) competition, showcasing fast-paced action and team synergy.",
+       "id": "Di hari pertama, peserta beradu di turnamen Valorant yang penuh energi, memamerkan kerja sama tim yang strategis dan presisi. Hari kedua beralih ke mobile gaming lewat kompetisi Mobile Legends: Bang Bang (MLBB) yang sengit, penuh aksi cepat dan sinergi tim."
+      },
+      {
+       "en": "This event went beyond mere competition; it served as a platform to foster community building, expand the gaming network within the campus, and cultivate a fun yet professional esports environment.",
+       "id": "Acara ini lebih dari sekadar kompetisi; ia menjadi wadah untuk membangun komunitas, memperluas jaringan gaming di kampus, dan menumbuhkan lingkungan esports yang seru namun tetap profesional."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Contributions",
+      "id": "Kontribusi Utama"
+     },
+     "highlights": [
+      {
+       "en": "Two-day esports tournament during BINUS Festival 2024",
+       "id": "Turnamen esports dua hari selama BINUS Festival 2024"
+      },
+      {
+       "en": "Day 1: Valorant competition highlighting FPS team strategy",
+       "id": "Hari 1: kompetisi Valorant yang menonjolkan strategi tim FPS"
+      },
+      {
+       "en": "Day 2: Mobile Legends: Bang Bang competition focused on mobile team play",
+       "id": "Hari 2: kompetisi Mobile Legends: Bang Bang yang berfokus pada permainan tim mobile"
+      },
+      {
+       "en": "Fostered a fun, inclusive, and sportsmanlike esports environment",
+       "id": "Menumbuhkan lingkungan esports yang seru, inklusif, dan sportif"
+      },
+      {
+       "en": "Enabled student engagement and strengthened cross-faculty gamer networks",
+       "id": "Mendorong keterlibatan mahasiswa dan memperkuat jaringan gamer lintas fakultas"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/BGB.jpg",
+       "caption": "BIFEST BINUS 2024"
+      },
+      {
+       "src": "assets/img/portfolio/BIFEST1.jpg",
+       "caption": "BIFEST Gaming Zone"
+      },
+      {
+       "src": "assets/img/portfolio/BIFEST3.webp",
+       "caption": "BIFEST Workshop"
+      }
+     ]
+    },
+    {
+     "name": {
+      "en": "Campus Collaborations",
+      "id": "Kolaborasi Kampus"
+     },
+     "date": "29 November 2024",
+     "story": [
+      {
+       "en": "An important focus of my leadership has been establishing collaborative relationships with other BINUS campuses and student organizations. These cross-campus initiatives have helped unify the Binusian Gaming community across all university locations and created synergies with complementary student groups.",
+       "id": "Salah satu fokus penting kepemimpinan saya adalah menjalin kolaborasi dengan kampus BINUS lain dan organisasi mahasiswa. Inisiatif lintas kampus ini menyatukan komunitas Binusian Gaming di semua lokasi kampus dan menciptakan sinergi dengan kelompok mahasiswa yang saling melengkapi."
+      },
+      {
+       "en": "One notable event was the Binusian Gaming Campus Collaboration held at Kemanggisan on November 29, 2024. This initiative brought together Binusian Gaming, Universitas Indonesia ESports Club (UIESC), and Veteran Jakarta E-Sports (VJE) under the theme \"From Sharing to Shaping the Next Generation.\"",
+       "id": "Salah satu acara yang menonjol adalah Binusian Gaming Campus Collaboration di Kemanggisan pada 29 November 2024. Inisiatif ini mempertemukan Binusian Gaming, Universitas Indonesia ESports Club (UIESC), dan Veteran Jakarta E-Sports (VJE) dengan tema \"From Sharing to Shaping the Next Generation.\""
+      },
+      {
+       "en": "The event began with a Benchmarking Session, followed by a Group Discussion Session titled \"Listen and Improve\", and closed with a Campus Tour at BINUS University’s Anggrek campus.",
+       "id": "Acara dibuka dengan Sesi Benchmarking, dilanjutkan Sesi Diskusi Kelompok bertajuk \"Listen and Improve\", dan ditutup dengan Campus Tour di kampus Anggrek BINUS University."
+      }
+     ],
+     "listTitle": {
+      "en": "Key Partnerships",
+      "id": "Kemitraan Utama"
+     },
+     "highlights": [
+      {
+       "en": "Regular inter-campus tournaments connecting gamers across all BINUS locations",
+       "id": "Turnamen antarkampus rutin yang menghubungkan gamer di semua lokasi BINUS"
+      },
+      {
+       "en": "Collaborative events with BINUS Computer Science Student Association focusing on game development",
+       "id": "Acara kolaborasi dengan himpunan mahasiswa Computer Science BINUS yang berfokus pada pengembangan game"
+      },
+      {
+       "en": "Joint industry visits and company tours with BINUS Business School organizations",
+       "id": "Kunjungan industri dan company tour bersama organisasi BINUS Business School"
+      },
+      {
+       "en": "Shared resources and cross-promotion with BINUS Multimedia clubs",
+       "id": "Berbagi sumber daya dan promosi silang dengan klub Multimedia BINUS"
+      },
+      {
+       "en": "Mentorship program connecting senior and junior members across campuses",
+       "id": "Program mentoring yang menghubungkan anggota senior dan junior lintas kampus"
+      },
+      {
+       "en": "Collaborative campus-based initiatives such as the 2024 event with UIESC and VJE",
+       "id": "Inisiatif kolaborasi berbasis kampus seperti acara 2024 bersama UIESC dan VJE"
+      }
+     ],
+     "video": "",
+     "gallery": [
+      {
+       "src": "assets/img/portfolio/BGA.webp",
+       "caption": {
+        "en": "Inter-campus Event",
+        "id": "Acara Antarkampus"
+       }
+      },
+      {
+       "src": "assets/img/portfolio/collab2.jpg",
+       "caption": {
+        "en": "Collaboration Meeting",
+        "id": "Pertemuan Kolaborasi"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "advanced-buddy-binusian-2027",
+   "order": 7,
+   "title": "Advanced Buddy Binusian 2027",
+   "category": "organisasi",
+   "description": {
+    "en": "Mentored incoming Binusian 2027 students as they adapted to campus life and academics.",
+    "id": "Menjadi pendamping bagi calon mahasiswa baru Binusian 2027 untuk proses adaptasi lingkungan kampus dan akademik."
+   },
+   "image": "assets/media/showcase/advanced-buddy-binusian-2027-cover.webp",
+   "gallery": [
+    "assets/media/showcase/advanced-buddy-binusian-2027-1.webp",
+    "assets/media/showcase/advanced-buddy-binusian-2027-2.webp",
+    "assets/media/showcase/advanced-buddy-binusian-2027-3.webp"
+   ],
+   "skills": [
+    {
+     "name": "Mentoring",
+     "icon": "https://api.iconify.design/mdi/account-heart-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Communication",
+      "id": "Komunikasi"
+     },
+     "icon": "https://api.iconify.design/mdi/message-text-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Leadership",
+      "id": "Kepemimpinan"
+     },
+     "icon": "https://api.iconify.design/mdi/account-tie-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Guidance",
+      "id": "Pendampingan"
+     },
+     "icon": "https://api.iconify.design/mdi/compass-outline.svg"
+    }
+   ],
+   "role": "Mentor / Buddy",
+   "date": "2023",
+   "teamSize": 5,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "Advanced Buddy is a collaborative program between the Student Development Center and Marketing Unit of BINUS @Malang designed to introduce prospective students to university life at BINUS while establishing a communication bridge between BINUS @Malang campus and future students.",
+     "id": "Advanced Buddy adalah program kolaborasi Student Development Center dan Unit Marketing BINUS @Malang untuk mengenalkan calon mahasiswa pada kehidupan kuliah di BINUS sekaligus membangun jembatan komunikasi antara kampus BINUS @Malang dan calon mahasiswanya."
+    },
+    {
+     "en": "This three-month program (February 2023 to May 2023) encompassed a variety of activities, including campus introductions, \"What You Wanna Be\" sharing sessions, introductions to each department’s academic systems, and a final project featuring creative videos on Instagram and TikTok about \"Why You Choose BINUS @Malang.\"",
+     "id": "Program tiga bulan ini (Februari 2023 hingga Mei 2023) mencakup beragam kegiatan, mulai dari pengenalan kampus, sesi sharing \"What You Wanna Be\", pengenalan sistem akademik tiap jurusan, hingga proyek akhir berupa video kreatif di Instagram dan TikTok tentang \"Why You Choose BINUS @Malang.\""
+    },
+    {
+     "en": "As an Advanced Buddy, I had the opportunity to mentor prospective Binusian 2027 students, guiding them through their transition from high school to university life, answering their questions about majors and campus life, and helping them build connections within the BINUS community before they officially enrolled.",
+     "id": "Sebagai Advanced Buddy, saya berkesempatan membimbing calon mahasiswa Binusian 2027 dalam masa transisi dari SMA ke dunia kuliah, menjawab pertanyaan mereka seputar jurusan dan kehidupan kampus, serta membantu mereka membangun relasi di komunitas BINUS sebelum resmi mendaftar."
+    }
+   ],
+   "listTitle": "",
+   "highlights": [],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Program Duration",
+      "id": "Durasi Program"
+     },
+     "value": {
+      "en": "February 2023 – May 2023",
+      "id": "Februari 2023 – Mei 2023"
+     }
+    },
+    {
+     "label": {
+      "en": "Organization",
+      "id": "Organisasi"
+     },
+     "value": "Student Development Center & Marketing BINUS @Malang"
+    },
+    {
+     "label": {
+      "en": "Location",
+      "id": "Lokasi"
+     },
+     "value": "BINUS University @Malang"
+    }
+   ],
+   "competencies": [
+    "Mentoring",
+    {
+     "en": "Communication",
+     "id": "Komunikasi"
+    },
+    {
+     "en": "Leadership",
+     "id": "Kepemimpinan"
+    },
+    {
+     "en": "Guidance",
+     "id": "Pendampingan"
+    },
+    {
+     "en": "Content Creation",
+     "id": "Pembuatan Konten"
+    }
+   ],
+   "links": [],
+   "campaigns": []
+  },
+  {
+   "id": "panitia-seminar-binus-malang",
+   "order": 8,
+   "title": {
+    "en": "Binus Malang Seminar Committee",
+    "id": "Panitia Seminar Binus Malang"
+   },
+   "category": "organisasi",
+   "description": {
+    "en": "Responsible for smooth technical and multimedia operations throughout a series of academic seminars at Binus Malang.",
+    "id": "Bertanggung jawab atas kelancaran teknis dan multimedia selama rangkaian seminar akademik di Binus Malang."
+   },
+   "image": "assets/media/showcase/panitia-seminar-binus-malang-cover.webp",
+   "gallery": [
+    "assets/media/showcase/panitia-seminar-binus-malang-1.webp",
+    "assets/media/showcase/panitia-seminar-binus-malang-2.webp",
+    "assets/media/showcase/panitia-seminar-binus-malang-3.webp",
+    "assets/media/showcase/panitia-seminar-binus-malang-4.webp"
+   ],
+   "skills": [
+    {
+     "name": {
+      "en": "Teamwork",
+      "id": "Kerja Sama Tim"
+     },
+     "icon": "https://api.iconify.design/mdi/account-group-outline.svg"
+    },
+    {
+     "name": "Multimedia",
+     "icon": "https://api.iconify.design/mdi/camera-wireless.svg"
+    },
+    {
+     "name": {
+      "en": "Event Management",
+      "id": "Manajemen Acara"
+     },
+     "icon": "https://api.iconify.design/mdi/calendar-check-outline.svg"
+    },
+    {
+     "name": {
+      "en": "Technical Support",
+      "id": "Dukungan Teknis"
+     },
+     "icon": "https://api.iconify.design/mdi/laptop-windows.svg"
+    }
+   ],
+   "role": {
+    "en": "Technical Support",
+    "id": "Dukungan Teknis"
+   },
+   "date": "2024",
+   "teamSize": 5,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "As a member of the Binus Malang Seminar Committee, I was responsible for providing technical and multimedia support for a major academic seminar hosted by our campus. The seminar brought together industry professionals, academics, and students to discuss emerging trends in technology and business.",
+     "id": "Sebagai anggota Panitia Seminar Binus Malang, saya bertanggung jawab atas dukungan teknis dan multimedia untuk seminar akademik besar yang diselenggarakan kampus kami. Seminar ini mempertemukan praktisi industri, akademisi, dan mahasiswa untuk membahas tren terbaru di bidang teknologi dan bisnis."
+    },
+    {
+     "en": "Working closely with a dedicated team, I helped ensure the seamless execution of the event by managing audiovisual equipment, supporting presenters with their technical needs, and documenting the event through photography and video. This experience enhanced my event management skills while allowing me to contribute to an important educational initiative at our university.",
+     "id": "Bekerja erat dengan tim yang berdedikasi, saya membantu memastikan acara berjalan mulus dengan mengelola peralatan audiovisual, membantu kebutuhan teknis para pembicara, serta mendokumentasikan acara lewat foto dan video. Pengalaman ini mengasah kemampuan manajemen acara saya sekaligus memberi kesempatan berkontribusi pada inisiatif pendidikan penting di kampus."
+    }
+   ],
+   "listTitle": {
+    "en": "Key Responsibilities",
+    "id": "Tanggung Jawab Utama"
+   },
+   "highlights": [
+    {
+     "en": "Managed technical equipment setup including projectors, microphones, and sound systems",
+     "id": "Mengelola pemasangan peralatan teknis seperti proyektor, mikrofon, dan sound system"
+    },
+    {
+     "en": "Provided real-time technical support to speakers and presenters",
+     "id": "Memberikan dukungan teknis real-time kepada pembicara dan presenter"
+    },
+    {
+     "en": "Assisted with online streaming setup for remote participants",
+     "id": "Membantu persiapan live streaming untuk peserta online"
+    },
+    {
+     "en": "Collaborated with other committee members to ensure smooth event execution",
+     "id": "Berkolaborasi dengan panitia lain agar acara berjalan lancar"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": {
+      "en": "Event Date",
+      "id": "Tanggal Acara"
+     },
+     "value": "September 2023"
+    },
+    {
+     "label": {
+      "en": "Organization",
+      "id": "Organisasi"
+     },
+     "value": "Binus University Malang"
+    },
+    {
+     "label": {
+      "en": "Committee Size",
+      "id": "Jumlah Panitia"
+     },
+     "value": {
+      "en": "4 members",
+      "id": "4 orang"
+     }
+    }
+   ],
+   "competencies": [
+    {
+     "en": "Teamwork",
+     "id": "Kerja Sama Tim"
+    },
+    "Multimedia",
+    {
+     "en": "Event Planning",
+     "id": "Perencanaan Acara"
+    },
+    {
+     "en": "Technical Support",
+     "id": "Dukungan Teknis"
+    },
+    {
+     "en": "Communication",
+     "id": "Komunikasi"
+    }
+   ],
+   "links": [
+    {
+     "label": {
+      "en": "View Event Gallery",
+      "id": "Lihat Galeri Acara"
+     },
+     "url": "https://student.binus.ac.id/malang/student-center/softskill-booster/"
+    }
+   ],
+   "campaigns": []
+  },
+  {
+   "id": "cerdasaps-bahasa-isyarat",
+   "order": 9,
+   "title": "CerdasAps Bahasa Isyarat",
+   "category": "campus",
+   "description": {
+    "en": "An app that helps people with disabilities and the general public learn Indonesian Sign Language (BISINDO).",
+    "id": "Aplikasi mobile untuk membantu pembelajaran Bahasa Isyarat Indonesia (BISINDO) bagi penyandang disabilitas dan masyarakat umum."
+   },
+   "image": "assets/media/showcase/cerdasaps-bahasa-isyarat-cover.webp",
+   "gallery": [
+    "assets/media/showcase/cerdasaps-bahasa-isyarat-1.webp",
+    "assets/media/showcase/cerdasaps-bahasa-isyarat-2.webp",
+    "assets/media/showcase/cerdasaps-bahasa-isyarat-3.webp"
+   ],
+   "skills": [
+    {
+     "name": "Java",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+     "name": "Android",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+    },
+    {
+     "name": "MySQL",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    },
+    {
+     "name": "NetBeans",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netbeans/netbeans-original.svg"
+    },
+    {
+     "name": "Figma",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    }
+   ],
+   "role": "Full Stack Developer",
+   "date": "2024",
+   "teamSize": 3,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "CerdasAps Bahasa Isyarat is a comprehensive web-based sign language learning application designed to bridge communication gaps between hearing and deaf communities. The platform features an extensive library of sign language videos and photos that enable interactive learning experiences.",
+     "id": "CerdasAps Bahasa Isyarat adalah aplikasi belajar bahasa isyarat berbasis web yang lengkap, dirancang untuk menjembatani komunikasi antara komunitas dengar dan Tuli. Platform ini memiliki koleksi video dan foto bahasa isyarat yang luas untuk pengalaman belajar yang interaktif."
+    },
+    {
+     "en": "The application provides step-by-step tutorials through high-quality videos demonstrating proper hand movements and expressions for various words and phrases. Users can track their progress, practice with interactive exercises, and receive feedback on their signing techniques through the integrated learning system.",
+     "id": "Aplikasi ini menyediakan tutorial langkah demi langkah lewat video berkualitas tinggi yang memperagakan gerakan tangan dan ekspresi yang tepat untuk berbagai kata dan frasa. Pengguna bisa memantau progres, berlatih dengan latihan interaktif, dan mendapat masukan atas teknik isyarat mereka melalui sistem pembelajaran terintegrasi."
+    },
+    {
+     "en": "Key features include categorized learning modules, search functionality for specific signs, slow-motion video playback for detailed movement study, and a community forum for users to share experiences and ask questions.",
+     "id": "Fitur utamanya meliputi modul belajar berdasarkan kategori, pencarian isyarat tertentu, pemutaran video slow-motion untuk mempelajari gerakan secara detail, dan forum komunitas untuk berbagi pengalaman dan bertanya."
+    }
+   ],
+   "listTitle": "",
+   "highlights": [],
+   "extraInfo": [
+    {
+     "label": "Platform",
+     "value": {
+      "en": "Web-based",
+      "id": "Berbasis web"
+     }
+    }
+   ],
+   "competencies": [],
+   "links": [],
+   "campaigns": []
+  },
+  {
+   "id": "digital-class-ar",
+   "order": 10,
+   "title": "Digital Class AR",
+   "category": "campus",
+   "description": {
+    "en": "An Augmented Reality (AR) learning app that brings classroom material to life interactively, built with Unity and Assemblr.",
+    "id": "Aplikasi pembelajaran berbasis Augmented Reality (AR) untuk membantu visualisasi materi kelas secara interaktif menggunakan teknologi Unity dan Assemblr."
+   },
+   "image": "assets/media/showcase/digital-class-ar-cover.webp",
+   "gallery": [
+    "assets/media/showcase/digital-class-ar-1.webp",
+    "assets/media/showcase/digital-class-ar-2.webp",
+    "assets/media/showcase/digital-class-ar-3.webp"
+   ],
+   "skills": [
+    {
+     "name": "Android",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+    },
+    {
+     "name": "Unity/AR",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+    },
+    {
+     "name": "Assemblr EDU",
+     "icon": "https://cdn.prod.website-files.com/5b7529a016d8f25106c56acf/65659f88576bb3e7e66e7a96_logo%20edu.webp"
+    },
+    {
+     "name": "Figma",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+    }
+   ],
+   "role": "Mobile Developer",
+   "date": "2023",
+   "teamSize": 4,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "Digital Class is an innovative Android application that leverages augmented reality (AR) technology to enhance the learning experience in educational settings. The app allows educators to create interactive 3D models and AR experiences that students can explore through their mobile devices, making complex concepts more engaging and easier to understand.",
+     "id": "Digital Class adalah aplikasi Android inovatif yang memanfaatkan teknologi augmented reality (AR) untuk meningkatkan pengalaman belajar. Aplikasi ini memungkinkan pengajar membuat model 3D dan pengalaman AR interaktif yang bisa dijelajahi siswa lewat perangkat mobile, sehingga konsep yang rumit jadi lebih menarik dan mudah dipahami."
+    },
+    {
+     "en": "Using Unity and Assemblr EDU integration, Digital Class provides educators with tools to develop custom AR content specific to their curriculum. The application features user authentication, content management, real-time collaboration, and progress tracking to create a comprehensive digital learning environment.",
+     "id": "Dengan integrasi Unity dan Assemblr EDU, Digital Class memberi pengajar alat untuk membuat konten AR sesuai kurikulum mereka. Aplikasi ini dilengkapi autentikasi pengguna, manajemen konten, kolaborasi real-time, dan pelacakan progres untuk menciptakan lingkungan belajar digital yang lengkap."
+    }
+   ],
+   "listTitle": {
+    "en": "Key Features",
+    "id": "Fitur Utama"
+   },
+   "highlights": [
+    {
+     "en": "Interactive 3D models with AR functionality for enhanced visualization",
+     "id": "Model 3D interaktif dengan fitur AR untuk visualisasi yang lebih baik"
+    },
+    {
+     "en": "Custom content creation tools for educators to develop learning materials",
+     "id": "Alat pembuatan konten bagi pengajar untuk menyusun materi belajar"
+    },
+    {
+     "en": "Real-time collaboration features for group learning activities",
+     "id": "Fitur kolaborasi real-time untuk kegiatan belajar kelompok"
+    },
+    {
+     "en": "Progress tracking and assessment tools to measure student engagement",
+     "id": "Pelacakan progres dan alat penilaian untuk mengukur keterlibatan siswa"
+    },
+    {
+     "en": "Offline content access for learning without internet connectivity",
+     "id": "Akses konten offline untuk belajar tanpa koneksi internet"
+    }
+   ],
+   "extraInfo": [
+    {
+     "label": "Platform",
+     "value": "Android"
+    }
+   ],
+   "competencies": [],
+   "links": [
+    {
+     "label": {
+      "en": "View Demo",
+      "id": "Lihat Demo"
+     },
+     "url": "https://potato-ar.netlify.app/"
+    },
+    {
+     "label": {
+      "en": "Source Code",
+      "id": "Kode Sumber"
+     },
+     "url": "https://github.com/Nicohim87/HCI_FinalProject"
+    }
+   ],
+   "campaigns": []
+  },
+  {
+   "id": "obeng-online-bengkel",
+   "order": 11,
+   "title": "OBENG - Online Bengkel",
+   "category": "campus",
+   "description": {
+    "en": "OBENG (Online Bengkel) is a comprehensive web platform that connects vehicle owners with auto repair shops through an online service booking system.",
+    "id": "OBENG (Online Bengkel) adalah platform web komprehensif yang dirancang untuk menghubungkan pemilik kendaraan dengan bengkel otomotif melalui sistem pemesanan layanan daring."
+   },
+   "image": "assets/media/showcase/obeng-online-bengkel-cover.webp",
+   "gallery": [
+    "assets/media/showcase/obeng-online-bengkel-1.webp",
+    "assets/media/showcase/obeng-online-bengkel-2.webp",
+    "assets/media/showcase/obeng-online-bengkel-3.webp",
+    "assets/media/showcase/obeng-online-bengkel-4.webp"
+   ],
+   "skills": [
+    {
+     "name": "HTML5",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+     "name": "CSS3",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+     "name": "JavaScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+     "name": "MySQL",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "2023",
+   "teamSize": 5,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [
+    {
+     "en": "OBENG (Online Bengkel) is a comprehensive web platform designed to connect vehicle owners with automotive repair shops. This project addresses the challenge of finding reliable automotive services by creating a streamlined booking system and service marketplace.",
+     "id": "OBENG (Online Bengkel) adalah platform web lengkap yang menghubungkan pemilik kendaraan dengan bengkel otomotif. Proyek ini menjawab sulitnya mencari layanan otomotif yang terpercaya lewat sistem pemesanan yang ringkas dan marketplace layanan."
+    },
+    {
+     "en": "The platform features user authentication, service booking, repair shop profiles, service listings, and payment integration. The responsive design ensures accessibility across devices, making vehicle maintenance more convenient for all users.",
+     "id": "Platform ini memiliki autentikasi pengguna, pemesanan layanan, profil bengkel, daftar layanan, dan integrasi pembayaran. Desain responsifnya memastikan akses di semua perangkat, sehingga perawatan kendaraan jadi lebih praktis bagi semua pengguna."
+    }
+   ],
+   "listTitle": "",
+   "highlights": [],
+   "extraInfo": [],
+   "competencies": [],
+   "links": [
+    {
+     "label": {
+      "en": "View Live Site",
+      "id": "Lihat Situs"
+     },
+     "url": "https://obeng-workshops.vercel.app/"
+    },
+    {
+     "label": {
+      "en": "View Code",
+      "id": "Lihat Kode"
+     },
+     "url": "https://github.com/desyha/full-stack-project-se"
+    }
+   ],
+   "campaigns": []
+  },
+  {
+   "id": "kys-and-kyt-platform",
+   "order": 12,
+   "title": "KYS & KYT Platform",
+   "category": "internship",
+   "description": {
+    "en": "A digital assessment platform (Know Your Team & Know Your Self), focused on dynamic questionnaires, input validation and the first integration with the backend API.",
+    "id": "Platform tes evaluasi digital (Know Your Team & Know Your Self). Berfokus pada perancangan kuesioner dinamis, validasi input data, dan integrasi awal dengan API backend."
+   },
+   "image": "assets/media/showcase/kys-and-kyt-platform-cover.webp",
+   "gallery": [
+    "assets/media/showcase/kys-and-kyt-platform-1.webp",
+    "assets/media/showcase/kys-and-kyt-platform-2.webp"
+   ],
+   "skills": [
+    {
+     "name": "React JS",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": {
+      "en": "API Integration",
+      "id": "Integrasi API"
+     },
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "",
+   "teamSize": 3,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "mysau-mobile",
+   "order": 13,
+   "title": "MySAU Mobile",
+   "category": "internship",
+   "description": {
+    "en": "Internal employee mobile features for GPS- and camera-based attendance, with local data storage via AsyncStorage and structured form handling using React Hook Form.",
+    "id": "Pengembangan fitur mobile internal karyawan untuk absensi berbasis GPS dan kamera. Mengimplementasikan penyimpanan data lokal dengan AsyncStorage dan manajemen form terstruktur menggunakan React Hook Form."
+   },
+   "image": "assets/media/showcase/mysau-mobile-cover.webp",
+   "gallery": [
+    "assets/media/showcase/mysau-mobile-1.webp",
+    "assets/media/showcase/mysau-mobile-2.webp",
+    "assets/media/showcase/mysau-mobile-3.webp",
+    "assets/media/showcase/mysau-mobile-4.webp"
+   ],
+   "skills": [
+    {
+     "name": "React Native",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "Expo",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/expo/expo-original.svg"
+    },
+    {
+     "name": "Android",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+    }
+   ],
+   "role": "Mobile Developer",
+   "date": "",
+   "teamSize": 2,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  },
+  {
+   "id": "procurement-management",
+   "order": 14,
+   "title": {
+    "en": "Procurement Management",
+    "id": "Manajemen Procurement"
+   },
+   "category": "internship",
+   "description": {
+    "en": "Built a goods-and-services procurement interface from scratch: a management dashboard, procurement request forms, an approval workflow and transaction history, all with a modular approach.",
+    "id": "Membangun antarmuka manajemen pengadaan barang dan jasa dari nol. Fitur mencakup dashboard manajemen, form pengajuan procurement, approval workflow, dan riwayat transaksi dengan pendekatan modular."
+   },
+   "image": "assets/media/showcase/procurement-management-cover.webp",
+   "gallery": [
+    "assets/media/showcase/procurement-management-1.webp",
+    "assets/media/showcase/procurement-management-2.webp"
+   ],
+   "skills": [
+    {
+     "name": "React JS",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+     "name": "Tailwind CSS",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    },
+    {
+     "name": "JavaScript",
+     "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    }
+   ],
+   "role": "Front-End Developer",
+   "date": "",
+   "teamSize": 3,
+   "projectUrl": "",
+   "repoUrl": "",
+   "story": [],
+   "highlights": [],
+   "extraInfo": [],
+   "links": [],
+   "competencies": [],
+   "campaigns": []
+  }
+ ],
+ "certifications": [
+  {
+   "id": "digifest-himti-2023",
+   "order": 1,
+   "title": "Digifest HIMTI 2023",
+   "issuer": "Himpunan Teknik Informatika",
+   "date": "2023",
+   "image": "assets/media/certificate/sertifikat8.jpg",
+   "description": "Panitia Event & Coach for participant"
+  },
+  {
+   "id": "sql-test",
+   "order": 2,
+   "title": "SQL Test",
+   "issuer": "TESTDOME",
+   "date": "2023",
+   "image": "assets/media/certificate/sertifikat6.1.jpg",
+   "description": "Certification in SQL database management"
+  },
+  {
+   "id": "bazaar-indoor-produk-lokal",
+   "order": 3,
+   "title": "Bazaar Indoor - Produk Lokal",
+   "issuer": "Dinas Perindustrian DKI Jakarta",
+   "date": "2023",
+   "image": "assets/media/certificate/sertifikat5.jpg",
+   "description": "Berkreasi Generasi Muda Berkarya"
+  },
+  {
+   "id": "women-in-stem-ai-and-robotics",
+   "order": 4,
+   "title": "Women in STEM: AI & Robotics",
+   "issuer": "BINUS University",
+   "date": "2023",
+   "image": "assets/media/certificate/sertifikat3.jpg",
+   "description": "Advanced training in AI and robotics"
+  },
+  {
+   "id": "freshman-partner",
+   "order": 5,
+   "title": "Freshman Partner",
+   "issuer": "BINUS University",
+   "date": "2023",
+   "image": "assets/media/certificate/sertifikat1.jpg",
+   "description": "Guiding new students at BINUS University"
+  },
+  {
+   "id": "model-in-machine-learning",
+   "order": 6,
+   "title": "Model In Machine Learning",
+   "issuer": "Kedaireka Matching Fund 2022",
+   "date": "2022",
+   "image": "assets/media/certificate/sertifikat2.jpg",
+   "description": "Smart Mapping for Public Health Application"
+  }
+ ],
+ "resume": [
+  {
+   "id": "item-1",
+   "section": "education",
+   "order": 1,
+   "period": {
+    "en": "Sep 2022 – Feb 2026",
+    "id": "Sep 2022 – Feb 2026"
+   },
+   "title": "BINUS University",
+   "place": {
+    "en": "Bachelor of Computer Science (S.Kom)",
+    "id": "Sarjana Ilmu Komputer (S.Kom)"
+   },
+   "badge": {
+    "en": "GPA 3.54 / 4.00",
+    "id": "IPK 3,54 / 4,00"
+   },
+   "description": {
+    "en": "Focus: Full-Stack Development, Mobile Programming, Software Engineering",
+    "id": "Fokus: Full-Stack Development, Mobile Programming, Software Engineering"
+   },
+   "highlights": [
+    {
+     "en": "Systems & development: web & mobile application programming, software engineering, object-oriented programming",
+     "id": "Sistem & pengembangan: pemrograman aplikasi web & mobile, rekayasa perangkat lunak, pemrograman berorientasi objek"
+    },
+    {
+     "en": "Core fundamentals: algorithms & programming, data structures, computer networks",
+     "id": "Dasar inti: algoritma & pemrograman, struktur data, jaringan komputer"
+    },
+    {
+     "en": "Advanced topics: artificial intelligence",
+     "id": "Topik lanjutan: kecerdasan buatan"
+    }
+   ]
+  },
+  {
+   "id": "item-3",
+   "section": "leadership",
+   "order": 2,
+   "period": {
+    "en": "Mar 2024 – Mar 2025",
+    "id": "Mar 2024 – Mar 2025"
+   },
+   "title": {
+    "en": "Chairperson of Student Activity Unit",
+    "id": "Ketua Unit Kegiatan Mahasiswa"
+   },
+   "place": {
+    "en": "Binusian Gaming - Kemanggisan Region",
+    "id": "Binusian Gaming - Region Kemanggisan"
+   },
+   "badge": {
+    "en": "Leader",
+    "id": "Pemimpin"
+   },
+   "description": {
+    "en": "Led the regional student activity unit, overseeing strategic operations and organizational growth.",
+    "id": "Memimpin unit kegiatan mahasiswa tingkat region, mengawasi operasional strategis dan pertumbuhan organisasi."
+   },
+   "highlights": [
+    {
+     "en": "Directed regional-scale esports tournaments — logistics, venue operations and participant recruitment",
+     "id": "Memimpin turnamen esports skala region — logistik, operasional venue, dan rekrutmen peserta"
+    },
+    {
+     "en": "Led the National Competition Committee with Gopay for the Arena Community Championship 2024",
+     "id": "Memimpin Panitia Kompetisi Nasional bersama Gopay untuk Arena Community Championship 2024"
+    },
+    {
+     "en": "PIC for the Binusian Gaming Level Up! Esport Championship season 1",
+     "id": "PIC Binusian Gaming Level Up! Esport Championship season 1"
+    },
+    {
+     "en": "Opened talks with external esports organizations (e.g. Mineski) to grow the competitive gaming ecosystem in Indonesia",
+     "id": "Membuka diskusi dengan organisasi esports eksternal (seperti Mineski) untuk mengembangkan ekosistem gaming kompetitif di Indonesia"
+    }
+   ]
+  },
+  {
+   "id": "item-4",
+   "section": "summary",
+   "order": 3,
+   "period": {
+    "en": "Apr 2026 – Present",
+    "id": "Apr 2026 – Sekarang"
+   },
+   "title": "Fanisin",
+   "place": "AI Engineer · Full-Stack + Mobile",
+   "badge": {
+    "en": "Full-time · Remote (New York, USA)",
+    "id": "Penuh waktu · Remote (New York, AS)"
+   },
+   "description": {
+    "en": "Building an AI character app platform for a US startup: one Expo / React Native app for web, iOS and Android, real-time AI video, voice and chat, and a serverless AWS backend.",
+    "id": "Membangun platform aplikasi karakter AI untuk startup Amerika: satu aplikasi Expo / React Native untuk web, iOS, dan Android, AI video, suara, dan chat real-time, serta backend serverless di AWS."
+   },
+   "highlights": []
+  },
+  {
+   "id": "item-2",
+   "section": "education",
+   "order": 4,
+   "period": "2019 – 2022",
+   "title": "SMK ORA et LABORA BSD",
+   "place": {
+    "en": "Electrical Power Generation Engineering",
+    "id": "Teknik Pembangkit Tenaga Listrik"
+   },
+   "badge": "",
+   "description": "",
+   "highlights": []
+  },
+  {
+   "id": "item-8",
+   "section": "leadership",
+   "order": 6,
+   "period": {
+    "en": "May 2024 – Sep 2024",
+    "id": "Mei 2024 – Sep 2024"
+   },
+   "title": {
+    "en": "Head of Event Division",
+    "id": "Kepala Divisi Acara"
+   },
+   "place": "Kemanggisan Sportfest 2024",
+   "badge": {
+    "en": "Event",
+    "id": "Acara"
+   },
+   "description": {
+    "en": "Led the Event Division, representing Binusian Gaming in collaboration with other sports-related student organizations",
+    "id": "Memimpin Divisi Acara, mewakili Binusian Gaming bersama organisasi mahasiswa bidang olahraga lainnya"
+   },
+   "highlights": []
+  },
+  {
+   "id": "item-9",
+   "section": "leadership",
+   "order": 7,
+   "period": {
+    "en": "Aug 2023 – Aug 2024",
+    "id": "Agu 2023 – Agu 2024"
+   },
+   "title": "Freshman Partner",
+   "place": "BINUS University",
+   "badge": "Mentor",
+   "description": {
+    "en": "Guided and partnered with new students to ensure they received proper knowledge for academic performance",
+    "id": "Mendampingi mahasiswa baru agar mendapat bekal pengetahuan yang tepat untuk performa akademik mereka"
+   },
+   "highlights": []
+  },
+  {
+   "id": "item-10",
+   "section": "leadership",
+   "order": 8,
+   "period": {
+    "en": "Aug – Sep 2023",
+    "id": "Agu – Sep 2023"
+   },
+   "title": "Freshman Leader",
+   "place": "BINUS University",
+   "badge": {
+    "en": "Leader",
+    "id": "Pemimpin"
+   },
+   "description": {
+    "en": "Guided new students in adapting to the campus environment",
+    "id": "Membimbing mahasiswa baru beradaptasi dengan lingkungan kampus"
+   },
+   "highlights": []
+  },
+  {
+   "id": "item-11",
+   "section": "leadership",
+   "order": 9,
+   "period": {
+    "en": "Sep 2023 – May 2024",
+    "id": "Sep 2023 – Mei 2024"
+   },
+   "title": {
+    "en": "Digifest 2023 Competition Committee",
+    "id": "Panitia Kompetisi Digifest 2023"
+   },
+   "place": "HIMTI BINUS",
+   "badge": {
+    "en": "Committee",
+    "id": "Panitia"
+   },
+   "description": {
+    "en": "Served as a coach and mentor for competition participants",
+    "id": "Menjadi coach dan mentor bagi peserta kompetisi"
+   },
+   "highlights": []
+  },
+  {
+   "id": "work-fanisin-ai",
+   "section": "work",
+   "order": 101,
+   "period": {
+    "en": "Apr 2026 – Present",
+    "id": "Apr 2026 – Sekarang"
+   },
+   "title": "AI Engineer · Full-Stack + Mobile",
+   "place": "Fanisin · New York, USA",
+   "badge": {
+    "en": "Full-time · Remote",
+    "id": "Penuh waktu · Remote"
+   },
+   "description": {
+    "en": "AI character app platform",
+    "id": "Platform aplikasi karakter AI"
+   },
+   "highlights": [
+    {
+     "en": "Cross-platform architecture: one Expo + React Native app for web, iOS and Android, using TypeScript and Expo Router for seamless real-time video, voice and text sync.",
+     "id": "Arsitektur lintas platform: satu aplikasi Expo + React Native untuk web, iOS, dan Android, dengan TypeScript dan Expo Router untuk sinkronisasi video, suara, dan teks real-time yang mulus."
+    },
+    {
+     "en": "Real-time AI & media: integrated Tavus conversational AI, ElevenLabs voice agents and Daily.co WebRTC, tuning track subscriptions and cleanup to eliminate cold-start freezes and resource leaks.",
+     "id": "AI & media real-time: mengintegrasikan AI percakapan Tavus, voice agent ElevenLabs, dan WebRTC Daily.co, menyetel subscription track dan cleanup untuk menghilangkan freeze saat cold start dan kebocoran resource."
+    },
+    {
+     "en": "Serverless backend: 25+ AWS Lambda functions and DynamoDB with Global Secondary Indexes, featuring a FIFO token ledger and an atomic-safe chat quota system.",
+     "id": "Backend serverless: 25+ fungsi AWS Lambda dan DynamoDB dengan Global Secondary Index, dilengkapi ledger token FIFO dan sistem kuota chat yang aman secara atomik."
+    },
+    {
+     "en": "Secure payments & auth: Clerk JWT-based RBAC and a Stripe subscription engine with idempotent webhooks and refund-safe ledger management.",
+     "id": "Pembayaran & autentikasi aman: RBAC berbasis JWT Clerk dan mesin langganan Stripe dengan webhook idempoten serta pengelolaan ledger yang aman untuk refund."
+    },
+    {
+     "en": "AI memory: an AWS Bedrock (Claude) pipeline that extracts durable user facts from transcripts for multi-session context without changing the persona.",
+     "id": "Memori AI: pipeline AWS Bedrock (Claude) yang mengekstrak fakta penting pengguna dari transkrip untuk konteks lintas sesi tanpa mengubah persona."
+    },
+    {
+     "en": "DevOps & IaC: multi-environment AWS CDK v2 stacks for automated cross-account deployments with CodePipeline, Route 53 delegation and manual approval gates.",
+     "id": "DevOps & IaC: stack AWS CDK v2 multi-environment untuk deployment lintas akun otomatis dengan CodePipeline, delegasi Route 53, dan approval gate manual."
+    }
+   ],
+   "tags": [
+    "React Native / Expo",
+    "AWS Serverless",
+    "LLM / AI",
+    "Stripe"
+   ]
+  },
+  {
+   "id": "work-smp",
+   "section": "work",
+   "order": 102,
+   "period": {
+    "en": "Apr 2026 – May 2026",
+    "id": "Apr 2026 – Mei 2026"
+   },
+   "title": "Freelance Full Stack Developer",
+   "place": "PT Sinergi Merah Putih",
+   "badge": {
+    "en": "Freelance",
+    "id": "Freelance"
+   },
+   "description": {
+    "en": "ERP web platform",
+    "id": "Platform web ERP"
+   },
+   "highlights": [
+    {
+     "en": "Full-stack web: built core ERP master-data modules (Customer, Supplier, Chart of Accounts) with Next.js 16, React 19 and Prisma 7 — full CRUD, Zod validation and role-based access control.",
+     "id": "Full-stack web: membangun modul master data ERP inti (Customer, Supplier, Chart of Accounts) dengan Next.js 16, React 19, dan Prisma 7 — CRUD lengkap, validasi Zod, dan kontrol akses berbasis peran."
+    },
+    {
+     "en": "Authentication & security: NextAuth v5 flow with OTP verification, multi-company selection and middleware route protection with JWT and bcrypt.",
+     "id": "Autentikasi & keamanan: alur NextAuth v5 dengan verifikasi OTP, pemilihan multi-perusahaan, dan proteksi rute via middleware dengan JWT dan bcrypt."
+    },
+    {
+     "en": "Data export & reporting: fast CSV exports and server-side PDF generation with Puppeteer for operational and financial reports.",
+     "id": "Ekspor data & laporan: ekspor CSV yang cepat dan pembuatan PDF di server dengan Puppeteer untuk laporan operasional dan keuangan."
+    },
+    {
+     "en": "Testing & quality: Vitest unit tests for API handlers and services, raising reliability and cutting regression risk.",
+     "id": "Testing & kualitas: unit test Vitest untuk API handler dan service, meningkatkan keandalan dan menekan risiko regresi."
+    },
+    {
+     "en": "UI/UX: translated complex Figma designs into responsive interfaces with Tailwind CSS v4 and shadcn/ui, including dynamic data tables and multi-step forms.",
+     "id": "UI/UX: menerjemahkan desain Figma yang kompleks menjadi antarmuka responsif dengan Tailwind CSS v4 dan shadcn/ui, termasuk tabel data dinamis dan form multi-langkah."
+    },
+    {
+     "en": "DevOps & logging: containerized PostgreSQL with Docker Compose and added structured logging with Winston.",
+     "id": "DevOps & logging: menjalankan PostgreSQL dalam container dengan Docker Compose dan menambahkan structured logging dengan Winston."
+    }
+   ],
+   "tags": [
+    "Next.js",
+    "Prisma",
+    "PostgreSQL",
+    "Docker"
+   ]
+  },
+  {
+   "id": "work-siaga",
+   "section": "work",
+   "order": 103,
+   "period": {
+    "en": "Feb 2025 – Mar 2026",
+    "id": "Feb 2025 – Mar 2026"
+   },
+   "title": "Mobile Programmer Intern",
+   "place": "PT Siaga Abdi Utama",
+   "badge": {
+    "en": "Internship · On-site",
+    "id": "Intern · On-site"
+   },
+   "description": "",
+   "highlights": [
+    {
+     "en": "Mobile development: built version 2 of the internal mobile HRIS app — attendance, overtime and leave requests, and upcoming tasks — with GPS, camera and local storage.",
+     "id": "Pengembangan mobile: membangun versi 2 aplikasi HRIS mobile internal — absensi, pengajuan lembur dan cuti, serta tugas mendatang — dengan GPS, kamera, dan penyimpanan lokal."
+    },
+    {
+     "en": "Full-stack web: responsive applications with Next.js, React and PHP, with seamless API and database integration.",
+     "id": "Full-stack web: aplikasi responsif dengan Next.js, React, dan PHP, dengan integrasi API dan database yang mulus."
+    },
+    {
+     "en": "UI/UX implementation: turned complex Figma designs into pixel-perfect, functional code across platforms.",
+     "id": "Implementasi UI/UX: mengubah desain Figma yang kompleks menjadi kode yang pixel-perfect dan fungsional di semua platform."
+    },
+    {
+     "en": "Optimization: dynamic, high-performance interfaces and multi-step forms that improve data flow and user efficiency.",
+     "id": "Optimasi: antarmuka dinamis berperforma tinggi dan form multi-langkah yang memperlancar alur data dan efisiensi pengguna."
+    }
+   ],
+   "tags": [
+    "React Native",
+    "Next.js",
+    "PHP"
+   ]
+  }
+ ],
+ "story": [
+  {
+   "id": "hero",
+   "order": 1,
+   "beats": [
+    {
+     "focus": "world",
+     "en": "[softly] Ever since junior high, Doddy Suryadharma has carried one dream... [pause] to build worlds. To become a game maker — someone who creates places people can step into, and truly feel.",
+     "id": "[softly] Dari zaman SMP, Doddy Suryadharma cuma punya satu mimpi... [pause] bikin dunia sendiri. Jadi game maker — orang yang menciptakan tempat buat dijelajahi, dan bikin orang benar-benar ngerasain sesuatu."
+    },
+    {
+     "focus": "hero",
+     "en": "[warmly] This portfolio is the very first step of that dream. Not a page to read... but a small world to journey through. [excited] So — welcome, traveler. Your adventure begins now.",
+     "id": "[warmly] Nah, portfolio ini adalah langkah pertamanya. Bukan cuma halaman buat dibaca... tapi dunia kecil buat kamu jelajahi. [excited] Jadi — selamat datang! Yuk, kita mulai petualangannya."
+    }
+   ]
+  },
+  {
+   "id": "about",
+   "order": 2,
+   "beats": [
+    {
+     "focus": "about",
+     "en": "[curious] Our first stop... the Adventurer's Camp. [warmly] This is where Doddy's story begins — a Computer Science graduate from BINUS University, who never really stopped building.",
+     "id": "[curious] Perhentian pertama kita... Markas Sang Petualang. [warmly] Di sinilah cerita Doddy dimulai — lulusan Ilmu Komputer BINUS University, yang nggak pernah berhenti bikin sesuatu.",
+     "cues": [
+      {
+       "show": "fact:BINUS",
+       "en": "Computer Science",
+       "id": "Ilmu Komputer"
+      }
+     ]
+    },
+    {
+     "focus": "about-text",
+     "en": "[proudly] Today, he's a Junior AI Engineer at Fanisin — teaching apps to see, to listen, and to talk back. From Jakarta... to people all over the world.",
+     "id": "[proudly] Sekarang, dia jadi Junior AI Engineer di Fanisin — bikin aplikasi yang bisa lihat, dengar, bahkan ngobrol balik. Dari Jakarta... buat orang-orang di seluruh dunia.",
+     "cues": [
+      {
+       "show": "text:Fanisin",
+       "en": "Fanisin",
+       "id": "Fanisin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skills",
+   "order": 3,
+   "beats": [
+    {
+     "focus": "obelisks",
+     "en": "[in awe] Look up. These are the Training Grounds — and every obelisk rises exactly as high as the skill it guards.",
+     "id": "[in awe] Coba lihat ke atas. Ini Arena Latihan — setiap obelisk makin tinggi, kalau skill-nya makin jago."
+    },
+    {
+     "focus": "skill-grid",
+     "en": "TypeScript. React and Next.js. Java. Git. [excited] The tallest stones of all — sharpened on real products, long nights... and a truly heroic amount of debugging.",
+     "id": "TypeScript. React dan Next.js. Java. Git. [excited] Ini yang paling tinggi — diasah lewat produk beneran, begadang berkali-kali... dan debugging yang nggak ada habisnya.",
+     "cues": [
+      {
+       "show": "skill:TypeScript",
+       "en": "TypeScript",
+       "id": "TypeScript"
+      },
+      {
+       "show": "skill:React",
+       "en": "React",
+       "id": "React"
+      },
+      {
+       "show": "skill:Java",
+       "en": "Java",
+       "id": "Java"
+      },
+      {
+       "show": "skill:Git",
+       "en": "Git",
+       "id": "Git"
+      }
+     ]
+    },
+    {
+     "focus": "traits",
+     "en": "[warmly] But his real strength? It's the way he works with people — calm under pressure, and always ready to lead.",
+     "id": "[warmly] Tapi kekuatan utamanya? Cara dia kerja bareng orang — tetap tenang walaupun di bawah tekanan, dan selalu siap jadi pemimpin.",
+     "cues": [
+      {
+       "show": "trait:pressure|tekanan",
+       "en": "pressure",
+       "id": "tekanan"
+      },
+      {
+       "show": "trait:Team player|Kerja tim",
+       "en": "people",
+       "id": "orang"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "portfolio",
+   "order": 4,
+   "beats": [
+    {
+     "focus": "isles",
+     "en": "[mysteriously] Beyond the ridge lie the Guild Isles... four islands, and seventeen quests.",
+     "id": "[mysteriously] Di balik bukit sana, ada Kepulauan Guild... empat pulau, tujuh belas misi.",
+     "cues": []
+    },
+    {
+     "focus": "filter:kerja",
+     "en": "[proudly] The newest isle is where he works today — Fanisin, where fans talk face to face with the AI twins of the creators they love. Then, one character at a time: Jesus Live... and Fly Calmer.",
+     "id": "[proudly] Pulau terbaru adalah tempat dia kerja sekarang — Fanisin, tempat fans bisa ngobrol langsung sama AI twin creator favoritnya. Lalu, satu karakter demi satu karakter: Jesus Live... dan Fly Calmer.",
+     "cues": [
+      {
+       "show": "card:fanisin",
+       "en": "Fanisin",
+       "id": "Fanisin"
+      },
+      {
+       "show": "card:jesus-live",
+       "en": "Jesus",
+       "id": "Jesus"
+      },
+      {
+       "show": "card:fly-calmer",
+       "en": "Fly Calmer",
+       "id": "Fly Calmer"
+      }
+     ]
+    },
+    {
+     "focus": "filter:internship",
+     "en": "The next isle holds his internships — real systems, for real teams. An HR platform, a payment gateway, a supply system.",
+     "id": "Pulau berikutnya isinya pengalaman intern — sistem beneran, buat tim beneran. Ada platform HR, payment gateway, sampai sistem supply.",
+     "cues": [
+      {
+       "show": "card:new-mysau-hris-platform",
+       "en": "HR",
+       "id": "HR"
+      },
+      {
+       "show": "card:payment-gateway-system",
+       "en": "payment gateway",
+       "id": "payment gateway"
+      },
+      {
+       "show": "card:supply-system",
+       "en": "supply system",
+       "id": "sistem supply"
+      }
+     ]
+    },
+    {
+     "focus": "filter:campus",
+     "en": "[playfully] Another isle is where it all began — campus projects, like a classroom you can walk through in augmented reality.",
+     "id": "[playfully] Satu pulau lagi, tempat semuanya dimulai — project kampus, kayak ruang kelas yang bisa kamu jelajahi pakai augmented reality.",
+     "cues": [
+      {
+       "show": "card:digital-class-ar",
+       "en": "augmented reality",
+       "id": "augmented reality"
+      }
+     ]
+    },
+    {
+     "focus": "filter:organisasi",
+     "en": "[proudly] And the last... leadership. Guiding the Binusian Gaming community, and running events for hundreds of students.",
+     "id": "[proudly] Dan yang terakhir... kepemimpinan. Mimpin komunitas Binusian Gaming, sampai bikin acara buat ratusan mahasiswa.",
+     "cues": [
+      {
+       "show": "card:ketua-region-binusian-gaming-2024",
+       "en": "Binusian Gaming",
+       "id": "Binusian Gaming"
+      },
+      {
+       "show": "card:kemanggisan-sportfest-2024",
+       "en": "events",
+       "id": "acara"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "certifications",
+   "order": 5,
+   "beats": [
+    {
+     "focus": "vault",
+     "en": "[hushed] Now... step quietly into the Relic Vault. Every glowing frame is a certificate — machine learning, SQL, mentoring, competitions. [softly] Proof of every lesson learned along the way.",
+     "id": "[hushed] Sekarang... pelan-pelan, kita masuk ke Ruang Relik. Tiap bingkai yang bersinar itu sertifikat — dari machine learning, SQL, mentoring, sampai kompetisi. [softly] Bukti dari semua yang dia pelajari sepanjang perjalanan.",
+     "cues": [
+      {
+       "show": "cert:machine learning",
+       "en": "machine learning",
+       "id": "machine learning"
+      },
+      {
+       "show": "cert:sql",
+       "en": "SQL",
+       "id": "SQL"
+      },
+      {
+       "show": "cert:freshman",
+       "en": "mentoring",
+       "id": "mentoring"
+      },
+      {
+       "show": "cert:digifest",
+       "en": "competitions",
+       "id": "kompetisi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "resume",
+   "order": 6,
+   "beats": [
+    {
+     "focus": "work",
+     "en": "[reflective] And this... is the Long Road. Every lantern marks a step — a mobile developer internship at PT Siaga Abdi Utama, full-stack contracts... and now, AI engineering at Fanisin.",
+     "id": "[reflective] Dan ini... Jalan Panjang. Tiap lentera itu satu langkah — jadi intern mobile developer di PT Siaga Abdi Utama, lanjut kontrak full-stack... sampai sekarang, jadi AI engineer di Fanisin.",
+     "cues": [
+      {
+       "show": "res:#work-siaga",
+       "en": "Siaga",
+       "id": "Siaga"
+      },
+      {
+       "show": "res:#work-smp",
+       "en": "full-stack",
+       "id": "full-stack"
+      },
+      {
+       "show": "res:#work-fanisin-ai",
+       "en": "Fanisin",
+       "id": "Fanisin"
+      }
+     ]
+    },
+    {
+     "focus": "education",
+     "en": "Behind it all, a degree in Computer Science...",
+     "id": "Semuanya berawal dari kuliah Ilmu Komputer...",
+     "cues": [
+      {
+       "show": "res:#item-1",
+       "en": "Computer Science",
+       "id": "Ilmu Komputer"
+      }
+     ]
+    },
+    {
+     "focus": "leadership",
+     "en": "[warmly] ...and years of leading people — from esports tournaments, to welcoming brand-new students.",
+     "id": "[warmly] ...dan bertahun-tahun jadi pemimpin — dari turnamen esports, sampai nyambut mahasiswa baru.",
+     "cues": [
+      {
+       "show": "res:#item-3",
+       "en": "esports",
+       "id": "esports"
+      },
+      {
+       "show": "res:#item-9",
+       "en": "students",
+       "id": "mahasiswa"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contact",
+   "order": 7,
+   "beats": [
+    {
+     "focus": "beacon",
+     "en": "[softly] And so we reach the Beacon — the end of the first chapter of his dream... [pause] [warmly] and maybe, the beginning of your story with him.",
+     "id": "[softly] Dan akhirnya, kita sampai di Mercusuar — akhir dari bab pertama mimpinya... [pause] [warmly] dan mungkin, awal dari ceritamu bareng dia.",
+     "cues": []
+    },
+    {
+     "focus": "oracle",
+     "en": "[excited] Light the beacon to send him a message... or ask his Oracle anything at all. [whispers] One day, these isles will become a real game. [warmly] Thank you for playing the very first level.",
+     "id": "[excited] Nyalakan mercusuarnya buat kirim pesan... atau tanya apa aja ke Oracle-nya. [whispers] Suatu hari nanti, pulau-pulau ini bakal jadi game beneran. [warmly] Makasih ya, udah mainin level pertamanya.",
+     "cues": [
+      {
+       "show": "form",
+       "en": "message",
+       "id": "pesan"
+      },
+      {
+       "show": "oracle",
+       "en": "Oracle",
+       "id": "Oracle"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cv": [
+  {
+   "id": "profile",
+   "name": "Doddy Suryadharma",
+   "phone": "+62 81294453932",
+   "email": "Suryadharma.dy@gmail.com",
+   "address": "Jln .Aries Permai III, Blok C4 no 4 Jakarta Barat, 11620, Indonesia",
+   "linkedin": "https://www.linkedin.com/in/doddy-suryadharma/",
+   "portfolio": "https://suryadharma-dy-portfolio.vercel.app/",
+   "summary": "Full-Stack & Mobile Developer (S.Kom) with professional experience in building scalable, AI-integrated applications for a US-based startup and local enterprises. Focused on architecting serverless infrastructures using AWS (CDK, Lambda, Bedrock) and developing high-performance cross-platform apps with React Native and Next.js. Skilled in implementing real-time communications (WebRTC) and secure payment systems (Stripe). A detail-oriented developer dedicated to engineering clean-code solutions and bridging the gap between advanced AI capabilities and seamless user experiences.",
+   "photo_url": "/profile.jpg"
+  },
+  {
+   "id": "education-1",
+   "type": "education",
+   "institution": "BINUS University",
+   "degree": "Bachelor of Computer Science",
+   "gpa": "3.54 / 4.00",
+   "start_date": "Sept 2022",
+   "end_date": "Feb 2026",
+   "focus": "Full Stack Development, Mobile Programming, Software Engineering",
+   "coursework": [
+    "Systems & Development: Web & Mobile Application Programming, Software Engineering, ObjectOriented Programming.",
+    "Core Fundamentals: Algorithms & Programming, Data Structures, Computer Networks.",
+    "Advanced Topics: Artificial Intelligence."
+   ],
+   "sort_order": 1
+  },
+  {
+   "id": "work-1",
+   "type": "work",
+   "company": "Fanisin | New York, USA (Remote)",
+   "role": "Full-Stack + Mobile Engineer — AI Character App Platform",
+   "start_date": "April 2026",
+   "end_date": "Present",
+   "description_items": [
+    "Cross-Platform Architecture: Architected a unified Expo and React Native application for Web, iOS, and Android, implementing TypeScript and Expo Router to deliver seamless real-time video, voice, and text synchronization.",
+    "Real-Time AI & Media: Integrated Tavus conversational AI, ElevenLabs voice agents, and Daily.co WebRTC, optimizing manual track subscriptions and exit-hook cleanups to eliminate cold-start freezes and resource leaks.",
+    "Serverless Backend: Engineered a scalable infrastructure using 25+ AWS Lambda functions and DynamoDB with Global Secondary Indexes (GSI), featuring a FIFO token ledger and an atomic-safe chat quota system.",
+    "Secure Payments & Auth: Implemented Clerk JWT-based RBAC and a robust Stripe subscription engine with idempotent webhook processing and DynamoDB ConditionExpressions for refund-safe ledger management.",
+    "Advanced AI Memory: Built a sophisticated LLM pipeline using AWS Bedrock (Claude) to extract durable user facts from transcripts, enabling multi-session context injection without persona mutation.",
+    "DevOps & IaC: Orchestrated multi-environment AWS CDK v2 stacks for automated cross-account deployments, incorporating CodePipeline, Route 53 delegation, and branch-based manual approval gates."
+   ],
+   "sort_order": 1
+  },
+  {
+   "id": "work-2",
+   "type": "work",
+   "company": "PT Sinergi Merah Putih",
+   "role": "Freelance Full Stack Developer",
+   "start_date": "April 2026",
+   "end_date": "May 2026",
+   "description_items": [
+    "Full-Stack Web: Built core ERP master data modules (Customer, Supplier, CoA) using Next.js 16, React 19, and Prisma 7, implementing full CRUD flows, Zod validation, and Role-Based Access Control.",
+    "Authentication & Security: Implemented a secure NextAuth v5 flow featuring OTP verification, multi-company selection, and middleware-based route protection with JWT and bcrypt hashing.",
+    "Data Export & Reporting: Developed high-performance CSV export tools and integrated Puppeteer for server-side PDF generation to automate operational and financial reporting.",
+    "Testing & Quality: Engineered unit tests using Vitest for API handlers and services, significantly increasing code reliability and mitigating regression risks during development iterations.",
+    "UI/UX Implementation: Translated complex Figma designs into responsive interfaces using Tailwind CSS v4 and shadcn/ui, featuring dynamic data tables and advanced multi-step forms.",
+    "DevOps & Logging: Streamlined development and debugging by containerizing PostgreSQL environments with Docker Compose and implementing structured logging with Winston."
+   ],
+   "sort_order": 2
+  },
+  {
+   "id": "work-3",
+   "type": "work",
+   "company": "PT Siaga Abdi Utama",
+   "role": "Mobile Programmer Intern",
+   "start_date": "February 2025",
+   "end_date": "March 2026",
+   "description_items": [
+    "Mobile Development: Developed Version 2 of an internal Mobile HRIS application to support employee attendance, overtime and leave requests, and upcoming task management, integrating GPS, camera, and local storage to enhance operational efficiency.",
+    "Full-Stack Web: Developed responsive applications with Next.js, React, and PHP, ensuring seamless API and database integration.",
+    "UI/UX Implementation: Converted complex Figma designs into pixel-perfect, functional code while maintaining cross-platform consistency.",
+    "Optimization: Built dynamic, high-performance interfaces and multi-step forms to improve data flow and user efficiency."
+   ],
+   "sort_order": 3
+  },
+  {
+   "id": "org-1",
+   "type": "org",
+   "organization": "Binusian Gaming (Kemanggisan Region)",
+   "role": "Chairperson",
+   "start_date": "March 2024",
+   "end_date": "March 2025",
+   "description_items": [
+    "Led the regional student activity unit, overseeing strategic operations and organizational growth.",
+    "Directed regional-scale esports tournaments, managing logistics, venue operations, and participant recruitment.",
+    "Initiated discussions with external esports organizations to develop the competitive gaming ecosystem in Indonesia."
+   ],
+   "sort_order": 1
+  },
+  {
+   "id": "skills-1",
+   "type": "skills",
+   "category": "Languages",
+   "items": [
+    "PHP",
+    "TypeScript",
+    "JavaScript",
+    "Java",
+    "Python",
+    "C",
+    "HTML/CSS"
+   ],
+   "sort_order": 1
+  },
+  {
+   "id": "skills-2",
+   "type": "skills",
+   "category": "Frameworks & Libraries",
+   "items": [
+    "React.js",
+    "Next.js",
+    "React Native",
+    "CodeIgniter 4",
+    "Node.js",
+    "Vue.js",
+    "Wordpress",
+    "Expo"
+   ],
+   "sort_order": 2
+  },
+  {
+   "id": "skills-3",
+   "type": "skills",
+   "category": "Tools & Databases",
+   "items": [
+    "Git",
+    "MySQL",
+    "DynamoDB",
+    "Supabase",
+    "AWS (CDK, Lambda, API Gateway, S3, CloudFront, SES, Bedrock, CodePipeline)",
+    "Docker",
+    "Stripe",
+    "Clerk",
+    "PostHog",
+    "Postman",
+    "Android Studio",
+    "Figma"
+   ],
+   "sort_order": 3
+  },
+  {
+   "id": "skills-4",
+   "type": "skills",
+   "category": "Core Competencies",
+   "items": [
+    "Full-Stack Development",
+    "Mobile Development",
+    "Serverless Architecture",
+    "Infrastructure as Code (IaC)",
+    "Real-time Communication (WebRTC)",
+    "LLM / AI Integration",
+    "Payment Integration",
+    "RESTful API Integration",
+    "CI/CD",
+    "Data Structures & Algorithms"
+   ],
+   "sort_order": 4
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "source": "[curious] Perhentian pertama kita... Markas Sang Petualang. [warmly] Di sinilah cerita Doddy dimulai — lulusan Ilmu Komputer BINUS University, yang nggak pernah berhenti bikin sesuatu. [proudly] Sekarang, dia jadi Junior AI Engineer di Fanisin — bikin aplikasi yang bisa lihat, dengar, bahkan ngobrol balik. Dari Jakarta... buat orang-orang di seluruh dunia.",
+ "text": "Perhentian pertama kita... Markas Sang Petualang. Di sinilah cerita Doddy dimulai — lulusan Ilmu Komputer BINUS University, yang nggak pernah berhenti bikin sesuatu. Sekarang, dia jadi Junior AI Engineer di Fanisin — bikin aplikasi yang bisa lihat, dengar, bahkan ngobrol balik. Dari Jakarta... buat orang-orang di seluruh dunia.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "about",
+   "start": 0.102,
+   "end": 12.434
+  },
+  {
+   "focus": "about-text",
+   "start": 12.434,
+   "end": 23.535624
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Perhentian pertama kita...",
+   "start": 0.102,
+   "end": 1.564
+  },
+  {
+   "text": "Markas Sang Petualang.",
+   "start": 2.457,
+   "end": 3.866
+  },
+  {
+   "text": "Di sinilah cerita Doddy dimulai — lulusan Ilmu Komputer BINUS University, yang nggak pernah berhenti bikin sesuatu.",
+   "start": 4.774,
+   "end": 11.529
+  },
+  {
+   "text": "Sekarang, dia jadi Junior AI Engineer di Fanisin — bikin aplikasi yang bisa lihat, dengar, bahkan ngobrol balik.",
+   "start": 12.434,
+   "end": 19.707
+  },
+  {
+   "text": "Dari Jakarta...",
+   "start": 20.597,
+   "end": 21.541
+  },
+  {
+   "text": "buat orang-orang di seluruh dunia.",
+   "start": 21.82,
+   "end": 23.536
+  }
+ ],
+ "words": [
+  {
+   "w": "Perhentian",
+   "t": 0.102
+  },
+  {
+   "w": "pertama",
+   "t": 0.673
+  },
+  {
+   "w": "kita",
+   "t": 1.019
+  },
+  {
+   "w": "Markas",
+   "t": 2.457
+  },
+  {
+   "w": "Sang",
+   "t": 2.976
+  },
+  {
+   "w": "Petualang",
+   "t": 3.162
+  },
+  {
+   "w": "Di",
+   "t": 4.774
+  },
+  {
+   "w": "sinilah",
+   "t": 4.894
+  },
+  {
+   "w": "cerita",
+   "t": 5.306
+  },
+  {
+   "w": "Doddy",
+   "t": 5.625
+  },
+  {
+   "w": "dimulai",
+   "t": 5.957
+  },
+  {
+   "w": "lulusan",
+   "t": 6.902
+  },
+  {
+   "w": "Ilmu",
+   "t": 7.354
+  },
+  {
+   "w": "Komputer",
+   "t": 7.646
+  },
+  {
+   "w": "BINUS",
+   "t": 8.045
+  },
+  {
+   "w": "University",
+   "t": 8.378
+  },
+  {
+   "w": "yang",
+   "t": 9.508
+  },
+  {
+   "w": "nggak",
+   "t": 9.707
+  },
+  {
+   "w": "pernah",
+   "t": 9.867
+  },
+  {
+   "w": "berhenti",
+   "t": 10.12
+  },
+  {
+   "w": "bikin",
+   "t": 10.519
+  },
+  {
+   "w": "sesuatu",
+   "t": 10.811
+  },
+  {
+   "w": "Sekarang",
+   "t": 12.434
+  },
+  {
+   "w": "dia",
+   "t": 13.364
+  },
+  {
+   "w": "jadi",
+   "t": 13.59
+  },
+  {
+   "w": "Junior",
+   "t": 13.816
+  },
+  {
+   "w": "AI",
+   "t": 14.176
+  },
+  {
+   "w": "Engineer",
+   "t": 14.375
+  },
+  {
+   "w": "di",
+   "t": 14.774
+  },
+  {
+   "w": "Fanisin",
+   "t": 14.867
+  },
+  {
+   "w": "bikin",
+   "t": 15.798
+  },
+  {
+   "w": "aplikasi",
+   "t": 16.104
+  },
+  {
+   "w": "yang",
+   "t": 16.609
+  },
+  {
+   "w": "bisa",
+   "t": 16.729
+  },
+  {
+   "w": "lihat",
+   "t": 16.942
+  },
+  {
+   "w": "dengar",
+   "t": 17.686
+  },
+  {
+   "w": "bahkan",
+   "t": 18.457
+  },
+  {
+   "w": "ngobrol",
+   "t": 18.87
+  },
+  {
+   "w": "balik",
+   "t": 19.202
+  },
+  {
+   "w": "Dari",
+   "t": 20.597
+  },
+  {
+   "w": "Jakarta",
+   "t": 20.863
+  },
+  {
+   "w": "buat",
+   "t": 21.82
+  },
+  {
+   "w": "orang-orang",
+   "t": 22.073
+  },
+  {
+   "w": "di",
+   "t": 22.565
+  },
+  {
+   "w": "seluruh",
+   "t": 22.645
+  },
+  {
+   "w": "dunia",
+   "t": 22.964
+  }
+ ]
+}

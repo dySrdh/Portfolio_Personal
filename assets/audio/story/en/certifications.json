@@ -1,0 +1,35 @@
+{
+ "source": "[hushed] Now... step quietly into the Relic Vault. Every glowing frame is a certificate — machine learning, SQL, mentoring, competitions. [softly] Proof of every lesson learned along the way.",
+ "text": "Now... step quietly into the Relic Vault. Every glowing frame is a certificate — machine learning, SQL, mentoring, competitions. Proof of every lesson learned along the way.",
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_v3",
+ "beats": [
+  {
+   "focus": "vault",
+   "start": 0,
+   "end": 14.405
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Now...",
+   "start": 0.38,
+   "end": 0.56
+  },
+  {
+   "text": "step quietly into the Relic Vault.",
+   "start": 0.688,
+   "end": 2.88
+  },
+  {
+   "text": "Every glowing frame is a certificate — machine learning, SQL, mentoring, competitions.",
+   "start": 3.12,
+   "end": 11.4
+  },
+  {
+   "text": "Proof of every lesson learned along the way.",
+   "start": 12.112,
+   "end": 14.405
+  }
+ ]
+}

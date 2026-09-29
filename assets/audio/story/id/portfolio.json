@@ -1,0 +1,456 @@
+{
+ "source": "[mysteriously] Di balik bukit sana, ada Kepulauan Guild... empat pulau, tujuh belas misi. [proudly] Pulau terbaru adalah tempat dia kerja sekarang — Fanisin, tempat fans bisa ngobrol langsung sama AI twin creator favoritnya. Lalu, satu karakter demi satu karakter: Jesus Live... dan Fly Calmer. Pulau berikutnya isinya pengalaman intern — sistem beneran, buat tim beneran. Ada platform HR, payment gateway, sampai sistem supply. [playfully] Satu pulau lagi, tempat semuanya dimulai — project kampus, kayak ruang kelas yang bisa kamu jelajahi pakai augmented reality. [proudly] Dan yang terakhir... kepemimpinan. Mimpin komunitas Binusian Gaming, sampai bikin acara buat ratusan mahasiswa.",
+ "text": "Di balik bukit sana, ada Kepulauan Guild... empat pulau, tujuh belas misi. Pulau terbaru adalah tempat dia kerja sekarang — Fanisin, tempat fans bisa ngobrol langsung sama AI twin creator favoritnya. Lalu, satu karakter demi satu karakter: Jesus Live... dan Fly Calmer. Pulau berikutnya isinya pengalaman intern — sistem beneran, buat tim beneran. Ada platform HR, payment gateway, sampai sistem supply. Satu pulau lagi, tempat semuanya dimulai — project kampus, kayak ruang kelas yang bisa kamu jelajahi pakai augmented reality. Dan yang terakhir... kepemimpinan. Mimpin komunitas Binusian Gaming, sampai bikin acara buat ratusan mahasiswa.",
+ "voice": "id-ID-ArdiNeural",
+ "model": "edge-neural",
+ "beats": [
+  {
+   "focus": "isles",
+   "start": 0.117,
+   "end": 5.824
+  },
+  {
+   "focus": "filter:kerja",
+   "start": 5.824,
+   "end": 19.442
+  },
+  {
+   "focus": "filter:internship",
+   "start": 19.442,
+   "end": 29.88
+  },
+  {
+   "focus": "filter:campus",
+   "start": 29.88,
+   "end": 38.176
+  },
+  {
+   "focus": "filter:organisasi",
+   "start": 38.176,
+   "end": 45.558499
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Di balik bukit sana, ada Kepulauan Guild...",
+   "start": 0.117,
+   "end": 2.776
+  },
+  {
+   "text": "empat pulau, tujuh belas misi.",
+   "start": 2.803,
+   "end": 4.917
+  },
+  {
+   "text": "Pulau terbaru adalah tempat dia kerja sekarang — Fanisin, tempat fans bisa ngobrol langsung sama AI twin creator favoritnya.",
+   "start": 5.824,
+   "end": 12.766
+  },
+  {
+   "text": "Lalu, satu karakter demi satu karakter: Jesus Live...",
+   "start": 13.655,
+   "end": 17.365
+  },
+  {
+   "text": "dan Fly Calmer.",
+   "start": 17.405,
+   "end": 18.536
+  },
+  {
+   "text": "Pulau berikutnya isinya pengalaman intern — sistem beneran, buat tim beneran.",
+   "start": 19.442,
+   "end": 24.016
+  },
+  {
+   "text": "Ada platform HR, payment gateway, sampai sistem supply.",
+   "start": 24.905,
+   "end": 28.974
+  },
+  {
+   "text": "Satu pulau lagi, tempat semuanya dimulai — project kampus, kayak ruang kelas yang bisa kamu jelajahi pakai augmented reality.",
+   "start": 29.88,
+   "end": 37.287
+  },
+  {
+   "text": "Dan yang terakhir...",
+   "start": 38.176,
+   "end": 39.147
+  },
+  {
+   "text": "kepemimpinan.",
+   "start": 39.173,
+   "end": 40.077
+  },
+  {
+   "text": "Mimpin komunitas Binusian Gaming, sampai bikin acara buat ratusan mahasiswa.",
+   "start": 40.984,
+   "end": 45.558
+  }
+ ],
+ "words": [
+  {
+   "w": "Di",
+   "t": 0.117
+  },
+  {
+   "w": "balik",
+   "t": 0.263
+  },
+  {
+   "w": "bukit",
+   "t": 0.515
+  },
+  {
+   "w": "sana",
+   "t": 0.795
+  },
+  {
+   "w": "ada",
+   "t": 1.672
+  },
+  {
+   "w": "Kepulauan",
+   "t": 1.925
+  },
+  {
+   "w": "Guild",
+   "t": 2.39
+  },
+  {
+   "w": "empat",
+   "t": 2.803
+  },
+  {
+   "w": "pulau",
+   "t": 3.082
+  },
+  {
+   "w": "tujuh",
+   "t": 3.853
+  },
+  {
+   "w": "belas",
+   "t": 4.146
+  },
+  {
+   "w": "misi",
+   "t": 4.398
+  },
+  {
+   "w": "Pulau",
+   "t": 5.824
+  },
+  {
+   "w": "terbaru",
+   "t": 6.051
+  },
+  {
+   "w": "adalah",
+   "t": 6.463
+  },
+  {
+   "w": "tempat",
+   "t": 6.742
+  },
+  {
+   "w": "dia",
+   "t": 7.035
+  },
+  {
+   "w": "kerja",
+   "t": 7.194
+  },
+  {
+   "w": "sekarang",
+   "t": 7.487
+  },
+  {
+   "w": "Fanisin",
+   "t": 8.378
+  },
+  {
+   "w": "tempat",
+   "t": 9.402
+  },
+  {
+   "w": "fans",
+   "t": 9.681
+  },
+  {
+   "w": "bisa",
+   "t": 9.973
+  },
+  {
+   "w": "ngobrol",
+   "t": 10.199
+  },
+  {
+   "w": "langsung",
+   "t": 10.559
+  },
+  {
+   "w": "sama",
+   "t": 10.904
+  },
+  {
+   "w": "AI",
+   "t": 11.17
+  },
+  {
+   "w": "twin",
+   "t": 11.343
+  },
+  {
+   "w": "creator",
+   "t": 11.609
+  },
+  {
+   "w": "favoritnya",
+   "t": 11.981
+  },
+  {
+   "w": "Lalu",
+   "t": 13.655
+  },
+  {
+   "w": "satu",
+   "t": 14.56
+  },
+  {
+   "w": "karakter",
+   "t": 14.865
+  },
+  {
+   "w": "demi",
+   "t": 15.238
+  },
+  {
+   "w": "satu",
+   "t": 15.424
+  },
+  {
+   "w": "karakter",
+   "t": 15.663
+  },
+  {
+   "w": "Jesus",
+   "t": 16.554
+  },
+  {
+   "w": "Live",
+   "t": 16.966
+  },
+  {
+   "w": "dan",
+   "t": 17.405
+  },
+  {
+   "w": "Fly",
+   "t": 17.671
+  },
+  {
+   "w": "Calmer",
+   "t": 17.937
+  },
+  {
+   "w": "Pulau",
+   "t": 19.442
+  },
+  {
+   "w": "berikutnya",
+   "t": 19.681
+  },
+  {
+   "w": "isinya",
+   "t": 20.173
+  },
+  {
+   "w": "pengalaman",
+   "t": 20.532
+  },
+  {
+   "w": "intern",
+   "t": 20.957
+  },
+  {
+   "w": "sistem",
+   "t": 21.782
+  },
+  {
+   "w": "beneran",
+   "t": 22.181
+  },
+  {
+   "w": "buat",
+   "t": 22.965
+  },
+  {
+   "w": "tim",
+   "t": 23.258
+  },
+  {
+   "w": "beneran",
+   "t": 23.431
+  },
+  {
+   "w": "Ada",
+   "t": 24.905
+  },
+  {
+   "w": "platform",
+   "t": 25.198
+  },
+  {
+   "w": "HR",
+   "t": 25.623
+  },
+  {
+   "w": "payment",
+   "t": 26.448
+  },
+  {
+   "w": "gateway",
+   "t": 26.794
+  },
+  {
+   "w": "sampai",
+   "t": 27.685
+  },
+  {
+   "w": "sistem",
+   "t": 28.057
+  },
+  {
+   "w": "supply",
+   "t": 28.403
+  },
+  {
+   "w": "Satu",
+   "t": 29.88
+  },
+  {
+   "w": "pulau",
+   "t": 30.173
+  },
+  {
+   "w": "lagi",
+   "t": 30.412
+  },
+  {
+   "w": "tempat",
+   "t": 31.223
+  },
+  {
+   "w": "semuanya",
+   "t": 31.503
+  },
+  {
+   "w": "dimulai",
+   "t": 31.888
+  },
+  {
+   "w": "project",
+   "t": 32.779
+  },
+  {
+   "w": "kampus",
+   "t": 33.178
+  },
+  {
+   "w": "kayak",
+   "t": 34.016
+  },
+  {
+   "w": "ruang",
+   "t": 34.282
+  },
+  {
+   "w": "kelas",
+   "t": 34.455
+  },
+  {
+   "w": "yang",
+   "t": 34.721
+  },
+  {
+   "w": "bisa",
+   "t": 34.827
+  },
+  {
+   "w": "kamu",
+   "t": 35.053
+  },
+  {
+   "w": "jelajahi",
+   "t": 35.239
+  },
+  {
+   "w": "pakai",
+   "t": 35.838
+  },
+  {
+   "w": "augmented",
+   "t": 36.13
+  },
+  {
+   "w": "reality",
+   "t": 36.622
+  },
+  {
+   "w": "Dan",
+   "t": 38.176
+  },
+  {
+   "w": "yang",
+   "t": 38.482
+  },
+  {
+   "w": "terakhir",
+   "t": 38.655
+  },
+  {
+   "w": "kepemimpinan",
+   "t": 39.173
+  },
+  {
+   "w": "Mimpin",
+   "t": 40.984
+  },
+  {
+   "w": "komunitas",
+   "t": 41.356
+  },
+  {
+   "w": "Binusian",
+   "t": 41.875
+  },
+  {
+   "w": "Gaming",
+   "t": 42.34
+  },
+  {
+   "w": "sampai",
+   "t": 43.218
+  },
+  {
+   "w": "bikin",
+   "t": 43.564
+  },
+  {
+   "w": "acara",
+   "t": 43.79
+  },
+  {
+   "w": "buat",
+   "t": 44.122
+  },
+  {
+   "w": "ratusan",
+   "t": 44.362
+  },
+  {
+   "w": "mahasiswa",
+   "t": 44.774
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "source": "[in awe] Look up. These are the Training Grounds — and every obelisk rises exactly as high as the skill it guards. TypeScript. React and Next.js. Java. Git. [excited] The tallest stones of all — sharpened on real products, long nights... and a truly heroic amount of debugging. [warmly] But his real strength? It's the way he works with people — calm under pressure, and always ready to lead.",
+ "text": "Look up. These are the Training Grounds — and every obelisk rises exactly as high as the skill it guards. TypeScript. React and Next.js. Java. Git. The tallest stones of all — sharpened on real products, long nights... and a truly heroic amount of debugging. But his real strength? It's the way he works with people — calm under pressure, and always ready to lead.",
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_v3",
+ "beats": [
+  {
+   "focus": "obelisks",
+   "start": 0,
+   "end": 7.636
+  },
+  {
+   "focus": "skill-grid",
+   "start": 7.636,
+   "end": 22.52
+  },
+  {
+   "focus": "traits",
+   "start": 22.52,
+   "end": 29.6
+  }
+ ],
+ "sentences": [
+  {
+   "text": "Look up.",
+   "start": 0.256,
+   "end": 1.32
+  },
+  {
+   "text": "These are the Training Grounds — and every obelisk rises exactly as high as the skill it guards.",
+   "start": 1.42,
+   "end": 7.52
+  },
+  {
+   "text": "TypeScript.",
+   "start": 7.636,
+   "end": 9.32
+  },
+  {
+   "text": "React and Next.js.",
+   "start": 9.407,
+   "end": 11.68
+  },
+  {
+   "text": "Java.",
+   "start": 11.792,
+   "end": 12.32
+  },
+  {
+   "text": "Git.",
+   "start": 12.54,
+   "end": 13.28
+  },
+  {
+   "text": "The tallest stones of all — sharpened on real products, long nights...",
+   "start": 14.385,
+   "end": 19.6
+  },
+  {
+   "text": "and a truly heroic amount of debugging.",
+   "start": 19.64,
+   "end": 22
+  },
+  {
+   "text": "But his real strength?",
+   "start": 23.105,
+   "end": 24.16
+  },
+  {
+   "text": "It's the way he works with people — calm under pressure, and always ready to lead.",
+   "start": 24.373,
+   "end": 29.6
+  }
+ ]
+}

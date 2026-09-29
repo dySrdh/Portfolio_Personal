@@ -1,0 +1,55 @@
+{
+ "source": "[reflective] And this... is the Long Road. Every lantern marks a step — a mobile developer internship at PT Siaga Abdi Utama, full-stack contracts... and now, AI engineering at Fanisin. Behind it all, a degree in Computer Science... [warmly] ...and years of leading people — from esports tournaments, to welcoming brand-new students.",
+ "text": "And this... is the Long Road. Every lantern marks a step — a mobile developer internship at PT Siaga Abdi Utama, full-stack contracts... and now, AI engineering at Fanisin. Behind it all, a degree in Computer Science... ...and years of leading people — from esports tournaments, to welcoming brand-new students.",
+ "voice": "JBFqnCBsd6RMkjVDRZzb",
+ "model": "eleven_v3",
+ "beats": [
+  {
+   "focus": "work",
+   "start": 0,
+   "end": 14.823
+  },
+  {
+   "focus": "education",
+   "start": 14.823,
+   "end": 19.12
+  },
+  {
+   "focus": "leadership",
+   "start": 19.12,
+   "end": 24.8
+  }
+ ],
+ "sentences": [
+  {
+   "text": "And this...",
+   "start": 0.068,
+   "end": 1.12
+  },
+  {
+   "text": "is the Long Road.",
+   "start": 1.173,
+   "end": 2.24
+  },
+  {
+   "text": "Every lantern marks a step — a mobile developer internship at PT Siaga Abdi Utama, full-stack contracts...",
+   "start": 2.4,
+   "end": 11.76
+  },
+  {
+   "text": "and now, AI engineering at Fanisin.",
+   "start": 11.8,
+   "end": 14.64
+  },
+  {
+   "text": "Behind it all, a degree in Computer Science...",
+   "start": 14.823,
+   "end": 19.04
+  },
+  {
+   "text": "...and years of leading people — from esports tournaments, to welcoming brand-new students.",
+   "start": 19.46,
+   "end": 24.8
+  }
+ ]
+}
