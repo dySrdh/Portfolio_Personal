@@ -1,26 +1,87 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "buildCommand": "",
+  "buildCommand": "node v2/data/snapshot.mjs || true",
   "installCommand": "",
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/v2/index.html" },
-    { "source": "/css/:path*", "destination": "/v2/css/:path*" },
-    { "source": "/js/:path*", "destination": "/v2/js/:path*" }
+    {
+      "source": "/",
+      "destination": "/v2/index.html"
+    },
+    {
+      "source": "/css/:path*",
+      "destination": "/v2/css/:path*"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "/v2/js/:path*"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/v2/data/:path*"
+    }
   ],
   "redirects": [
-    { "source": "/v2", "destination": "/", "permanent": true },
-    { "source": "/v2/", "destination": "/", "permanent": true },
-    { "source": "/v2/index.html", "destination": "/", "permanent": true },
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/index-v1.html", "destination": "/", "permanent": false },
-    { "source": "/(.*)-details.html", "destination": "/", "permanent": false },
-    { "source": "/advance-buddy.html", "destination": "/", "permanent": false },
-    { "source": "/starter-page.html", "destination": "/", "permanent": false }
+    {
+      "source": "/v2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/v2/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/v2/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index-v1.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/(.*)-details.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/advance-buddy.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/starter-page.html",
+      "destination": "/",
+      "permanent": false
+    }
   ],
   "headers": [
-    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
-    { "source": "/(css|js)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/(css|js)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
   ]
 }

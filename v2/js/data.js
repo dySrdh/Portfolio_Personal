@@ -27,10 +27,13 @@ function fields(f) {
 }
 
 // A stalled request is abandoned after a few seconds and retried, so one slow response can't hold up the page.
+// Slow mobile networks (in-app browsers like Instagram's) can take a while to reach Google: be patient, then retry.
+const TIMEOUTS = [10000, 15000, 20000];
 async function list(collection, tries = 3) {
-  const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), 4000);
+  const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), TIMEOUTS[3 - tries] || 20000);
   try {
-    const r = await fetch(base() + collection + '?pageSize=300&key=' + FIREBASE.apiKey, { signal: ctl.signal });
+    // public-read rules: no API key needed for reads
+    const r = await fetch(base() + collection + '?pageSize=300', { signal: ctl.signal });
     if (!r.ok) throw new Error(collection + ' → ' + r.status);
     const j = await r.json();
     return (j.documents || []).map(d => ({ id: d.name.split('/').pop(), ...fields(d.fields) }));
@@ -43,7 +46,7 @@ async function list(collection, tries = 3) {
 }
 
 async function fetchRaw() {
-  if (!FIREBASE.projectId || !FIREBASE.apiKey) throw new Error('Firebase is not configured (v2/js/config.js)');
+  if (!FIREBASE.projectId) throw new Error('Firebase is not configured (v2/js/config.js)');
   const [site, projects, certifications, resume, story] = await Promise.all(['site', 'projects', 'certifications', 'resume', 'story'].map(list));
   return { site, projects, certifications, resume, story };
 }
@@ -138,14 +141,41 @@ function writeCache(raw) {
 let lastRaw = null;
 // the same data in another language (after the visitor switches language), without refetching
 export const relocalize = () => lastRaw ? normalize(lastRaw) : null;
+// Backup copy of the content served with the site itself (same host, CDN-fast): shown when Firestore is slow or
+// unreachable, then replaced by live data as soon as it arrives. Refresh it with v2/firebase/snapshot.mjs.
+async function fetchSnapshot() {
+  const r = await fetch(new URL('../data/snapshot.json', import.meta.url), { cache: 'no-cache' });
+  if (!r.ok) throw new Error('snapshot → ' + r.status);
+  return r.json();
+}
+
+// Shows content as soon as any source has it: local cache → site snapshot (if Firestore is slow) → live Firestore.
+// If Firestore keeps failing it retries in the background; onError only fires when nothing at all could be shown.
 export async function loadData(onData, onError) {
+  let shown = null;
+  const show = (raw, fromCache) => {
+    if (shown && JSON.stringify(raw) === JSON.stringify(shown)) return;
+    shown = raw; lastRaw = raw;
+    onData(normalize(raw), fromCache);
+  };
   const cached = readCache();
-  if (cached) { lastRaw = cached; onData(normalize(cached), true); }
-  try {
-    const raw = await fetchRaw();
-    if (!cached || JSON.stringify(raw) !== JSON.stringify(cached)) { lastRaw = raw; writeCache(raw); onData(normalize(raw), false); }
-  } catch (e) {
-    console.error('Firestore load failed', e);
-    if (!cached) onError(e);
+  if (cached) show(cached, true);
+  // Firestore slow? put the site's own copy up first
+  const slow = setTimeout(() => { if (!shown) fetchSnapshot().then(s => { if (!shown) show(s, true); }).catch(() => {}); }, 3500);
+  for (let attempt = 0; ; attempt++) {
+    try {
+      const raw = await fetchRaw();
+      clearTimeout(slow);
+      writeCache(raw);
+      show(raw, false);
+      return;
+    } catch (e) {
+      console.error('Firestore load failed', e);
+      if (!shown) {
+        try { show(await fetchSnapshot(), true); } catch (e2) { onError(e); }
+      }
+      if (attempt >= 5) return;
+      await new Promise(r => setTimeout(r, 8000 * (attempt + 1))); // keep trying quietly
+    }
   }
 }
