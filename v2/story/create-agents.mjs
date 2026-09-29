@@ -69,7 +69,7 @@ if (!state.kb || state.kb.hash !== kbHash) {
 function save() { writeFileSync(new URL('agents.json', here), JSON.stringify(state, null, 2) + '\n'); }
 const existingAgents = ((await el('/v1/convai/agents?page_size=100')).agents || []);
 
-const allowlist = ['localhost', '127.0.0.1', 'dysrdh.github.io', ...(arg('domains') ? arg('domains').split(',') : [])].map(hostname => ({ hostname }));
+const allowlist = ['localhost', '127.0.0.1', 'dysrdh.github.io', 'suryadharma-dy-portfolio.vercel.app', ...(arg('domains') ? arg('domains').split(',') : [])].map(hostname => ({ hostname }));
 
 function agentBody(lang, name, voiceId, tts) {
   const { prompt, first } = section(lang === 'en' ? 'English agent' : 'Indonesian agent');

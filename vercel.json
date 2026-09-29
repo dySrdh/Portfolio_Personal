@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": ".",
+  "cleanUrls": false,
+  "redirects": [
+    { "source": "/", "destination": "/v2/", "permanent": false },
+    { "source": "/index.html", "destination": "/v2/", "permanent": false },
+    { "source": "/index-v1.html", "destination": "/v2/", "permanent": false },
+    { "source": "/(.*)-details.html", "destination": "/v2/", "permanent": false },
+    { "source": "/advance-buddy.html", "destination": "/v2/", "permanent": false },
+    { "source": "/portfolio-details.html", "destination": "/v2/", "permanent": false },
+    { "source": "/service-details.html", "destination": "/v2/", "permanent": false },
+    { "source": "/starter-page.html", "destination": "/v2/", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
+    { "source": "/v2/(css|js)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
+  ]
+}

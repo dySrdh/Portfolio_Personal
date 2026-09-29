@@ -1,0 +1,16 @@
+# Only the current portfolio (v2) is deployed to Vercel. The previous design stays in the repo (index-v1.html + *-details.html) but is not served.
+index-v1.html
+*-details.html
+advance-buddy.html
+assets/vendor
+assets/css
+assets/js
+assets/scss
+assets/pdf
+assets/certifications
+favicon.png
+v2/firebase
+v2/story
+**/node_modules
+.git
+.claude
